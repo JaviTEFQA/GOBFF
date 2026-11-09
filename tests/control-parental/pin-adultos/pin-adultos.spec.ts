@@ -28,9 +28,10 @@ test('[MULTISTC-76674] requiresPin está en raíz, ítems, colecciones y menú, 
   }
 
   // 61144: cada ítem de contenido de los carruseles.
-  // (ítems de contenido; las tarjetas de canal LCH y de serie grabada RSR se anotan aparte)
+  // (ítems de contenido; las tarjetas de canal LCH y de grabación REC/RSR se anotan aparte: en web el
+  // contenido adulto es VOD y no se graba, GOSPECS-4825 §2.1)
   const carouselItems = items.filter((i) => i.endpoint === 'POST nsh/carousel' && /\.contents\[\d+\]$/.test(i.path));
-  const isContent = (i: (typeof items)[number]) => ['MOV', 'EPI', 'SER', 'LSC', 'LSR', 'REC'].includes(pidKind(i.obj.pid));
+  const isContent = (i: (typeof items)[number]) => ['MOV', 'EPI', 'SER', 'LSC', 'LSR'].includes(pidKind(i.obj.pid));
   const noPinItems = carouselItems.filter((i) => isContent(i) && typeof i.obj.requiresPin !== 'boolean');
   expect.soft(noPinItems.map((i) => `${i.path} ${i.obj.pid}`).slice(0, 20), 'ítems de contenido del carrusel sin requiresPin').toEqual([]);
   const otherNoPin = carouselItems.filter((i) => !isContent(i) && typeof i.obj.requiresPin !== 'boolean');

@@ -98,6 +98,20 @@ que faltan en la cuenta (perfil infantil, adultos, deportes, LSE/AD, widget 63, 
 contratación) y otra con un defecto en cada uno, y comprueba que las pruebas pasan con la primera y
 fallan con la segunda. Cualquier prueba puede leer otra captura con `LIVE_CAPTURE_FILE=<fichero>`.
 
+Tanda programada (todo + publicación en Jira):
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\nightly.ps1 [-SinMutaciones] [-SinPublicar]
+```
+
+Lanza unit + api (captura nueva), ui-mocked y mutaciones, deja los resultados en `reports/<fecha>/` y
+crea en MULTISTC una *Test Case Execution* por TC (Pass / Fail / Block; etiqueta
+`GOBFF_auto_<versión>_Web`, build `Web … · BFF …`, notas con el error o el motivo de omisión). Solo
+escribe en TCs con la label `GOBFF_aut`. Necesita `JIRA_URL` y `JIRA_PAT` (token personal) en `.env`;
+sin ellos deja solo el plan en el log. Se ejecuta en este equipo porque aquí vive la sesión del
+navegador: nunca hace logins en bucle contra el SSO de O2. Publicar a mano una tanda:
+`npx tsx scripts/publish-jira.ts reports/<fecha>/*.json [--publish]`.
+
 Mutaciones (escritura real; apagadas por defecto, deshacen lo que hacen):
 
 ```bash

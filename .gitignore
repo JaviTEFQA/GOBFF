@@ -12,3 +12,6 @@ blob-report/
 __pycache__/
 .pytest_cache/
 *.pyc
+
+# Tandas programadas (scripts/nightly.ps1)
+reports/

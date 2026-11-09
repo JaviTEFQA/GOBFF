@@ -41,8 +41,20 @@ Leyenda: ✅ automatizado · 🟡 automatizado en parte (falta un dato o un caso
 ## Revisado y descartado como bug (09/11/2026)
 
 - **"Geplante Aufnahmen" sin `status=scheduled` (MULTISTC-68553).** La web no envía `status`, pero el BFF devuelve el árbol con la temporada futura (`isFutureSeason`) y la web pinta bien la pestaña "Geplant". La spec dice "mantenemos el comportamiento actual" sin `status`. No se puede probar `status=scheduled` desde fuera: la firma cubre la query (401 si se añade).
-- **Tarjetas de canal (LCH) y de grabación (RSR) del carrusel sin `requiresPin` (MULTISTC-61144).** La spec pide `requiresPIN` por contenido y en web los contenidos adultos son VOD; canales y grabaciones no aplican.
+- **Tarjetas de canal (LCH) y de grabación (REC, RSR) del carrusel sin `requiresPin` (MULTISTC-61144).** La spec pide `requiresPIN` por contenido y en web los contenidos adultos son VOD; canales y grabaciones no aplican.
 - **`uniqueId` opcional en la home.** La spec (MULTISTC-65481) solo lo exige en la ficha, y ahí viene siempre (MOV, SER, LSR).
+
+## Mutaciones (escritura real, hacer → verificar → deshacer)
+
+| Prueba | TC | Llamadas | Estado |
+|---|---|---|---|
+| `grabaciones/agendar-cancelar` | MULTISTC-76659 | `POST nsh/recordings`, `DELETE nsh/recordings/REC…` | ✅ |
+| `grabaciones/agendar-cancelar-serie` | MULTISTC-76698 | `POST nsh/recordings` (serie), `DELETE nsh/recordings/RSR…` | ✅ |
+| `favoritos/mi-lista` | MULTISTC-76699 | `PUT` / `DELETE nsh/tags` (TagType 2) | ✅ |
+| `control-parental/cambiar-pin` | MULTISTC-76700 | `UserService.svc/ValidatePin`, `ChangePin`, `CheckPin` | ✅ |
+| `perfiles/crear-borrar` | MULTISTC-76701 | `POST nsh/profiles`, `DELETE nsh/profiles/{id}` | ✅ |
+| "Seguir viendo" (reanudar / "Fertig") | — | — | ⛔ El navegador de Playwright no trae Widevine (DRM): la reproducción falla y no se genera punto de reanudación. Necesita un perfil de Chrome persistente con Widevine. |
+| Dispositivos (renombrar, borrar, cerrar sesión) | — | — | ⛔ Pueden desloguear dispositivos (riesgo de bloqueo SSO). |
 
 ## Datos que la cuenta no tiene: captura sintética
 

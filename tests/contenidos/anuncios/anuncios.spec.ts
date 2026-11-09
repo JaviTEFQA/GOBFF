@@ -12,7 +12,9 @@ test('[MULTISTC-76670] hasAds y hasPrerollAds se propagan como booleanos y coher
   const capture = loadLiveCapture();
   test.skip(!capture, 'No hay captura en vivo: ejecuta "npm run test:api".');
   const items = contentItems(capture);
-  const lsc = items.filter((i) => pidKind(i.obj.pid) === 'LSC' && 'emissionDate' in i.obj);
+  // 65318 pide hasAds en el detalle/ficha del LSC: las tarjetas de "Similares" (relatedContents) son
+  // ítems ligeros y no lo traen.
+  const lsc = items.filter((i) => pidKind(i.obj.pid) === 'LSC' && 'emissionDate' in i.obj && !/\.relatedContents\./.test(i.path));
   test.skip(!lsc.length, 'La captura no trae LSC.');
 
   testInfo.annotations.push(

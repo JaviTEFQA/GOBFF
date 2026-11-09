@@ -5,7 +5,7 @@
  *   1. abre una ficha de directo que se pueda grabar y que NO tenga ya una grabación,
  *   2. pulsa "Aufnehmen" y captura la llamada de agendado,
  *   3. verifica que en nsh/recordings aparece un pid NUEVO respecto a la foto,
- *   4. DESHACE: cancela desde la misma ficha y verifica que los pids nuevos desaparecen.
+ *   4. DESHACE: cancela desde la ficha de la grabación creada y verifica que los pids nuevos desaparecen.
  *      Si el cancelado falla, la prueba falla y lista los pids que quedaron (limpieza manual).
  *
  * Seguridad: nunca pulsa un botón de cancelar en una ficha que ya estaba grabándose (no toca las
@@ -36,14 +36,20 @@ const SINGLE_CHOICE = /^episode aufnehmen$|(nur )?(diese|einzelne) (folge|sendun
  */
 const CONFIRM = /^(?!.*serie).*(aufnahme abbrechen|aufnahme löschen|episode löschen|löschen|bestätigen|ja)$/i;
 
-type RecList = { recordings?: { scheduled?: { pid?: string }[]; ongoing?: { pid?: string }[] } } | null;
+type Rec = { pid?: string; recordingSeriesPid?: string; isEntireSeries?: boolean };
+type RecList = { recordings?: { scheduled?: Rec[]; ongoing?: Rec[] } } | null;
+
+/** Series agendadas que ya existían antes de la prueba: la plataforma les añade episodios sola. */
+let seriesBefore = new Set<string>();
 
 async function recordingPids(page: Page, navigate: () => Promise<void>): Promise<Set<string>> {
   const hit = await readCanoway(page, { pathRe: LIST_PATH, navigate, timeout: 30_000 });
   expect(hit.status, `nsh/recordings devolvió ${hit.status}`).toBeLessThan(300);
   const body = hit.json as RecList;
   const all = [...(body?.recordings?.scheduled ?? []), ...(body?.recordings?.ongoing ?? [])];
-  return new Set(all.map((r) => r.pid).filter((p): p is string => !!p));
+  // Episodios que las series previas añaden solas mientras corre la prueba: no son de la prueba.
+  const own = all.filter((r) => !(r.isEntireSeries && r.recordingSeriesPid && seriesBefore.has(r.recordingSeriesPid)));
+  return new Set(own.map((r) => r.pid).filter((p): p is string => !!p));
 }
 
 const visible = (l: Locator, timeout = 5000) => l.waitFor({ state: 'visible', timeout }).then(() => true, () => false);
@@ -53,6 +59,10 @@ test.describe('[MULTISTC-76659] grabación: agendar y cancelar', { tag: ['@mutat
 
   test('agenda una grabación y la cancela', async ({ page }, testInfo) => {
     // 0. Foto ANTES.
+    seriesBefore = new Set();
+    const first = await readCanoway(page, { pathRe: LIST_PATH, navigate: () => goToApp(page, '/my-tv'), timeout: 30_000 });
+    const firstBody = first.json as RecList;
+    seriesBefore = new Set([...(firstBody?.recordings?.scheduled ?? []), ...(firstBody?.recordings?.ongoing ?? [])].filter((r) => r.isEntireSeries && r.recordingSeriesPid).map((r) => r.recordingSeriesPid!));
     const before = await recordingPids(page, () => goToApp(page, '/my-tv'));
     testInfo.annotations.push({ type: 'recordings-before', description: String(before.size) });
 
@@ -115,10 +125,17 @@ test.describe('[MULTISTC-76659] grabación: agendar y cancelar', { tag: ['@mutat
       // 4. DESHACER (solo si se llegó a agendar).
       if (scheduled) {
         try {
-          await goToApp(page, detailHref!);
-          await settle(page, 1500);
+          // Se cancela desde la ficha de la propia grabación (/details/recording/…-REC…): ofrece
+          // "Aufnahme abbrechen" tanto si está programada como si ya está en curso (un directo que se
+          // emite ahora empieza a grabarse al momento y la ficha del directo deja de ofrecer cancelar).
+          const own = created[0];
+          const target = own ? `/details/recording/aufnahme-${own}` : detailHref!;
+          await goToApp(page, '/my-tv');
+          await settle(page, 1000);
+          await goToApp(page, target);
+          await settle(page, 2000);
           const cancel = page.getByRole('button', { name: CANCEL_BTN }).first();
-          if (!(await visible(cancel, 10_000))) throw new Error(`no aparece el botón de cancelar en ${detailHref}`);
+          if (!(await visible(cancel, 10_000))) throw new Error(`no aparece el botón de cancelar en ${target}`);
           const res = await awaitCanoway(page, {
             method: /^(DELETE|POST|PUT)$/,
             pathRe: /\/nsh\/recordings\/REC/i, // DELETE nsh/recordings/{pid}

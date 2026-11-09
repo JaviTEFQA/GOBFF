@@ -74,6 +74,8 @@ export default defineConfig({
       grep: /@mutation/,
       dependencies: ['auth'],
       fullyParallel: false,
+      // De una en una: escriben en la misma cuenta de producción y en paralelo se agotan los tiempos.
+      workers: 1,
       timeout: 180_000,
       use: { ...browser, headless: env.mutationsHeadless },
     },
