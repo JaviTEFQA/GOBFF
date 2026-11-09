@@ -90,7 +90,13 @@ npm run record              # regraba todas las llamadas y reconstruye contratos
 npm run live                # fuerza una captura en vivo nueva (.live/)
 npm run contracts:diff      # compara contratos entre versiones
 npm run scaffold            # crea prueba + README por endpoint nuevo
+npm run synthetic           # comprueba las reglas con datos que la cuenta no tiene (captura sintética OK/KO)
 ```
+
+`npm run synthetic` no valida el BFF: genera a partir de la captura real una versión con los casos
+que faltan en la cuenta (perfil infantil, adultos, deportes, LSE/AD, widget 63, estados de
+contratación) y otra con un defecto en cada uno, y comprueba que las pruebas pasan con la primera y
+fallan con la segunda. Cualquier prueba puede leer otra captura con `LIVE_CAPTURE_FILE=<fichero>`.
 
 Mutaciones (escritura real; apagadas por defecto, deshacen lo que hacen):
 

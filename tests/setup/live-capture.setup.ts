@@ -16,6 +16,12 @@ const TTL_MIN = Number(process.env.LIVE_CAPTURE_TTL_MIN ?? 15);
 
 setup('capture live BFF responses', async () => {
   setup.setTimeout(900_000);
+  // Captura sustituida (sintética): nunca se reescribe ni se abre el navegador.
+  if (process.env.LIVE_CAPTURE_FILE) {
+    if (!loadLiveCapture()) throw new Error(`LIVE_CAPTURE_FILE=${process.env.LIVE_CAPTURE_FILE} no existe o no es JSON válido.`);
+    console.log(`[live] usando la captura ${process.env.LIVE_CAPTURE_FILE} (no se captura).`);
+    return;
+  }
   const force = process.env.LIVE_CAPTURE_FORCE === 'true';
   const existing = loadLiveCapture();
   if (!force && existing) {

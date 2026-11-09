@@ -54,7 +54,13 @@ export interface LiveCapture {
 export const EXTRA_CONTENTAPI_CHA = 'contentapi:CHA';
 const CONTENTAPI_CHA_RE = /contentapi[^/]*\/.*\/contents\/all\?.*contentTypes=CHA/i;
 
+/**
+ * Fichero de la captura. `LIVE_CAPTURE_FILE` lo sustituye por otro (p. ej. una captura sintética de
+ * `npm run synthetic`): sirve para comprobar las reglas de negocio con datos que la cuenta no tiene.
+ */
 export function liveCaptureFile(version = env.appVersion): string {
+  const override = process.env.LIVE_CAPTURE_FILE;
+  if (override) return path.isAbsolute(override) ? override : path.join(ROOT, override);
   return path.join(ROOT, '.live', version, 'capture.json');
 }
 

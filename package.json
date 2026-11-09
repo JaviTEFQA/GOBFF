@@ -20,7 +20,8 @@
     "recordings:redact": "tsx scripts/redact-recordings.ts",
     "report": "playwright show-report",
     "typecheck": "tsc --noEmit",
-    "live": "node -e \"require('fs').rmSync('.live',{recursive:true,force:true})\" && playwright test --project=live-capture"
+    "live": "node -e \"require('fs').rmSync('.live',{recursive:true,force:true})\" && playwright test --project=live-capture",
+    "synthetic": "tsx scripts/synthetic-capture.ts --run"
   },
   "dependencies": {
     "@playwright/test": "1.58.2",
