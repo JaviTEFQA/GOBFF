@@ -1,0 +1,41 @@
+# Cobertura de las historias BFF · 26.10.100
+
+Qué historia del BFF (fixVersion 26.10.100, 30 historias) cubre cada prueba automática, y qué TCs
+manuales enlazados a la historia automatiza. Los TCs manuales que no se automatizan llevan el motivo.
+
+Leyenda: ✅ automatizado · 🟡 automatizado en parte (falta un dato o un caso) · ⛔ no automatizable desde la web 26.10 (motivo).
+
+| Historia | Tema | Pruebas automáticas | TCs manuales automatizados | No automatizados (motivo) |
+|---|---|---|---|---|
+| GO-35091, GO-35097, GO-35103, GO-35115 | CDVR en `go-bff` (GraphQL) | `grabaciones/agendar-cancelar` (episodio, vía web) | — | ⛔ Son cambios del esquema GraphQL de go-bff (`entireSeason`, `recordingLevel`, `ENTIRE_SEASON`); la web 26.10 llama a canoway, no a go-bff. Se cubren de forma indirecta con las reglas de grabaciones de GO-36303/GO-36297. |
+| GO-35216, GO-35292 | Miniaturas: hasThumbnails | `contenidos/miniaturas` (MULTISTC-76671) | 52070 | — |
+| GO-35284 | Search Revamp: API | — | — | ⛔ 43488, 43489, 43490, 54457: la web 26.10 no llama a `nsh/search*` (la búsqueda no pasa por canoway). |
+| GO-35871 | Search Revamp: borrar histórico | — | — | ⛔ Igual que GO-35284. |
+| GO-35350, GO-35725, GO-35955, GO-35973 | Publicidad: hasAds / hasPrerollAds | `contenidos/anuncios` (MULTISTC-76670) | 54044, 54642, 65318, 54584 | El zapping con publicidad (GO-35955) solo aplica en España; en DE se valida la propagación. |
+| GO-35633, GO-35694 | Detail Page: endpoints, botones y metadata | `fichas/barras-y-botones` (MULTISTC-76678), `fichas/error-pid` (MULTISTC-76679), `fichas/comercializacion`, `fichas/contrato/unified-detailed` | 61944, 61945, 61946, 61947, 61949, 68837, 68838, 53538, 53539, 53540, 53541, 53542, 53545, 53547, 53626, 53627, 53628 | 🟡 61943 (canal oculto), 53543/53544 (E2E), 53546 (lista de campos deprecados no documentada), 53551 (triángulos en versiones anteriores), 68839: necesitan datos o versiones que la web no da. |
+| GO-36002 | Contenidos editoriales en carrusel | `home/contrato/carousel` | — (sin TCs manuales) | 🟡 Solo contrato: la historia no tiene TCs con reglas. |
+| GO-36090 | HomeZone y ClientZone | `homezone/coherencia`, `homezone/contrato/check`, `homezone/dispositivos` (MULTISTC-76685), `homezone/contrato/dispositivos` (MULTISTC-76690) | 60861, 60862, 60863, 60864 | ⛔ 60865–60873: renombrar, borrar y cerrar sesión de dispositivos son mutaciones que desloguean dispositivos (riesgo de bloqueo SSO); 60865 necesita un 5xx de APIHub. |
+| GO-36163 | Redirecciones: salida | `contenidos/redirecciones-salida` (MULTISTC-76676) | 65481, 65482, 65483 | — |
+| GO-36175 | Redirecciones: entrada | — | — | ⛔ 69337: la web 26.10 no tiene ruta de entrada por `uniqueId` (no llama a `unified-detailed?uniqueId=`). |
+| GO-36266 | Watermarking | `canales/marca-de-agua` (MULTISTC-76672) | 65250 | — |
+| GO-36297 | Recordings: unified-detail | `fichas/propio-contenido`, `grabaciones/ficha-serie` (MULTISTC-76686), `grabaciones/contrato/ficha-serie` (MULTISTC-76692) | 68552, 68554, 68557 | 🟡 68553: la web pide la vista "Geplante Aufnahmen" **sin** `status=scheduled` (ver nota). 68555, 68556: necesitan grabación en curso o cambiar el KV. |
+| GO-36303 | Recordings: seasons (agendar, cancelar, borrar) | `grabaciones/agendar-cancelar` (episodio) | 67786, 67787 | 🟡 67776, 67779, 67780, 67784: agendar/cancelar temporada y serie desde la web, pendiente de espacio libre en la cuenta. ⛔ 67777, 67778, 67788: cuerpos a medida (firma de canoway). |
+| GO-36315 | Rent & Subscription: endpoints | `suscripciones/estado` (MULTISTC-76683), `suscripciones/en-ficha` (MULTISTC-76684), `suscripciones/contrato/ficha` (MULTISTC-76689) | 68314, 68315, 68316, 68317, 68322, 68323, 68324, 68325, 68326, 68327 | 🟡 68318–68321: compras canceladas, pendientes o en error (la cuenta solo tiene un paquete activo). ⛔ 68313: la web no llama a `nsh/userinfo`. |
+| GO-36384 | Unique ID: catchup como LSC | `contenidos/catchup-lsc` (MULTISTC-76675) | 68673, 68674, 68675, 68677, 69605 | ⛔ 68676, 68678, 68679, 69604, 69606, 69614, 62719: bookmark/resume del usuario, otras versiones y dispositivos, o UI. |
+| GO-36521 | Settings: widget dinámico type 63 | `ajustes/widgets`, `ajustes/contrato/settings`, `ajustes/contrato/webview` (MULTISTC-76691) | 60069, 60070, 60071 | 🟡 La cuenta no tiene widget type 63: las reglas se activan cuando aparezca. 60821: distintos tipos de cliente. |
+| GO-36535 | PIN de la sección de adultos | `control-parental/pin-adultos` (MULTISTC-76674) | 61142, 61144, 61146, 61147, 61148, 61149, 61150 | 🟡 Sin contenido adulto en la cuenta: se valida el formato y la coincidencia con la ContentAPI; el caso `true` falta. |
+| GO-36549 | Iconos LSE y AD | `fichas/iconos-lse-ad` (MULTISTC-76681) | 64207, 64208, 64209, 64210 | 🟡 Sin contenidos con LSE/AD en la captura: se valida el formato y la coherencia. |
+| GO-36571 | Ficha deportiva | `fichas/deportes` (MULTISTC-76680) | 67886, 67887, 67888, 67889, 67891 | 🟡 Las reglas de isSport=true se activan cuando la captura abra una LSR deportiva. 67890, 67892: datos preparados. |
+| GO-36781 | Rent & Subscription: Ajustes | `suscripciones/listas` (MULTISTC-76682), `suscripciones/contrato/contratadas` (MULTISTC-76687), `suscripciones/contrato/disponibles` (MULTISTC-76688) | 65309, 65310, 65311, 65313, 65314, 65315 | ⛔ 65312, 65316: necesitan un fallo del resolvedor de APIHub. |
+| GO-36810 | Relacionados (Similares) | `fichas/relacionados` (MULTISTC-76677) | 65576, 65577 | — |
+| GO-36935 | Filtrado de contenidos infantiles | `canales/infantil` (MULTISTC-76673) | 64665 | 🟡 La cuenta no tiene perfil infantil: la regla de filtrado se activa al capturar con uno. |
+
+## Notas para producto / desarrollo
+
+- **❌ `requiresPin` en la raíz de ThematicSitePage (GO-36535, MULTISTC-61150).** `GET nsh/thematic-site-page/{pid}` devuelve `{thematicSite: [...], page, nextPage}` sin `requiresPin` en la raíz (sí lo trae cada colección hija y la raíz de ThematicGridPage). El TC lo pide como "NUEVO": la prueba MULTISTC-76674 queda en rojo hasta que se confirme si es bug o si el TC está desactualizado.
+- **Contenido ofrecido con "suscribirse" cuya ficha da 404 (GO-36315).** `MOV53170417` aparece en la home con `buttons.isSubscribeVisible=true`, pero `GET nsh/unified-detailed/MOV53170417` responde 404. Por eso MULTISTC-76684 se omite: no hay ficha de un contenido contratable que responda.
+- **Tarjetas de canal (LCH) y de serie grabada (RSR) en `POST nsh/carousel` sin `requiresPin`.** Los ítems de contenido sí lo traen. Confirmar si los canales adultos deben llevarlo (MULTISTC-61144).
+
+- **`uniqueId` opcional en la home (GO-36384 / GO-36163).** El contrato de `thematic-site-page-prio` marca `uniqueId` como opcional porque faltaba en 1 de 201 tarjetas. Si la historia exige que venga siempre, es un bug.
+- **"Geplante Aufnahmen" sin `status=scheduled` (GO-36297, MULTISTC-68553).** Al abrir una grabación programada, la web navega a `/details/recording-serie/…?status=scheduled`, pero llama a `nsh/unified-detailed/RSR…` sin el parámetro `status`: el BFF devuelve el árbol de grabaciones finalizadas.
+- **Espacio de grabación lleno.** La cuenta de pruebas vuelve a tener 0 min libres (las series grabadas lo rellenan): la mutación de grabaciones se omite hasta liberar espacio.

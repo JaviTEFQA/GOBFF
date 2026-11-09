@@ -24,7 +24,8 @@ export function isCanowayUrl(url: string): boolean {
 export const VOLATILE_QUERY_PARAMS = new Set(['_', 't', 'ts', 'timestamp', 'cb', 'cachebuster', 'nocache', 'rnd', 'random']);
 
 const SEGMENT_RULES: Array<[RegExp, string]> = [
-  [/^[A-Z]{2,5}\d{3,}$/, '{pid}'], // MOV44943332, SER52943583, EPI…, CHA20288, SET…
+  // MOV44943332, SER52943583, EPI…, CHA20288, SET…; y compuestos de grabación: RSR3240304_LCH6420.
+  [/^[A-Z]{2,5}\d{3,}(_[A-Z]{2,5}\d{3,})*$/, '{pid}'],
   [/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i, '{uuid}'],
   [/^[0-9a-f]{16,}$/i, '{hash}'],
   [/^\d{4,}$/, '{id}'],
@@ -80,7 +81,7 @@ export function requestKey(method: string, url: string): string {
  * películas son la misma. Se usa para quedarse con un sample por tipo de contenido.
  */
 export function requestShape(key: string): string {
-  return key.replace(/=[^&]*/g, '=').replace(/\b([A-Z]{2,5})\d{3,}\b/g, '$1');
+  return key.replace(/=[^&]*/g, '=').replace(/(?<![A-Za-z0-9])([A-Z]{2,5})\d{3,}(?:_[A-Z]{2,5}\d{3,})*(?![A-Za-z0-9])/g, '$1');
 }
 
 export const SAFE_METHODS = new Set(['GET', 'HEAD', 'OPTIONS']);

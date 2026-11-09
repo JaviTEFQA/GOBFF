@@ -34,6 +34,8 @@ export interface LiveSample {
   body: unknown;
   durationMs?: number;
   journey: string;
+  /** Momento (epoch ms) en que llegó la respuesta: el "ahora" de las reglas que dependen del tiempo. */
+  at?: number;
 }
 
 export interface LiveCapture {
@@ -42,7 +44,15 @@ export interface LiveCapture {
   capturedAt: string;
   journeys: string[];
   endpoints: Record<string, LiveSample[]>;
+  /** Respuestas de error (4xx/5xx) de canoway: las provoca a propósito alguna journey (p. ej. un pid inexistente). */
+  errors?: LiveSample[];
+  /** Respuestas de otros servicios que las reglas del BFF necesitan como referencia (p. ej. la ContentAPI). */
+  extras?: Record<string, { url: string; at: number; body: unknown }>;
 }
+
+/** Clave en `extras` del árbol de CHAs de la ContentAPI (`contents/all?contentTypes=CHA`). */
+export const EXTRA_CONTENTAPI_CHA = 'contentapi:CHA';
+const CONTENTAPI_CHA_RE = /contentapi[^/]*\/.*\/contents\/all\?.*contentTypes=CHA/i;
 
 export function liveCaptureFile(version = env.appVersion): string {
   return path.join(ROOT, '.live', version, 'capture.json');
@@ -75,8 +85,10 @@ export function fromLive(id: string, version?: string): { captured: boolean; sam
 
 function addSample(cap: LiveCapture, s: LiveSample): void {
   const list = (cap.endpoints[endpointId(s.method, s.url)] ??= []);
-  // Un sample por shape: dos películas no aportan; una película y una serie sí.
-  if (list.some((e) => e.shape === s.shape)) return;
+  // Un sample por shape: dos películas no aportan; una película y una serie sí. En las fichas, uno por
+  // shape y journey: la película de alquiler (detail-movie) y la contratable (detail-subscribable) cubren reglas distintas.
+  const perJourney = /unified-detailed/.test(s.shape);
+  if (list.some((e) => e.shape === s.shape && (!perJourney || e.journey === s.journey))) return;
   list.push(s);
 }
 
@@ -91,6 +103,8 @@ export async function captureLive(): Promise<LiveCapture> {
     capturedAt: new Date().toISOString(),
     journeys: [],
     endpoints: {},
+    errors: [],
+    extras: {},
   };
   const browser = await chromium.launch({ headless: env.headless });
   try {
@@ -110,10 +124,43 @@ export async function captureLive(): Promise<LiveCapture> {
     // Capturar en toda la sesión: la firma va atada a la URL, así que basta con leer la respuesta
     // que la app ya recibió (no reenviamos nada).
     page.on('requestfinished', async (req) => {
-      if (!isCanowayUrl(req.url()) || req.method() === 'OPTIONS') return;
+      if (req.method() === 'OPTIONS') return;
+      // ContentAPI (árbol de CHAs con ca_requiresPin): referencia para las reglas de PIN de adultos.
+      if (CONTENTAPI_CHA_RE.test(req.url())) {
+        try {
+          const res = await req.response();
+          if (res && res.status() < 400 && !capture.extras![EXTRA_CONTENTAPI_CHA]) {
+            capture.extras![EXTRA_CONTENTAPI_CHA] = { url: req.url(), at: Date.now(), body: JSON.parse(await res.text()) };
+          }
+        } catch {
+          /* se ignora */
+        }
+        return;
+      }
+      if (!isCanowayUrl(req.url())) return;
       try {
         const res = await req.response();
-        if (!res || res.status() >= 400) return;
+        if (!res) return;
+        if (res.status() >= 400) {
+          let errBody: unknown = null;
+          try {
+            errBody = redactBody(JSON.parse(await res.text()));
+          } catch {
+            /* sin cuerpo JSON */
+          }
+          capture.errors!.push({
+            key: requestKey(req.method(), req.url()),
+            shape: requestShape(requestKey(req.method(), req.url())),
+            url: req.url(),
+            method: req.method().toUpperCase(),
+            status: res.status(),
+            isJson: errBody !== null,
+            body: errBody,
+            journey: current,
+            at: Date.now(),
+          });
+          return;
+        }
         const text = await res.text();
         let body: unknown = text;
         let isJson = false;
@@ -134,6 +181,7 @@ export async function captureLive(): Promise<LiveCapture> {
           body,
           durationMs: timing.responseEnd > 0 ? Math.round(timing.responseEnd) : undefined,
           journey: current,
+          at: Date.now(),
         });
       } catch {
         /* cuerpo evacuado o redirección: se ignora */
@@ -149,9 +197,9 @@ export async function captureLive(): Promise<LiveCapture> {
     // "player" reproduce vídeo 15 s y no añade endpoints nuevos (playback/information ya se captura
     // al abrir la ficha): se omite para que la captura sea más rápida y estable.
     const SKIP = new Set((process.env.LIVE_CAPTURE_SKIP ?? 'player').split(',').map((s) => s.trim()).filter(Boolean));
-    // Presupuesto total: el setup tiene 540 s. Si se agota, se guarda lo capturado hasta ahí en vez
+    // Presupuesto total: el setup tiene 900 s. Si se agota, se guarda lo capturado hasta ahí en vez
     // de perderlo todo por timeout (las pruebas de los endpoints no capturados lo indicarán).
-    const budgetMs = Number(process.env.LIVE_CAPTURE_BUDGET_S ?? 470) * 1000;
+    const budgetMs = Number(process.env.LIVE_CAPTURE_BUDGET_S ?? 780) * 1000;
     const started = Date.now();
     for (const journey of JOURNEYS) {
       if (SKIP.has(journey.name)) continue;
@@ -180,4 +228,16 @@ export async function captureLive(): Promise<LiveCapture> {
   } finally {
     await browser.close();
   }
+}
+
+/** Respuestas de error capturadas de un endpoint (las provocan journeys como `detail-invalid`). */
+export function liveErrors(id: string, version?: string): { captured: boolean; errors: LiveSample[] } {
+  const capture = loadLiveCapture(version);
+  return { captured: !!capture, errors: (capture?.errors ?? []).filter((e) => endpointId(e.method, e.url) === id) };
+}
+
+/** Respuesta de referencia de otro servicio guardada junto a la captura (p. ej. EXTRA_CONTENTAPI_CHA). */
+export function liveExtra(key: string, version?: string): { captured: boolean; body: unknown | null } {
+  const capture = loadLiveCapture(version);
+  return { captured: !!capture, body: capture?.extras?.[key]?.body ?? null };
 }

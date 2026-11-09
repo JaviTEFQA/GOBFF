@@ -31,6 +31,19 @@ export interface ContractTestOptions {
   version?: string;
   /** Clave del Test Case en Jira (MULTISTC-…); se antepone al nombre del test. */
   tc?: string;
+  /**
+   * Variante del endpoint cuya respuesta tiene otra forma (p. ej. `unified-detailed/RSR…` devuelve
+   * un árbol de grabaciones, no una ficha de contenido). Se validan solo los samples cuya shape
+   * cumpla `shapes`, contra el contrato `<slug>~<name>.json`.
+   */
+  variant?: { name: string; shapes: RegExp };
+  /** Shapes que este test NO valida porque las cubre una variante. */
+  excludeShapes?: RegExp;
+}
+
+/** Id de contrato de una variante: `GET nsh/unified-detailed/{pid}~RSR`. */
+export function variantContractId(id: string, variant?: { name: string }): string {
+  return variant ? `${id}~${variant.name}` : id;
 }
 
 /** Nº máximo de shapes distintas que se validan por endpoint. */
@@ -40,7 +53,7 @@ export function defineContractTest(id: string, opts: ContractTestOptions = {}): 
   const version = opts.version ?? env.appVersion;
   const tags = ['@contract', `@${endpointSlug(id)}`, ...(opts.smoke ? ['@smoke'] : [])];
   const method = id.split(' ')[0]!;
-  const title = `${opts.tc ? `[${opts.tc}] ` : ''}contrato ${id}`;
+  const title = `${opts.tc ? `[${opts.tc}] ` : ''}contrato ${id}${opts.variant ? ` (${opts.variant.name})` : ''}`;
 
   // Versión del contrato contra la que validar: por defecto la propia, o la indicada en
   // CONTRACT_BASELINE para comprobar que una versión nueva no rompe el contrato de la anterior.
@@ -49,17 +62,19 @@ export function defineContractTest(id: string, opts: ContractTestOptions = {}): 
   test(title, { tag: tags }, async ({}, testInfo) => {
     test.skip(SESSION_ENDPOINTS.has(id), `${id} cambia la sesión (perfil activo, tokens): no se valida.`);
 
-    const override = loadOverrides()[id] ?? {};
+    const override = loadOverrides()[variantContractId(id, opts.variant)] ?? {};
     const capture = loadLiveCapture(version);
     test.skip(!capture, `No hay captura en vivo para ${version}: ejecuta "npm run test:api" (genera la captura) o "npm run live".`);
 
-    const samples = liveSamples(capture, id).slice(0, Math.max(opts.maxSamples ?? MAX_DISTINCT_SHAPES, 1));
+    const samples = liveSamples(capture, id)
+      .filter((s) => (opts.variant ? opts.variant.shapes.test(s.shape) : !opts.excludeShapes?.test(s.shape)))
+      .slice(0, Math.max(opts.maxSamples ?? MAX_DISTINCT_SHAPES, 1));
     test.skip(!samples.length, `La web no llamó a ${id} durante el recorrido. Amplía una journey en src/recordings/journeys.ts para cubrirlo.`);
 
     if (contractVersion !== version) {
       testInfo.annotations.push({ type: 'baseline', description: `captura ${version} validada contra contrato ${contractVersion}` });
     }
-    const shape = loadContract(id, contractVersion);
+    const shape = loadContract(variantContractId(id, opts.variant), contractVersion);
     const budget = override.latencyBudgetMs ?? env.latencyBudgetMs;
 
     for (const sample of samples) {

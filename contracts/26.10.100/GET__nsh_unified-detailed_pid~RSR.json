@@ -1,0 +1,660 @@
+{
+  "endpointId": "GET nsh/unified-detailed/{pid}~RSR",
+  "samples": 1,
+  "source": "live 2026-11-09T15:17:49.239Z",
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "pid": {
+        "types": [
+          "string"
+        ]
+      },
+      "title": {
+        "types": [
+          "string"
+        ]
+      },
+      "seriesId": {
+        "types": [
+          "number"
+        ]
+      },
+      "logo": {
+        "types": [
+          "object"
+        ],
+        "properties": {
+          "image": {
+            "types": [
+              "object"
+            ],
+            "properties": {
+              "url": {
+                "types": [
+                  "string"
+                ]
+              }
+            },
+            "required": [
+              "url"
+            ]
+          }
+        },
+        "required": [
+          "image"
+        ]
+      },
+      "image": {
+        "types": [
+          "object"
+        ],
+        "properties": {
+          "type": {
+            "types": [
+              "string"
+            ]
+          },
+          "url": {
+            "types": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "type",
+          "url"
+        ]
+      },
+      "isDolby": {
+        "types": [
+          "boolean"
+        ]
+      },
+      "isDolbyAtmos": {
+        "types": [
+          "boolean"
+        ]
+      },
+      "seasons": {
+        "types": [
+          "array"
+        ],
+        "items": {
+          "types": [
+            "object"
+          ],
+          "properties": {
+            "episodes": {
+              "types": [
+                "array"
+              ],
+              "items": {
+                "types": [
+                  "object"
+                ],
+                "properties": {
+                  "ageRating": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "age": {
+                        "types": [
+                          "number"
+                        ]
+                      },
+                      "code": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "image": {
+                        "types": [
+                          "object"
+                        ],
+                        "properties": {
+                          "type": {
+                            "types": [
+                              "string"
+                            ]
+                          },
+                          "url": {
+                            "types": [
+                              "string"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "url"
+                        ]
+                      },
+                      "isHidden": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "pid": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "shortDescription": {
+                        "types": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "age",
+                      "code",
+                      "image",
+                      "isHidden",
+                      "pid",
+                      "shortDescription"
+                    ]
+                  },
+                  "availableUntil": {
+                    "types": [
+                      "number"
+                    ]
+                  },
+                  "bars": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "isCanceledVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isExpirationVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isHomeBlockErrorVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingSeriesVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "isCanceledVisible",
+                      "isExpirationVisible",
+                      "isHomeBlockErrorVisible",
+                      "isRecordingSeriesVisible"
+                    ]
+                  },
+                  "buttons": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "isHomeBlockUnlockVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingCancelSeasonVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingCancelSeriesVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingCancelSingleVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingDeleteSeasonVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingDeleteSeriesVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingDeleteSingleVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingPlayFromBeginningVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingPlayVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingProtectSingleVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isRecordingUnprotectSingleVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isScheduleDetailVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isSchedulePlayFromBeginningVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "isSchedulePlayVisible": {
+                        "types": [
+                          "boolean"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "isRecordingCancelSeasonVisible",
+                      "isRecordingCancelSeriesVisible",
+                      "isRecordingCancelSingleVisible",
+                      "isScheduleDetailVisible"
+                    ]
+                  },
+                  "channelName": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "defaultLanguageOrders": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "description": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "descriptors": {
+                    "types": [
+                      "array"
+                    ],
+                    "items": {
+                      "types": [
+                        "string"
+                      ]
+                    }
+                  },
+                  "deviceTypes": {
+                    "types": [
+                      "array"
+                    ],
+                    "items": {
+                      "types": [
+                        "number"
+                      ]
+                    }
+                  },
+                  "duration": {
+                    "types": [
+                      "number"
+                    ]
+                  },
+                  "emissionDate": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "end": {
+                        "types": [
+                          "number"
+                        ]
+                      },
+                      "start": {
+                        "types": [
+                          "number"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "end",
+                      "start"
+                    ]
+                  },
+                  "episodeNumber": {
+                    "types": [
+                      "number"
+                    ]
+                  },
+                  "episodeTitle": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "genres": {
+                    "types": [
+                      "array"
+                    ],
+                    "items": {
+                      "types": [
+                        "string"
+                      ]
+                    }
+                  },
+                  "hasAds": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "hasThumbnails": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "image": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "type": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "url": {
+                        "types": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "url"
+                    ]
+                  },
+                  "isCanceled": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isConflicted": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isDolby": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isDolbyAtmos": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isEntireSeries": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isFFRWBlockedInCDVR": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isFinished": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isHomeBlocked": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isPreferent": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isProtected": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isRelevant": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "isRunning": {
+                    "types": [
+                      "boolean"
+                    ]
+                  },
+                  "liveChannel": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "pid": {
+                        "types": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "pid"
+                    ]
+                  },
+                  "logo": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "image": {
+                        "types": [
+                          "object"
+                        ],
+                        "properties": {
+                          "url": {
+                            "types": [
+                              "string"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "url"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "image"
+                    ]
+                  },
+                  "pid": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "programId": {
+                    "types": [
+                      "number"
+                    ]
+                  },
+                  "recordingDeleteTime": {
+                    "types": [
+                      "number"
+                    ]
+                  },
+                  "recordingDuration": {
+                    "types": [
+                      "number"
+                    ]
+                  },
+                  "recordingSeasonPid": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "recordingSeriesPid": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "recordingState": {
+                    "types": [
+                      "number"
+                    ]
+                  },
+                  "seasonNumber": {
+                    "types": [
+                      "number"
+                    ]
+                  },
+                  "seriesId": {
+                    "types": [
+                      "number"
+                    ]
+                  },
+                  "seriesName": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "title": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "year": {
+                    "types": [
+                      "number"
+                    ]
+                  }
+                },
+                "required": [
+                  "ageRating",
+                  "buttons",
+                  "channelName",
+                  "defaultLanguageOrders",
+                  "description",
+                  "descriptors",
+                  "deviceTypes",
+                  "duration",
+                  "emissionDate",
+                  "episodeNumber",
+                  "episodeTitle",
+                  "hasAds",
+                  "hasThumbnails",
+                  "image",
+                  "isCanceled",
+                  "isConflicted",
+                  "isDolby",
+                  "isDolbyAtmos",
+                  "isEntireSeries",
+                  "isFFRWBlockedInCDVR",
+                  "isFinished",
+                  "isHomeBlocked",
+                  "isPreferent",
+                  "isProtected",
+                  "isRelevant",
+                  "isRunning",
+                  "liveChannel",
+                  "logo",
+                  "pid",
+                  "programId",
+                  "recordingSeasonPid",
+                  "recordingSeriesPid",
+                  "recordingState",
+                  "seasonNumber",
+                  "seriesId",
+                  "seriesName",
+                  "title",
+                  "year"
+                ]
+              }
+            },
+            "episodesCount": {
+              "types": [
+                "number"
+              ]
+            },
+            "isFutureSeason": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "isLostEpisodes": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "isRelevant": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "pid": {
+              "types": [
+                "string"
+              ]
+            },
+            "seasonNumber": {
+              "types": [
+                "number"
+              ]
+            }
+          },
+          "required": [
+            "episodes",
+            "episodesCount",
+            "isFutureSeason",
+            "isRelevant",
+            "pid"
+          ]
+        }
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "image",
+      "isDolby",
+      "isDolbyAtmos",
+      "logo",
+      "pid",
+      "requestId",
+      "seasons",
+      "seriesId",
+      "title",
+      "version"
+    ]
+  }
+}

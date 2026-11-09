@@ -7,7 +7,7 @@ import { expect, test } from '../../../src/testing/fixtures';
 import { loadLiveCapture, liveSamples } from '../../../src/testing/live-capture';
 
 const DETAIL = 'GET nsh/unified-detailed/{pid}';
-const PID_RE = /\/([A-Z]{2,5}\d{3,})(?=\/|$|\?)/;
+const PID_RE = /\/([A-Z]{2,5}\d{3,}(?:_[A-Z]{2,5}\d{3,})*)(?=\/|$|\?)/;
 
 const nonEmpty = (v: unknown) => typeof v === 'string' && v.trim() !== '';
 

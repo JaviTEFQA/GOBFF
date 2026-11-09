@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { endpointId, endpointSlug, isCanowayUrl, requestKey } from '../../src/catalog/endpoint-id';
+import { endpointId, endpointSlug, isCanowayUrl, requestKey, requestShape } from '../../src/catalog/endpoint-id';
 
 const BASE = 'https://canoway-de.cdn.telefonica.com/instance/45/service';
 
@@ -7,6 +7,9 @@ test.describe('endpoint-id', () => {
   test('templates ids out of the path', () => {
     expect(endpointId('get', `${BASE}/nsh/unified-detailed-content/MOV44943332`)).toBe('GET nsh/unified-detailed-content/{pid}');
     expect(endpointId('GET', `${BASE}/nsh/thematic-site-page/CHA14798?page=1`)).toBe('GET nsh/thematic-site-page/{pid}');
+    // Grabaciones de serie: pid compuesto RSR…_LCH…
+    expect(endpointId('GET', `${BASE}/nsh/unified-detailed/RSR3240304_LCH6420`)).toBe('GET nsh/unified-detailed/{pid}');
+    expect(requestShape(requestKey('GET', `${BASE}/nsh/unified-detailed/RSR3240304_LCH6420?appVersion=1`))).toBe(requestShape(requestKey('GET', `${BASE}/nsh/unified-detailed/RSR104564150_LCH6416?appVersion=1`)));
     expect(endpointId('GET', `${BASE}/nsh/users/123456789/homezone/check`)).toBe('GET nsh/users/{id}/homezone/check');
     expect(endpointId('GET', `${BASE}/instances/45/thumbnails`)).toBe('GET instances/45/thumbnails');
     expect(endpointId('GET', `${BASE}/thematic-site-page-prio-long-name`)).toBe('GET thematic-site-page-prio-long-name');

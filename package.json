@@ -15,6 +15,7 @@
     "scaffold": "tsx scripts/scaffold-tests.ts",
     "contracts:build": "tsx scripts/build-contracts.ts",
     "contracts:diff": "tsx scripts/diff-contracts.ts",
+    "contracts:from-live": "tsx scripts/contracts-from-live.ts",
     "inventory": "tsx scripts/print-inventory.ts",
     "recordings:redact": "tsx scripts/redact-recordings.ts",
     "report": "playwright show-report",

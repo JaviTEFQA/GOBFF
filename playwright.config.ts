@@ -46,7 +46,7 @@ export default defineConfig({
     { name: 'auth', testDir: './tests/setup', testMatch: /auth\.setup\.ts/ },
     // Captura en vivo: abre un navegador logado y guarda las respuestas reales del BFF para que las
     // pruebas de API las validen (canoway firma cada petición y no se pueden reenviar a mano).
-    { name: 'live-capture', testDir: './tests/setup', testMatch: /live-capture\.setup\.ts/, dependencies: ['auth'], timeout: 600_000, use: browser },
+    { name: 'live-capture', testDir: './tests/setup', testMatch: /live-capture\.setup\.ts/, dependencies: ['auth'], timeout: 900_000, use: browser },
     {
       name: 'record',
       testDir: './tests/record',

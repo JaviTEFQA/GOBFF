@@ -13,7 +13,7 @@ interface Detail {
   pricings?: unknown;
 }
 
-const PID_RE = /\/([A-Z]{2,5}\d{3,})(?=\/|$|\?)/;
+const PID_RE = /\/([A-Z]{2,5}\d{3,}(?:_[A-Z]{2,5}\d{3,})*)(?=\/|$|\?)/;
 const isBool = (v: unknown) => typeof v === 'boolean';
 
 test('[MULTISTC-76652] la comercialización del detalle es coherente', { tag: ['@business'] }, async ({}, testInfo) => {
@@ -21,7 +21,8 @@ test('[MULTISTC-76652] la comercialización del detalle es coherente', { tag: ['
   test.skip(!captured, 'No hay captura en vivo: ejecuta "npm run test:api".');
   test.skip(!samples.length, 'La web no abrió ninguna ficha durante el recorrido.');
 
-  for (const sample of samples) {
+  // Las series grabadas (RSR) son un árbol de grabaciones, sin comercialización.
+  for (const sample of samples.filter((s) => !/unified-detailed\/RSR/.test(s.shape))) {
     const pid = PID_RE.exec(sample.url)?.[1] ?? sample.url;
     const body = sample.body as Detail;
     await test.step(`detalle ${pid}`, () => {

@@ -1,0 +1,32 @@
+{
+  "endpointId": "GET nsh/subscriptions/available",
+  "samples": 1,
+  "source": "live 2026-11-09T15:17:49.239Z",
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "available": {
+        "types": [
+          "array"
+        ]
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "available",
+      "requestId",
+      "version"
+    ]
+  }
+}

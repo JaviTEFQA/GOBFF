@@ -1,0 +1,81 @@
+{
+  "endpointId": "GET nsh/subscriptions/purchased",
+  "samples": 1,
+  "source": "live 2026-11-09T15:17:49.239Z",
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "purchased": {
+        "types": [
+          "array"
+        ],
+        "items": {
+          "types": [
+            "object"
+          ],
+          "properties": {
+            "pid": {
+              "types": [
+                "string"
+              ]
+            },
+            "title": {
+              "types": [
+                "string"
+              ]
+            },
+            "logo": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "url": {
+                  "types": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "url"
+              ]
+            },
+            "shortDescription": {
+              "types": [
+                "string"
+              ]
+            }
+          },
+          "required": [
+            "logo",
+            "pid",
+            "shortDescription",
+            "title"
+          ]
+        }
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "purchased",
+      "requestId",
+      "version"
+    ]
+  }
+}

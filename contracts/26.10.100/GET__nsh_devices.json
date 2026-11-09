@@ -1,0 +1,105 @@
+{
+  "endpointId": "GET nsh/devices",
+  "samples": 1,
+  "source": "live 2026-11-09T15:17:49.239Z",
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "total": {
+        "types": [
+          "number"
+        ]
+      },
+      "stb": {
+        "types": [
+          "array"
+        ]
+      },
+      "ott": {
+        "types": [
+          "array"
+        ],
+        "items": {
+          "types": [
+            "object"
+          ],
+          "properties": {
+            "buttons": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "isDeleteVisible": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "isStopVisible": {
+                  "types": [
+                    "boolean"
+                  ]
+                }
+              },
+              "required": [
+                "isDeleteVisible",
+                "isStopVisible"
+              ]
+            },
+            "deviceId": {
+              "types": [
+                "string"
+              ]
+            },
+            "deviceName": {
+              "types": [
+                "string"
+              ]
+            },
+            "deviceType": {
+              "types": [
+                "number"
+              ]
+            },
+            "isActive": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "lastModified": {
+              "types": [
+                "number"
+              ]
+            }
+          },
+          "required": [
+            "buttons",
+            "deviceId",
+            "deviceName",
+            "deviceType",
+            "isActive",
+            "lastModified"
+          ]
+        }
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "ott",
+      "requestId",
+      "stb",
+      "total",
+      "version"
+    ]
+  }
+}

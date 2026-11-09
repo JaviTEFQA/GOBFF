@@ -15,7 +15,7 @@ import { captureLive, loadLiveCapture } from '../../src/testing/live-capture';
 const TTL_MIN = Number(process.env.LIVE_CAPTURE_TTL_MIN ?? 15);
 
 setup('capture live BFF responses', async () => {
-  setup.setTimeout(540_000);
+  setup.setTimeout(900_000);
   const force = process.env.LIVE_CAPTURE_FORCE === 'true';
   const existing = loadLiveCapture();
   if (!force && existing) {

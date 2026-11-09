@@ -1,0 +1,20 @@
+{
+  "endpointId": "GET users/BuildAuthenticatedWebviewRequest",
+  "samples": 1,
+  "source": "live 2026-11-09T15:17:49.239Z",
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "webviewUrl": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "webviewUrl"
+    ]
+  }
+}
