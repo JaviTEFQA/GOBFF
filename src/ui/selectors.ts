@@ -4,7 +4,7 @@
  */
 export const ui = {
   /** Header avatar: present whenever the app shell rendered (logged in). */
-  appShell: 'button[id*="header-dropdown-trigger-"]',
+  appShell: 'button[id*="header-dropdown-trigger-"], button[aria-label*="Konto & Einstellungen"]',
   /** Any content card linking to a detail page. */
   detailLink: 'a[href*="/details/"]',
   liveDetailLink: 'a[href*="/details/live"]',

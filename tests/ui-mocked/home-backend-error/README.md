@@ -8,10 +8,10 @@
 | Versión base | 26.10.100 |
 
 ## Qué hace
-Simula que canoway responde 500 y luego 503 a `nsh/home`; son dos casos independientes. Comprueba que la web no se rompe: la cabecera sigue visible y no hay excepciones JS no capturadas. Es un escenario imposible de reproducir a demanda contra el backend real.
+Simula que canoway responde 500 y luego 503 a `nsh/thematic-site-page-prio`; son dos casos independientes. Comprueba que la web no se rompe: la cabecera sigue visible y no hay excepciones JS no capturadas. Es un escenario imposible de reproducir a demanda contra el backend real.
 
 ## Endpoints afectados
-- `GET nsh/home` (forzado a 500 / 503)
+- `GET nsh/thematic-site-page-prio` (forzado a 500 / 503)
 - Resto de llamadas a canoway: respuestas grabadas de la 26.10.100
 
 ## Pantallas / funcionalidad afectada
@@ -22,7 +22,7 @@ Simula que canoway responde 500 y luego 503 a `nsh/home`; son dos casos independ
 - Grabaciones de la 26.10.100 presentes.
 
 ## Datos y mocks
-- Regla `rules.error('GET nsh/home', 500|503)`; el resto de canoway se sirve desde las grabaciones, con fechas desplazadas a la hora de ejecución.
+- Regla `rules.error('GET nsh/thematic-site-page-prio', 500|503)`; el resto de canoway se sirve desde las grabaciones, con fechas desplazadas a la hora de ejecución.
 
 ## Resultado esperado
 - La cabecera de la app está visible.

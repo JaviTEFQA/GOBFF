@@ -8,11 +8,11 @@
 | Versión base | 26.10.100 |
 
 ## Qué hace
-Sirve `nsh/home` y `nsh/carousel` con la estructura real grabada pero con todas las listas vacías (secciones sin contenidos). Verifica que la web lo soporta sin errores JS. Cubre el caso de un usuario o perfil sin contenido, o un catálogo vacío tras un fallo de ingesta.
+Sirve `nsh/thematic-site-page-prio` con la estructura real grabada pero con todas las listas vacías (secciones sin contenidos), y `POST nsh/carousel` con una lista vacía. Verifica que la web lo soporta sin errores JS. Cubre el caso de un usuario o perfil sin contenido, o un catálogo vacío tras un fallo de ingesta.
 
 ## Endpoints afectados
-- `GET nsh/home` (listas vaciadas)
-- `GET nsh/carousel` (listas vaciadas)
+- `GET nsh/thematic-site-page-prio` (listas vaciadas)
+- `POST nsh/carousel` (lista vacía: no tiene grabación)
 
 ## Pantallas / funcionalidad afectada
 - Home: carruseles y paginación de carruseles.
