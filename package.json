@@ -1,0 +1,36 @@
+{
+  "name": "canoway-bff-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API regression framework for the canoway BFF (O2 TV DE): contract tests against the real API and recorded mocks to regress the web app.",
+  "scripts": {
+    "test": "playwright test --project=unit --project=api",
+    "test:unit": "playwright test --project=unit",
+    "test:api": "playwright test --project=unit --project=api",
+    "test:api:smoke": "playwright test --project=api --grep @smoke",
+    "test:ui-mocked": "playwright test --project=ui-mocked",
+    "auth": "playwright test --project=auth",
+    "auth:manual": "node -e \"process.env.AUTH_MANUAL='true';require('child_process').execSync('npx playwright test --project=auth --timeout=360000',{stdio:'inherit'})\"",
+    "record": "playwright test --project=record",
+    "scaffold": "tsx scripts/scaffold-tests.ts",
+    "contracts:build": "tsx scripts/build-contracts.ts",
+    "contracts:diff": "tsx scripts/diff-contracts.ts",
+    "inventory": "tsx scripts/print-inventory.ts",
+    "recordings:redact": "tsx scripts/redact-recordings.ts",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit",
+    "live": "node -e \"require('fs').rmSync('.live',{recursive:true,force:true})\" && playwright test --project=live-capture"
+  },
+  "dependencies": {
+    "@playwright/test": "1.58.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

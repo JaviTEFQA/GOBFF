@@ -1,0 +1,96 @@
+{
+  "endpointId": "GET playback/information",
+  "key": "GET playback/information?appVersion=26.10.100&contentPid=MOV53080356&maxQuality=3&mediaType=1&streamingType=4",
+  "journey": "mediathek",
+  "recordedAt": "2026-11-08T21:35:04.768Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/playback/information?appVersion=26.10.100&contentPid=MOV53080356&mediaType=1&maxQuality=3&streamingType=4",
+    "servicePath": "playback/information",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/catalog/mediathek-14798",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json",
+      "date": "Sun, 08 Nov 2026 21:35:02 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:35:02 GMT",
+      "x-cache-status": "MISS",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-ae2df061b41e4eeece4bda310fd3b079",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": [
+      {
+        "pid": "MED371808000",
+        "URL": "http://o08000-b46187.5.cdn.telefonica.com/46187/03/71/80/371808000_F6B4BE713BD588FF/PR_SVOD_ALL_PREMIUM__c36a55325b104bd0.mpd",
+        "quality": "HighDefinition",
+        "streamingType": "DashWidevine",
+        "audios": [
+          "deu"
+        ],
+        "drm": {
+          "drmType": "Widevine",
+          "licenseServer": "https://janus-de.gvp.telefonica.com/wvls/DashIssuer.aspx",
+          "cToken": "<redacted>",
+          "wmkEnabled": true
+        },
+        "contextData": "<redacted>",
+        "segments": [
+          {
+            "codSegment": "CON",
+            "tcIn": 0,
+            "tcOut": 5050000,
+            "isSkippable": false
+          },
+          {
+            "codSegment": "CRE",
+            "tcIn": 5050000,
+            "tcOut": 5062000,
+            "isSkippable": false
+          }
+        ],
+        "bingeWatchingAction": "None",
+        "nextEpisodePid": null
+      }
+    ],
+    "isJson": true,
+    "durationMs": 195
+  }
+}

@@ -1,0 +1,1584 @@
+{
+  "endpointId": "GET nsh/unified-detailed/{pid}",
+  "key": "GET nsh/unified-detailed/MOV52391602?appVersion=26.10.100",
+  "journey": "detail-movie",
+  "recordedAt": "2026-11-08T21:41:00.161Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/unified-detailed/MOV52391602?appVersion=26.10.100",
+    "servicePath": "nsh/unified-detailed/MOV52391602",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/details/movie/52391602",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:40:57 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:40:58 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-1355e7b7e0925eb410cdfca7b91040b9",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "pid": "MOV52391602",
+      "title": "Flight 298",
+      "description": "Ein routinemäßiger Inlandsflug wird zum Flug durch die Hölle: An Bord von Flug 298 bricht kurz nach dem Start Panik aus, als ein Passagier unter rätselhaften Umständen stirbt. Wenig später erscheint vor den Fenstern ein unnatürliches Sturmphänomen, alle Instrumente fallen aus und das Flugzeug versinkt in vollkommener Dunkelheit. Als das Licht zurückkehrt, breiten sich unter den Passagieren seltsame Symptome aus, während eine unheimliche Bedrohung immer näher rückt. Angst, Misstrauen und Chaos eskalieren und für die Überlebenden beginnt ein verzweifelter Kampf gegen das Unbegreifliche.",
+      "shortDescription": "Ein routinemäßiger Inlandsflug wird zum Flug durch die Hölle: An Bord von Flug 298 bricht kurz nach dem Start Panik aus, als ein Passagier unter rätselhaften Umständen stirbt. Wenig später erscheint vor den Fenstern ein unnatürliches Sturmphänomen, alle Instrumente fallen aus und das Flugzeug versinkt in vollkommener Dunkelheit. Als das Licht zurückkehrt, breiten sich unter den Passagieren seltsame Symptome aus, während eine unheimliche Bedrohung immer näher rückt. Angst, Misstrauen und Chaos eskalieren und für die Überlebenden beginnt ein verzweifelter Kampf gegen das Unbegreifliche.",
+      "duration": 4928,
+      "isDtp": true,
+      "requiresPin": false,
+      "year": 2026,
+      "availableFrom": 1793833200,
+      "availableUntil": 4102441199,
+      "distributor": "Videociety",
+      "commercializationType": 2,
+      "externalTypeId": 0,
+      "seriesPid": "",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "pricings": [
+        {
+          "pid": "CORPRI1175",
+          "price": 4.99,
+          "quality": 2,
+          "recurrenceType": 7,
+          "recurrenceDays": 0
+        }
+      ],
+      "image": {
+        "type": "BobLandscape",
+        "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F42%2F28425463_2724BBEBFD228A59.jpg&template=5"
+      },
+      "isDolby": true,
+      "isDolbyAtmos": false,
+      "is5s": false,
+      "isAudioDescription": false,
+      "payment": 3,
+      "descriptors": [
+        "Ab 16 Jahren"
+      ],
+      "actors": [
+        "Weronika Rosati",
+        "Nathan Cooper",
+        "Tom Brittney"
+      ],
+      "directors": [
+        "Steven Quale"
+      ],
+      "countries": [
+        "USA"
+      ],
+      "isWatching": false,
+      "isComingSoon": false,
+      "tags": {
+        "completed": false,
+        "favorite": false,
+        "follow": false,
+        "hidden": false,
+        "watched": false
+      },
+      "producer": {
+        "pid": "CMP3323",
+        "title": "Capstone Studios"
+      },
+      "ageRating": {
+        "isHidden": false,
+        "pid": "AGE233",
+        "age": 16,
+        "code": "16",
+        "shortDescription": "Ab 16 Jahren",
+        "image": {
+          "type": "Cover",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+        }
+      },
+      "commercialization": {
+        "isTvod": true,
+        "isSubscribable": false
+      },
+      "uniqueId": "912105359",
+      "logoutUrl": "",
+      "bars": {
+        "isNotAvailableInThisDevice": false,
+        "isActivatedPendingVisible": false,
+        "isSubscribeVisible": false,
+        "isPurchaseVisible": true,
+        "isPurchaseErrorVisible": false,
+        "isPurchaseExpirationVisible": false,
+        "isBlockTvodVisible": false,
+        "isCatalogExpirationVisible": false
+      },
+      "relatedContents": {
+        "collectionLayoutStyle": "portraitSmall",
+        "type": "category",
+        "contents": [
+          {
+            "pid": "MOV45839082",
+            "title": "Victor Frankenstein - Genie und Wahnsinn",
+            "duration": 6702,
+            "requiresPin": false,
+            "trackId": "440729793.213.1794174057964.1",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1614027600,
+            "availableUntil": 4102444799,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-80d1edeb-8b36-447c-ad6e-6013adb89d4d?distributionPartner=o2",
+            "genres": [
+              "Science Fiction",
+              "Horror"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F14%2F23146617_bf74e18929f86198dc67fe1fa2686927.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F14%2F23146614_1d7fcf2f20446e2ec8c5eb4f917b14ff.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "SER50531993",
+            "title": "Alien: Earth",
+            "commercializationType": 5,
+            "requiresPin": false,
+            "distributor": "DisneyPlus",
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F44%2F26444478_780c808f5c114a557d589c962345e7e9.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F44%2F26444477_6b75543f1ae89864f02260979ec0cd0a.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Science Fiction",
+              "Horror"
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "trackId": "440729793.213.1794174057964.2",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-ac314a24-c615-48ee-8e24-b26de75e64ef?distributionPartner=o2",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "isWatching": false,
+            "renderChild": true,
+            "payment": 3,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "producer": {
+              "pid": "CMP1471",
+              "title": "DisneyPlusOriginal",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "buttons": {
+              "isTrailerVisible": false,
+              "isAmazonVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            }
+          },
+          {
+            "pid": "MOV45840472",
+            "title": "Alien³",
+            "duration": 6956,
+            "requiresPin": false,
+            "trackId": "440729793.213.1794174057964.3",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1617346800,
+            "availableUntil": 4102444799,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-73d822b1-0286-4bcb-b8b6-eabea99f0c18?distributionPartner=o2",
+            "genres": [
+              "Science Fiction",
+              "Horror"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23125302_eb979bfad1a077089db2d49fe4f778fb.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23125301_1dad5412d88209adff1b70aef7883340.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV45834341",
+            "title": "Die Fliege",
+            "duration": 5749,
+            "requiresPin": false,
+            "trackId": "440729793.213.1794174057964.4",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1614027600,
+            "availableUntil": 4102444799,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-82f29feb-e69a-4c1f-b920-89882fe09e48?distributionPartner=o2",
+            "genres": [
+              "Science Fiction",
+              "Horror"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F11%2F23119688_0ff59d63d81dec1ac1cd1cd737308be3.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F11%2F23119687_5ae3721cfe80b91bd257fb3e4d331f4a.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE234",
+              "age": 18,
+              "code": "18",
+              "shortDescription": "Ab 18 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924774_9685E4AEB60994ED.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV52780223",
+            "title": "A Quiet Place",
+            "duration": 5485,
+            "requiresPin": false,
+            "trackId": "440729793.213.1794174057964.5",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1793516400,
+            "availableUntil": 1801436400,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-dd89e42d-56b8-497e-b108-bbc0ac89c82f?distributionPartner=o2",
+            "genres": [
+              "Science Fiction",
+              "Horror"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F51%2F28516869_404b42005c6f058fafa82e6b332b5adb.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F51%2F28516868_45976ff7d378bc7051773076653f1d48.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV45841284",
+            "title": "Alien: Covenant",
+            "duration": 7439,
+            "requiresPin": false,
+            "trackId": "440729793.213.1794174057964.6",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1626418800,
+            "availableUntil": 4102444799,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-fcf7736c-5eb4-4181-bf70-9e2fa6f9cc42?distributionPartner=o2",
+            "genres": [
+              "Science Fiction",
+              "Horror"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F14%2F23145597_0b042e7235f2b44ebbc1f221bbd91a0c.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F14%2F23145595_28504e4f63c760f2e909ed4031694f3c.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV45839375",
+            "title": "The Mill",
+            "duration": 6332,
+            "requiresPin": false,
+            "trackId": "440729793.213.1794174057964.7",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1703836800,
+            "availableUntil": 4102444799,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-31c7f583-c7de-4fa4-82bc-27e7550d31db?distributionPartner=o2",
+            "genres": [
+              "Science Fiction",
+              "Horror"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23124401_1e2b84bdb3902dad66084863960ffa01.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23124400_61b5d57c85081313b0d87e022a7fe74c.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1471",
+              "title": "DisneyPlusOriginal",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV36044911",
+            "title": "Puls",
+            "duration": 5872,
+            "requiresPin": false,
+            "trackId": "440729793.213.1794174057964.8",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1605049200,
+            "availableUntil": 2256156000,
+            "distributor": "Videociety",
+            "commercializationType": 2,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "genres": [
+              "Horror",
+              "Science Fiction"
+            ],
+            "pricings": [
+              {
+                "pid": "CORPRI1177",
+                "price": 3.99,
+                "quality": 2,
+                "recurrenceType": 7,
+                "recurrenceDays": 0
+              }
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F20%2F79%2F20797567_C7A5F5797E7D0512.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F20%2F79%2F20797569_CA9B457123BF81DB.jpg&template=5"
+              }
+            ],
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": true,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP2344",
+              "title": "Benaroya Pictures"
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": false,
+              "isSubscribed": false
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "audioIsoCodes": [
+                "deu",
+                "eng"
+              ],
+              "medias": [
+                {
+                  "pid": "MED245132476",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "pid": "MED245132477",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "pid": "MED245132478",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "subtitles": [
+                {
+                  "pid": "STL312970",
+                  "isoLanguageCode": "deu"
+                }
+              ]
+            },
+            "trailers": [
+              {
+                "pid": "MED245132463",
+                "parentPid": "MOV36044911",
+                "drmType": 2,
+                "quality": 3,
+                "streamingType": 1,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED245132464",
+                "parentPid": "MOV36044911",
+                "drmType": 2,
+                "quality": 2,
+                "streamingType": 1,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED245132465",
+                "parentPid": "MOV36044911",
+                "drmType": 2,
+                "quality": 1,
+                "streamingType": 1,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED245132466",
+                "parentPid": "MOV36044911",
+                "drmType": 4,
+                "quality": 3,
+                "streamingType": 4,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED245132467",
+                "parentPid": "MOV36044911",
+                "drmType": 4,
+                "quality": 2,
+                "streamingType": 4,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED245132468",
+                "parentPid": "MOV36044911",
+                "drmType": 4,
+                "quality": 1,
+                "streamingType": 4,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED245132469",
+                "parentPid": "MOV36044911",
+                "drmType": 6,
+                "quality": 3,
+                "streamingType": 2,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED245132470",
+                "parentPid": "MOV36044911",
+                "drmType": 6,
+                "quality": 2,
+                "streamingType": 2,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED245132471",
+                "parentPid": "MOV36044911",
+                "drmType": 6,
+                "quality": 1,
+                "streamingType": 2,
+                "mediaType": 2
+              }
+            ],
+            "buttons": {
+              "isExternalCatchupVisible": false,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": true,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": true,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV34895102",
+            "title": "Die Farbe aus dem All - Color Out of Space",
+            "duration": 6614,
+            "requiresPin": false,
+            "trackId": "440729793.213.1794174057964.9",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1584572400,
+            "availableUntil": 2202933600,
+            "distributor": "Videociety",
+            "commercializationType": 2,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "genres": [
+              "Horror",
+              "Science Fiction"
+            ],
+            "pricings": [
+              {
+                "pid": "CORPRI1177",
+                "price": 3.99,
+                "quality": 2,
+                "recurrenceType": 7,
+                "recurrenceDays": 0
+              }
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F20%2F49%2F20491720_356F38A31393A151.png&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F20%2F49%2F20491721_3CDC6E2BD9F187D1.jpg&template=5"
+              }
+            ],
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": true,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1976",
+              "title": "SpectreVision"
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": false,
+              "isSubscribed": false
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "audioIsoCodes": [
+                "deu",
+                "eng"
+              ],
+              "medias": [
+                {
+                  "pid": "MED236295678",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "pid": "MED236295679",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "pid": "MED236295680",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "subtitles": [
+                {
+                  "pid": "STL306757",
+                  "isoLanguageCode": "deu"
+                },
+                {
+                  "pid": "STL306758",
+                  "isoLanguageCode": "eng"
+                }
+              ]
+            },
+            "trailers": [
+              {
+                "pid": "MED236295665",
+                "parentPid": "MOV34895102",
+                "drmType": 2,
+                "quality": 3,
+                "streamingType": 1,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED236295666",
+                "parentPid": "MOV34895102",
+                "drmType": 2,
+                "quality": 2,
+                "streamingType": 1,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED236295667",
+                "parentPid": "MOV34895102",
+                "drmType": 2,
+                "quality": 1,
+                "streamingType": 1,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED236295668",
+                "parentPid": "MOV34895102",
+                "drmType": 4,
+                "quality": 3,
+                "streamingType": 4,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED236295669",
+                "parentPid": "MOV34895102",
+                "drmType": 4,
+                "quality": 2,
+                "streamingType": 4,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED236295670",
+                "parentPid": "MOV34895102",
+                "drmType": 4,
+                "quality": 1,
+                "streamingType": 4,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED236295671",
+                "parentPid": "MOV34895102",
+                "drmType": 6,
+                "quality": 3,
+                "streamingType": 2,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED236295672",
+                "parentPid": "MOV34895102",
+                "drmType": 6,
+                "quality": 2,
+                "streamingType": 2,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED236295673",
+                "parentPid": "MOV34895102",
+                "drmType": 6,
+                "quality": 1,
+                "streamingType": 2,
+                "mediaType": 2
+              }
+            ],
+            "buttons": {
+              "isExternalCatchupVisible": false,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": true,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": true,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV51333598",
+            "title": "Backrooms - Extended Version",
+            "duration": 7329,
+            "requiresPin": false,
+            "trackId": "440729793.213.1794174057964.10",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1788991200,
+            "availableUntil": 4102441199,
+            "distributor": "Videociety",
+            "commercializationType": 2,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "genres": [
+              "Horror",
+              "Science Fiction"
+            ],
+            "pricings": [
+              {
+                "pid": "CORPRI1175",
+                "price": 4.99,
+                "quality": 2,
+                "recurrenceType": 7,
+                "recurrenceDays": 0
+              }
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F87%2F26875017_A7F5FD7DE895465C.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F87%2F26875015_D8AEDBA1A7B58959.jpg&template=5"
+              }
+            ],
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": true,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP2649",
+              "title": "Atomic Monster"
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": false,
+              "isSubscribed": false
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "audioIsoCodes": [
+                "deu",
+                "eng"
+              ],
+              "medias": [
+                {
+                  "pid": "MED359207791",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "pid": "MED359207792",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "pid": "MED359207793",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "subtitles": [
+                {
+                  "pid": "STL340113",
+                  "isoLanguageCode": "deu"
+                }
+              ]
+            },
+            "trailers": [
+              {
+                "pid": "MED359207794",
+                "parentPid": "MOV51333598",
+                "drmType": 6,
+                "quality": 3,
+                "streamingType": 2,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED359207795",
+                "parentPid": "MOV51333598",
+                "drmType": 6,
+                "quality": 2,
+                "streamingType": 2,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED359207796",
+                "parentPid": "MOV51333598",
+                "drmType": 6,
+                "quality": 1,
+                "streamingType": 2,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED359207797",
+                "parentPid": "MOV51333598",
+                "drmType": 4,
+                "quality": 3,
+                "streamingType": 4,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED359207798",
+                "parentPid": "MOV51333598",
+                "drmType": 4,
+                "quality": 2,
+                "streamingType": 4,
+                "mediaType": 2
+              },
+              {
+                "pid": "MED359207799",
+                "parentPid": "MOV51333598",
+                "drmType": 4,
+                "quality": 1,
+                "streamingType": 4,
+                "mediaType": 2
+              }
+            ],
+            "buttons": {
+              "isExternalCatchupVisible": false,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": true,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": true,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          }
+        ]
+      },
+      "deviceTypes": [
+        401
+      ],
+      "rights": {
+        "canWatch": false,
+        "isSubscribed": false
+      },
+      "playback": {
+        "transparentProvider": 0,
+        "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+        "audioIsoCodes": [
+          "deu",
+          "eng"
+        ],
+        "medias": [
+          {
+            "pid": "MED366828524",
+            "quality": 2,
+            "drmType": 4,
+            "streamingType": 4
+          },
+          {
+            "pid": "MED366828525",
+            "quality": 3,
+            "drmType": 4,
+            "streamingType": 4
+          },
+          {
+            "pid": "MED366828526",
+            "quality": 4,
+            "drmType": 4,
+            "streamingType": 4
+          }
+        ],
+        "maxQualities": {
+          "401": 2
+        },
+        "subtitles": [
+          {
+            "pid": "STL341487",
+            "isoLanguageCode": "deu"
+          }
+        ]
+      },
+      "trailers": [
+        {
+          "pid": "MED366828527",
+          "parentPid": "MOV52391602",
+          "drmType": 6,
+          "quality": 3,
+          "streamingType": 2,
+          "mediaType": 2
+        },
+        {
+          "pid": "MED366828528",
+          "parentPid": "MOV52391602",
+          "drmType": 6,
+          "quality": 2,
+          "streamingType": 2,
+          "mediaType": 2
+        },
+        {
+          "pid": "MED366828529",
+          "parentPid": "MOV52391602",
+          "drmType": 6,
+          "quality": 1,
+          "streamingType": 2,
+          "mediaType": 2
+        },
+        {
+          "pid": "MED366828530",
+          "parentPid": "MOV52391602",
+          "drmType": 4,
+          "quality": 3,
+          "streamingType": 4,
+          "mediaType": 2
+        },
+        {
+          "pid": "MED366828531",
+          "parentPid": "MOV52391602",
+          "drmType": 4,
+          "quality": 2,
+          "streamingType": 4,
+          "mediaType": 2
+        },
+        {
+          "pid": "MED366828532",
+          "parentPid": "MOV52391602",
+          "drmType": 4,
+          "quality": 1,
+          "streamingType": 4,
+          "mediaType": 2
+        }
+      ],
+      "buttons": {
+        "isExternalCatchupVisible": false,
+        "isPlayVisible": false,
+        "isHomeBlockUnlockVisible": false,
+        "isTrailerVisible": true,
+        "isPlayFromBeginningVisible": false,
+        "isPlayAgainVisible": false,
+        "isAddMyListVisible": true,
+        "isRemoveMyListVisible": false,
+        "isStopWatchingVisible": false,
+        "isPurchaseVisible": true,
+        "isSubscribeVisible": false,
+        "isAmazonVisible": false,
+        "isAmazonDirectVisible": false,
+        "isAmazonInterstitialVisible": false,
+        "isExternalCatchupInterstitialVisible": false
+      },
+      "hasAds": false,
+      "hasThumbnails": true,
+      "requestId": "OP-1355e7b7e0925eb410cdfca7b91040b9",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 323
+  }
+}

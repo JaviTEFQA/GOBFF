@@ -1,0 +1,1528 @@
+{
+  "endpointId": "GET nsh/unified-detailed/{pid}",
+  "key": "GET nsh/unified-detailed/LSR291777?appVersion=26.10.100&relevantEpisode=LSC642209202",
+  "journey": "player",
+  "recordedAt": "2026-11-08T21:43:18.112Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/unified-detailed/LSR291777?relevantEpisode=LSC642209202&appVersion=26.10.100",
+    "servicePath": "nsh/unified-detailed/LSR291777",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/details/live-serie/iris-die-wahrheit-entdeckungen-291777?relevant=LSC642209202&placement=undefined&placementDetail=undefined&distributionPartner=undefined",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:43:15 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:43:16 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-31991d2892b1a22e6702b08f6579a99c",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "pid": "LSR291777",
+      "title": "Iris - Die Wahrheit",
+      "commercializationType": 6,
+      "requiresPin": false,
+      "image": {
+        "type": "BobLandscape",
+        "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F70%2F23709612_0f59d0365ed929e251588d5451a5f614.jpg&template=5"
+      },
+      "genres": [
+        "Drama",
+        "Verbrechen",
+        "Serie"
+      ],
+      "logo": {
+        "image": {
+          "type": "Extra",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+        }
+      },
+      "isDolby": true,
+      "isDolbyAtmos": false,
+      "payment": 3,
+      "description": "",
+      "year": 2024,
+      "descriptors": [
+        "Ab 12 Jahren"
+      ],
+      "isScripted": true,
+      "isSport": false,
+      "countries": [
+        "Schweden"
+      ],
+      "renderChild": true,
+      "distributor": "ZDF",
+      "ageRating": {
+        "isHidden": false,
+        "pid": "AGE232",
+        "age": 12,
+        "code": "12",
+        "shortDescription": "Ab 12 Jahren",
+        "image": {
+          "type": "Cover",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+        }
+      },
+      "liveChannel": {
+        "pid": "LCH6378",
+        "title": "ZDF",
+        "callLetter": "ZDF",
+        "distributorId": 0,
+        "epgLiveChannelReferenceId": 2,
+        "channelNumber": 2,
+        "lxdChannel": "",
+        "tags": {
+          "completed": false,
+          "favorite": false,
+          "follow": false,
+          "hidden": false,
+          "watched": true
+        },
+        "image": {
+          "type": "Extra",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+        },
+        "hasPlaylistExperience": false,
+        "isFastChannel": false,
+        "maxLiveNowGap": 120,
+        "isDolby": true,
+        "isDolbyAtmos": false,
+        "wmk": false,
+        "isKids": false
+      },
+      "rights": {
+        "canWatch": true,
+        "isSubscribed": true,
+        "subscription": {
+          "catalogItemId": 2471,
+          "catalogItemType": 132
+        }
+      },
+      "commercialization": {
+        "isTvod": false,
+        "isSubscribable": false
+      },
+      "uniqueId": "697464507",
+      "logoutUrl": "",
+      "relevantSeason": {
+        "pid": "LSE465851",
+        "title": "Iris - Die Wahrheit - T2",
+        "seasonNumber": 2,
+        "commercializationType": 6,
+        "payment": 3,
+        "episodes": [
+          {
+            "pid": "LSC642209202",
+            "episodeNumber": 1,
+            "liveProgramPid": "LPR288691616",
+            "shortDescription": "Die Ermittlungen nach dem Fund eines Skeletts müssen ohne Iris weitergehen. Die Teamleiterin ist in Spanien einem Gangster auf der Spur.",
+            "seriesId": 351239895,
+            "seriesPid": "LSR291777",
+            "seriesName": "Iris - Die Wahrheit",
+            "availableFrom": 1762636500,
+            "availableUntil": 1794175200,
+            "availableUntilPolaris": 1794175200,
+            "liveChannel": {
+              "pid": "LCH6378",
+              "title": "ZDF",
+              "callLetter": "ZDF",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 2,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": true
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "isPreferent": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": true,
+              "isRpvrEnabled": false,
+              "hasThumbnails": true,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794172500,
+              "end": 1794175200
+            },
+            "title": "Iris - Die Wahrheit : Entdeckungen",
+            "episodeTitle": "Entdeckungen",
+            "isFutureProgram": false,
+            "isAirProgram": true,
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28564742_4a674cb4e8caa340b9ee6d8c79bc71ad.jpg&template=5"
+            },
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "actors": [
+              "Sofia Helin",
+              "Inez Andersson",
+              "Håkan Bengtsson"
+            ],
+            "directors": [
+              "Johan Lundin"
+            ],
+            "descriptors": [
+              "Ab 12 Jahren"
+            ],
+            "countries": [
+              "Schweden"
+            ],
+            "duration": 2700,
+            "genres": [
+              "Serie",
+              "Drama",
+              "Verbrechen"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "forbiddenTechnology": 0,
+            "logoutUrl": "",
+            "epgScheduleId": "45_2_5181125_20261108_1",
+            "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/ZDF/SmoothStreaming-{quality}/ZDF.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "description": "Iris Bromans Cold-Case-Team untersucht ein Skelett, das bei Ystad im Wald entdeckt wurde. Der Tote ist nicht der vermisste Gutsbesitzer, sondern der drogenabhängige Jonathan. Während das Team einen nervösen Nachbarn befragt, reist Iris spontan nach Spanien. Dort ist der Gangsterboss aufgetaucht, der ihren Lebensgefährten getötet hat. Die Reise endet mit einem schweren Zwischenfall.",
+            "year": 2025,
+            "seasonNumber": 2,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://b46223.5.cdn.telefonica.com/46223/_-_psi_-_/f2a-Dashavc/ZDF.mpd",
+                  "pid": "MED14786_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 600,
+              "isLatencyKey": true,
+              "isStartOverBeforeBufferEnabled": true,
+              "isStartOverEnabled": true
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": true,
+              "isPlayLiveChannelVisible": false,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": true,
+              "isRecordingSingleVisible": true,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": true,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": true,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": true,
+              "isRpvrAvailable": false
+            },
+            "hasAds": false,
+            "hasPrerollAds": false,
+            "hasThumbnails": true
+          }
+        ]
+      },
+      "seasons": [
+        {
+          "pid": "LSE465851",
+          "title": "Iris - Die Wahrheit - T2",
+          "seasonNumber": 2,
+          "episodesCount": 1,
+          "isRelevant": true,
+          "isLostEpisodes": false,
+          "isFutureSeason": false
+        },
+        {
+          "pid": "LSE0",
+          "title": "Future",
+          "seasonNumber": 999,
+          "episodesCount": 3,
+          "isRelevant": false,
+          "isLostEpisodes": false,
+          "isFutureSeason": true
+        }
+      ],
+      "relevantEpisode": {
+        "pid": "LSC642209202",
+        "episodeNumber": 1,
+        "liveProgramPid": "LPR288691616",
+        "shortDescription": "Die Ermittlungen nach dem Fund eines Skeletts müssen ohne Iris weitergehen. Die Teamleiterin ist in Spanien einem Gangster auf der Spur.",
+        "seriesId": 351239895,
+        "seriesPid": "LSR291777",
+        "seriesName": "Iris - Die Wahrheit",
+        "availableFrom": 1762636500,
+        "availableUntil": 1794175200,
+        "availableUntilPolaris": 1794175200,
+        "liveChannel": {
+          "pid": "LCH6378",
+          "title": "ZDF",
+          "callLetter": "ZDF",
+          "distributorId": 0,
+          "providerChannel": "",
+          "channelNumber": 2,
+          "lxdChannel": "",
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": true
+          },
+          "image": {
+            "type": "Extra",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "isPreferent": false,
+          "maxLiveNowGap": 120,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "isCpvrEnabled": true,
+          "isRpvrEnabled": false,
+          "hasThumbnails": true,
+          "wmk": false,
+          "isKids": false
+        },
+        "deviceTypes": [
+          401
+        ],
+        "emissionDate": {
+          "start": 1794172500,
+          "end": 1794175200
+        },
+        "title": "Iris - Die Wahrheit : Entdeckungen",
+        "episodeTitle": "Entdeckungen",
+        "isFutureProgram": false,
+        "isAirProgram": true,
+        "image": {
+          "type": "BobLandscape",
+          "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28564742_4a674cb4e8caa340b9ee6d8c79bc71ad.jpg&template=5"
+        },
+        "isOTT": true,
+        "logo": {
+          "image": {
+            "type": "Extra",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+          }
+        },
+        "isDolby": true,
+        "isDolbyAtmos": false,
+        "isAudioDescription": false,
+        "actors": [
+          "Sofia Helin",
+          "Inez Andersson",
+          "Håkan Bengtsson"
+        ],
+        "directors": [
+          "Johan Lundin"
+        ],
+        "descriptors": [
+          "Ab 12 Jahren"
+        ],
+        "countries": [
+          "Schweden"
+        ],
+        "duration": 2700,
+        "genres": [
+          "Serie",
+          "Drama",
+          "Verbrechen"
+        ],
+        "ageRating": {
+          "isHidden": false,
+          "pid": "AGE232",
+          "age": 12,
+          "code": "12",
+          "shortDescription": "Ab 12 Jahren",
+          "image": {
+            "type": "Cover",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+          }
+        },
+        "forbiddenTechnology": 0,
+        "logoutUrl": "",
+        "epgScheduleId": "45_2_5181125_20261108_1",
+        "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/ZDF/SmoothStreaming-{quality}/ZDF.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+        "isHomeBlocked": false,
+        "isFFRWBlockedInLive": false,
+        "isHomeBlockedChannel": false,
+        "commercialization": {
+          "isTvod": false,
+          "isSubscribable": false
+        },
+        "description": "Iris Bromans Cold-Case-Team untersucht ein Skelett, das bei Ystad im Wald entdeckt wurde. Der Tote ist nicht der vermisste Gutsbesitzer, sondern der drogenabhängige Jonathan. Während das Team einen nervösen Nachbarn befragt, reist Iris spontan nach Spanien. Dort ist der Gangsterboss aufgetaucht, der ihren Lebensgefährten getötet hat. Die Reise endet mit einem schweren Zwischenfall.",
+        "year": 2025,
+        "seasonNumber": 2,
+        "payment": 3,
+        "bars": {
+          "isNotAvailableInThisDevice": false,
+          "isActivatedPendingVisible": false,
+          "isSubscribeVisible": false,
+          "isRecordingEpisodeVisible": false,
+          "isRecordingSingleVisible": false,
+          "isRecordingSeasonVisible": false,
+          "isRecordingSeriesVisible": false,
+          "isHomeBlockErrorVisible": false
+        },
+        "requiresPin": false,
+        "playback": {
+          "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+          "medias": [
+            {
+              "url": "https://b46223.5.cdn.telefonica.com/46223/_-_psi_-_/f2a-Dashavc/ZDF.mpd",
+              "pid": "MED14786_CDNLIVE",
+              "quality": 2,
+              "drmType": 4,
+              "streamingType": 4
+            }
+          ],
+          "maxQualities": {
+            "401": 2
+          },
+          "cdnBuffer": 600,
+          "isLatencyKey": true,
+          "isStartOverBeforeBufferEnabled": true,
+          "isStartOverEnabled": true
+        },
+        "rights": {
+          "canWatch": true,
+          "isSubscribed": true,
+          "endDate": 2114380800,
+          "subscription": {
+            "catalogItemId": 2471,
+            "catalogItemType": 132
+          }
+        },
+        "buttons": {
+          "isHiddenChannelVisible": false,
+          "isPlayVisible": true,
+          "isPlayLiveChannelVisible": false,
+          "isStopWatchingVisible": false,
+          "isPlayAgainVisible": false,
+          "isRecordingEpisodeVisible": true,
+          "isRecordingSingleVisible": true,
+          "isRecordingSeasonVisible": false,
+          "isRecordingSeriesVisible": true,
+          "isRecordingCancelEpisodeVisible": false,
+          "isRecordingCancelSingleVisible": false,
+          "isRecordingCancelSeasonVisible": false,
+          "isRecordingCancelSeriesVisible": false,
+          "isHomeBlockUnlockVisible": false,
+          "isPlayFromBeginningVisible": true,
+          "isSubscribeVisible": false
+        },
+        "isContentRecordable": {
+          "isCpvrAvailable": true,
+          "isRpvrAvailable": false
+        },
+        "hasAds": false,
+        "hasPrerollAds": false,
+        "hasThumbnails": true
+      },
+      "relatedContents": {
+        "collectionLayoutStyle": "portraitSmall",
+        "type": "category",
+        "contents": [
+          {
+            "pid": "LSR221018",
+            "title": "Der Kommissar",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F34%2F23341657_f6bea612c89cc89f84183236dfbbc6b4.jpg&template=3&title=Der%20Kommissar"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F34%2F23341657_f6bea612c89cc89f84183236dfbbc6b4.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen",
+              "Serie"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486378_82EB74948D27104B.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.1",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": true
+            },
+            "logoutUrl": "",
+            "distributor": "Heimatkanal",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6396",
+              "title": "Heimatkanal",
+              "callLetter": "Heimatkanal",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 36,
+              "channelNumber": 523,
+              "lxdChannel": "CHA16215",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486378_82EB74948D27104B.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 150,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "subscriptions": [
+              {
+                "pid": "SUB2505",
+                "title": "Pay-TV für o2 TV",
+                "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                "image": {
+                  "type": "Banner",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                },
+                "commercialization": {
+                  "isTvod": false,
+                  "isSubscribable": true
+                },
+                "buttons": {
+                  "isSubscribeVisible": true
+                }
+              }
+            ],
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": false,
+              "isSubscribed": false
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR237280",
+            "title": "Die Kanzlei",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F60%2F23607782_2543c9282bfe7ab9bfc2c42ae7a271bb.jpg&template=3&title=Die%20Kanzlei"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F60%2F23607782_2543c9282bfe7ab9bfc2c42ae7a271bb.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen",
+              "Serie"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473115_24D076C6F3E423E3.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.2",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "Das Erste",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6359",
+              "title": "Das Erste",
+              "callLetter": "Das Erste",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 1,
+              "channelNumber": 1,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": true
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473115_24D076C6F3E423E3.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR307765",
+            "title": "Navy CIS: Origins",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23723044_28d8e3b80cedccee662340b4e0125d70.jpg&template=3&title=Navy%20CIS%3A%20Origins"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23723044_28d8e3b80cedccee662340b4e0125d70.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen",
+              "Serie"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.3",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": true
+            },
+            "logoutUrl": "",
+            "distributor": "Sat1 emotions",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6439",
+              "title": "SAT.1 emotions",
+              "callLetter": "Sat1 emotions",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 76,
+              "channelNumber": 535,
+              "lxdChannel": "CHA16232",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 90,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "subscriptions": [
+              {
+                "pid": "SUB2505",
+                "title": "Pay-TV für o2 TV",
+                "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                "image": {
+                  "type": "Banner",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                },
+                "commercialization": {
+                  "isTvod": false,
+                  "isSubscribable": true
+                },
+                "buttons": {
+                  "isSubscribeVisible": true
+                }
+              }
+            ],
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": false,
+              "isSubscribed": false
+            },
+            "isHomeBlocked": true
+          },
+          {
+            "pid": "LSR328450",
+            "title": "Blue Lights",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F60%2F28605877_599a0471cc11068f11f66943f512257c.jpg&template=3&title=Blue%20Lights"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F60%2F28605877_599a0471cc11068f11f66943f512257c.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen",
+              "Serie"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473004_D01273287AFD412F.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.4",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": true
+            },
+            "logoutUrl": "",
+            "distributor": "AXN HD",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6360",
+              "title": "AXN Black",
+              "callLetter": "AXN HD",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 10,
+              "channelNumber": 505,
+              "lxdChannel": "CHA16222",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473004_D01273287AFD412F.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 150,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "subscriptions": [
+              {
+                "pid": "SUB2505",
+                "title": "Pay-TV für o2 TV",
+                "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                "image": {
+                  "type": "Banner",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                },
+                "commercialization": {
+                  "isTvod": false,
+                  "isSubscribable": true
+                },
+                "buttons": {
+                  "isSubscribeVisible": true
+                }
+              }
+            ],
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": false,
+              "isSubscribed": false
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR228077",
+            "title": "Until I Kill You",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F25%2F87%2F25877947_4ef62ca4f7d6949378241c015dd18b2c.jpg&template=3&title=Until%20I%20Kill%20You"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F25%2F87%2F25877947_4ef62ca4f7d6949378241c015dd18b2c.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Verbrechen",
+              "Serie",
+              "Drama"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473004_D01273287AFD412F.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.5",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": true
+            },
+            "logoutUrl": "",
+            "distributor": "AXN HD",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6360",
+              "title": "AXN Black",
+              "callLetter": "AXN HD",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 10,
+              "channelNumber": 505,
+              "lxdChannel": "CHA16222",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473004_D01273287AFD412F.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 150,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "subscriptions": [
+              {
+                "pid": "SUB2505",
+                "title": "Pay-TV für o2 TV",
+                "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                "image": {
+                  "type": "Banner",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                },
+                "commercialization": {
+                  "isTvod": false,
+                  "isSubscribable": true
+                },
+                "buttons": {
+                  "isSubscribeVisible": true
+                }
+              }
+            ],
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": false,
+              "isSubscribed": false
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR221331",
+            "title": "Deadly Tropics",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F71%2F23711148_c28be1cd9ae49ca42954ddd3d83848db.jpg&template=3&title=Deadly%20Tropics"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F71%2F23711148_c28be1cd9ae49ca42954ddd3d83848db.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen",
+              "Serie"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.6",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": true
+            },
+            "logoutUrl": "",
+            "distributor": "Sat1 emotions",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6439",
+              "title": "SAT.1 emotions",
+              "callLetter": "Sat1 emotions",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 76,
+              "channelNumber": 535,
+              "lxdChannel": "CHA16232",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 90,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "subscriptions": [
+              {
+                "pid": "SUB2505",
+                "title": "Pay-TV für o2 TV",
+                "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                "image": {
+                  "type": "Banner",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                },
+                "commercialization": {
+                  "isTvod": false,
+                  "isSubscribable": true
+                },
+                "buttons": {
+                  "isSubscribeVisible": true
+                }
+              }
+            ],
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": false,
+              "isSubscribed": false
+            },
+            "isHomeBlocked": true
+          },
+          {
+            "pid": "LSR288537",
+            "title": "Mary Higgins Clark - Mysteriöse Verbrechen",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F24%2F82%2F24822032_808382e9ca15e801b7fd738603a3896a.jpg&template=3&title=Mary%20Higgins%20Clark%20-%20Mysteri%C3%B6se%20Verbrechen"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F24%2F82%2F24822032_808382e9ca15e801b7fd738603a3896a.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen",
+              "Serie"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26489279_57E0D3DB972AD99B.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.7",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "ONE",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6391",
+              "title": "ONE",
+              "callLetter": "ONE",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 31,
+              "channelNumber": 15,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26489279_57E0D3DB972AD99B.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR311631",
+            "title": "Großstadtrevier",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F59%2F28591634_5f4f44c87ddca9377eee8be1377011a5.jpg&template=3&title=Gro%C3%9Fstadtrevier"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F59%2F28591634_5f4f44c87ddca9377eee8be1377011a5.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen",
+              "Serie"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486430_F1287A66C4852BE0.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.8",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "MDR Sachsen HD",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE231",
+              "age": 6,
+              "code": "6",
+              "shortDescription": "Ab 6 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6570",
+              "title": "MDR Sachsen",
+              "callLetter": "MDR Sachsen HD",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 132,
+              "channelNumber": 38,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486430_F1287A66C4852BE0.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR311344",
+            "title": "T und T",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23331137_a160e44ae2733676403848d17c44a4dc.jpg&template=3&title=T%20und%20T"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23331137_a160e44ae2733676403848d17c44a4dc.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen",
+              "Serie"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490692_8131AD6A8E2D7B7F.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.9",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "RiC",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6430",
+              "title": "RiC",
+              "callLetter": "RiC",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 67,
+              "channelNumber": 83,
+              "lxdChannel": "CHA15550",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490692_8131AD6A8E2D7B7F.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR325890",
+            "title": "De big fuck-up",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F51%2F28517481_c72b6b982819e154c623528a25ca236d.jpg&template=3&title=De%20big%20fuck-up"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F51%2F28517481_c72b6b982819e154c623528a25ca236d.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen",
+              "Serie"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "trackId": "708648358.202.1794173994833.10",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": true
+            },
+            "logoutUrl": "",
+            "distributor": "Pro7 FUN HD",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6425",
+              "title": "ProSieben FUN",
+              "callLetter": "Pro7 FUN HD",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 62,
+              "channelNumber": 530,
+              "lxdChannel": "CHA16227",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 90,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "subscriptions": [
+              {
+                "pid": "SUB2505",
+                "title": "Pay-TV für o2 TV",
+                "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                "image": {
+                  "type": "Banner",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                },
+                "commercialization": {
+                  "isTvod": false,
+                  "isSubscribable": true
+                },
+                "buttons": {
+                  "isSubscribeVisible": true
+                }
+              }
+            ],
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": false,
+              "isSubscribed": false
+            },
+            "isHomeBlocked": true
+          }
+        ]
+      },
+      "tags": {
+        "completed": false,
+        "favorite": false,
+        "follow": false,
+        "hidden": false,
+        "watched": false
+      },
+      "buttons": {
+        "isAddMyListVisible": true,
+        "isRemoveMyListVisible": false,
+        "isStopWatchingVisible": false
+      },
+      "requestId": "OP-31991d2892b1a22e6702b08f6579a99c",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 221
+  }
+}

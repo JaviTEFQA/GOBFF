@@ -1,0 +1,77 @@
+{
+  "endpointId": "GET nsh/recordings/storage-info",
+  "samples": 1,
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "storageInfo": {
+        "types": [
+          "object"
+        ],
+        "properties": {
+          "available": {
+            "types": [
+              "number"
+            ]
+          },
+          "percentage": {
+            "types": [
+              "number"
+            ]
+          },
+          "state": {
+            "types": [
+              "string"
+            ]
+          },
+          "total": {
+            "types": [
+              "number"
+            ]
+          },
+          "usedPercentage": {
+            "types": [
+              "number"
+            ]
+          },
+          "usedState": {
+            "types": [
+              "string"
+            ]
+          },
+          "warningThreshold": {
+            "types": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "available",
+          "percentage",
+          "state",
+          "total",
+          "usedPercentage",
+          "usedState",
+          "warningThreshold"
+        ]
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "requestId",
+      "storageInfo",
+      "version"
+    ]
+  }
+}

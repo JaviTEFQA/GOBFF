@@ -1,0 +1,206 @@
+[
+  {
+    "endpointId": "GET channels",
+    "slug": "GET__channels",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/channels?appVersion=26.10.100&isPlayable=true&deviceType=401&commercialOffer=128%7CTVOD&channelMap=929&is_kids=false"
+  },
+  {
+    "endpointId": "GET directory/getConfig",
+    "slug": "GET__directory_getConfig",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/directory/getConfig?instanceId=45&deviceType=401&fields=service_urls,device_parameters,extra_config&consumerKey=web_de_2610100"
+  },
+  {
+    "endpointId": "GET nsh/channels/userOrder",
+    "slug": "GET__nsh_channels_userOrder",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/channels/userOrder?appVersion=26.10.100&isPlayable=true"
+  },
+  {
+    "endpointId": "GET nsh/menu",
+    "slug": "GET__nsh_menu",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/menu?appVersion=26.10.100"
+  },
+  {
+    "endpointId": "GET nsh/profiles",
+    "slug": "GET__nsh_profiles",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/profiles?appVersion=26.10.100"
+  },
+  {
+    "endpointId": "GET nsh/recordings",
+    "slug": "GET__nsh_recordings",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/recordings?appVersion=26.10.100"
+  },
+  {
+    "endpointId": "GET nsh/recordings/storage-info",
+    "slug": "GET__nsh_recordings_storage-info",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/recordings/storage-info?appVersion=26.10.100"
+  },
+  {
+    "endpointId": "GET nsh/settings",
+    "slug": "GET__nsh_settings",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "settings-section"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/settings?appVersion=26.10.100"
+  },
+  {
+    "endpointId": "GET nsh/thematic-grid-page/{pid}",
+    "slug": "GET__nsh_thematic-grid-page_pid",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "content-grid"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/thematic-grid-page/CHA18957?appVersion=26.10.100&page=1"
+  },
+  {
+    "endpointId": "GET nsh/thematic-site-page-prio",
+    "slug": "GET__nsh_thematic-site-page-prio",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/thematic-site-page-prio?appVersion=26.10.100"
+  },
+  {
+    "endpointId": "GET nsh/thematic-site-page/{pid}",
+    "slug": "GET__nsh_thematic-site-page_pid",
+    "method": "GET",
+    "samples": 5,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "detail-movie",
+      "favorites",
+      "mediathek",
+      "player-vod",
+      "streaming"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/thematic-site-page/CHA14798?appVersion=26.10.100&page=1"
+  },
+  {
+    "endpointId": "GET nsh/unified-detailed/{pid}",
+    "slug": "GET__nsh_unified-detailed_pid",
+    "method": "GET",
+    "samples": 6,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "detail-live-serie",
+      "detail-movie",
+      "detail-serie",
+      "player",
+      "player-vod"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/unified-detailed/LSC642209194?appVersion=26.10.100"
+  },
+  {
+    "endpointId": "GET playback/information",
+    "slug": "GET__playback_information",
+    "method": "GET",
+    "samples": 4,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "detail-serie",
+      "mediathek"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/playback/information?appVersion=26.10.100&contentPid=EPI53009069&mediaType=1&maxQuality=3&streamingType=4"
+  },
+  {
+    "endpointId": "GET users/switchProfile",
+    "slug": "GET__users_switchProfile",
+    "method": "GET",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/users/switchProfile?appVersion=26.10.100&profileid=30"
+  },
+  {
+    "endpointId": "POST nsh/users/{id}/homezone/check",
+    "slug": "POST__nsh_users_id_homezone_check",
+    "method": "POST",
+    "samples": 1,
+    "statuses": [
+      200
+    ],
+    "journeys": [
+      "epg-detail"
+    ],
+    "exampleUrl": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/users/37244142/homezone/check?appVersion=26.10.100"
+  }
+]

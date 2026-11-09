@@ -1,0 +1,180 @@
+{
+  "endpointId": "GET nsh/channels/userOrder",
+  "samples": 1,
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "userChannels": {
+        "types": [
+          "array"
+        ],
+        "items": {
+          "types": [
+            "object"
+          ],
+          "properties": {
+            "callLetter": {
+              "types": [
+                "string"
+              ]
+            },
+            "channelMapNumber": {
+              "types": [
+                "number"
+              ]
+            },
+            "channelNumber": {
+              "types": [
+                "number"
+              ]
+            },
+            "hasPlaylistExperience": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "image": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "url": {
+                  "types": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "url"
+              ]
+            },
+            "isDolby": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "isDolbyAtmos": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "isFastChannel": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "isKids": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "pid": {
+              "types": [
+                "string"
+              ]
+            },
+            "renderChild": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "tags": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "completed": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "favorite": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "follow": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "hidden": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "watched": {
+                  "types": [
+                    "boolean"
+                  ]
+                }
+              },
+              "required": [
+                "completed",
+                "favorite",
+                "follow",
+                "hidden",
+                "watched"
+              ]
+            },
+            "title": {
+              "types": [
+                "string"
+              ]
+            },
+            "userChannelNumber": {
+              "types": [
+                "number"
+              ]
+            },
+            "wmk": {
+              "types": [
+                "boolean"
+              ]
+            }
+          },
+          "required": [
+            "callLetter",
+            "channelMapNumber",
+            "channelNumber",
+            "hasPlaylistExperience",
+            "image",
+            "isDolby",
+            "isDolbyAtmos",
+            "isFastChannel",
+            "isKids",
+            "pid",
+            "renderChild",
+            "tags",
+            "title",
+            "userChannelNumber",
+            "wmk"
+          ]
+        }
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "requestId",
+      "userChannels",
+      "version"
+    ]
+  }
+}

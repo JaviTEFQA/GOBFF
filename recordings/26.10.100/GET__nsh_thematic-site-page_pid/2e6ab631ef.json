@@ -1,0 +1,3093 @@
+{
+  "endpointId": "GET nsh/thematic-site-page/{pid}",
+  "key": "GET nsh/thematic-site-page/CHA14798?appVersion=26.10.100&page=2",
+  "journey": "mediathek",
+  "recordedAt": "2026-11-08T21:35:07.636Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/thematic-site-page/CHA14798?appVersion=26.10.100&page=2",
+    "servicePath": "nsh/thematic-site-page/CHA14798",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/catalog/mediathek-14798",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:35:05 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:35:05 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-07b373885c7f87e2bd0af0daad33bb0d",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "thematicSite": [
+        {
+          "type": "category",
+          "collectionLayoutStyle": "portraitSmall",
+          "pid": "CHA19154",
+          "title": "Highlights aus dem Pay-TV",
+          "showGrid": false,
+          "showAllPid": "CHA19154",
+          "refreshAfter": 1794174005,
+          "requiresPin": false,
+          "isMoreContentsEnabled": true,
+          "contents": [
+            {
+              "pid": "LSR307765",
+              "title": "Navy CIS: Origins",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23723044_28d8e3b80cedccee662340b4e0125d70.jpg&template=3&title=Navy%20CIS%3A%20Origins"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23723044_28d8e3b80cedccee662340b4e0125d70.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Drama",
+                "Verbrechen",
+                "Serie"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Sat1 emotions",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6439",
+                "title": "SAT.1 emotions",
+                "callLetter": "Sat1 emotions",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 76,
+                "channelNumber": 535,
+                "lxdChannel": "CHA16232",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR220618",
+              "title": "Rizzoli & Isles",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F60%2F23607742_ff1772250b4f5d23b04dfe0a0cf4f738.jpg&template=3&title=Rizzoli%20%26%20Isles"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F60%2F23607742_ff1772250b4f5d23b04dfe0a0cf4f738.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Drama",
+                "Verbrechen",
+                "Serie"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490980_7FD6E9BEA01FCB39.png"
+                }
+              },
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "WarnerTV Serie HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6541",
+                "title": "Warner TV Serie",
+                "callLetter": "WarnerTV Serie HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 121,
+                "channelNumber": 543,
+                "lxdChannel": "CHA16236",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490980_7FD6E9BEA01FCB39.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 150,
+                "isDolby": true,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": false,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR226391",
+              "title": "Rescue: HI-Surf",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F32%2F28326721_54855ac40f792cbbb95027e9324ca652.jpg&template=3&title=Rescue%3A%20HI-Surf"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F32%2F28326721_54855ac40f792cbbb95027e9324ca652.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Action",
+                "Serie",
+                "Drama"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490980_7FD6E9BEA01FCB39.png"
+                }
+              },
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "WarnerTV Serie HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6541",
+                "title": "Warner TV Serie",
+                "callLetter": "WarnerTV Serie HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 121,
+                "channelNumber": 543,
+                "lxdChannel": "CHA16236",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490980_7FD6E9BEA01FCB39.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 150,
+                "isDolby": true,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": false,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR221315",
+              "title": "Die dreisten drei - Die Comedy-WG",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F32%2F23325774_0cf73da6bfb207e6d230be556e489aad.jpg&template=3&title=Die%20dreisten%20drei%20-%20Die%20Comedy-WG"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F32%2F23325774_0cf73da6bfb207e6d230be556e489aad.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Comedy Show"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Sat1 emotions",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6439",
+                "title": "SAT.1 emotions",
+                "callLetter": "Sat1 emotions",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 76,
+                "channelNumber": 535,
+                "lxdChannel": "CHA16232",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR220602",
+              "title": "Young Sheldon",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F53%2F28533589_bc0f8353a920de7a3ead7da5d8b45a4f.jpg&template=3&title=Young%20Sheldon"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F53%2F28533589_bc0f8353a920de7a3ead7da5d8b45a4f.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Comedy",
+                "Familie",
+                "Serie"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490978_D2E36912D83F93B7.png"
+                }
+              },
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "WarnerTV Comedy HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6543",
+                "title": "Warner TV Comedy",
+                "callLetter": "WarnerTV Comedy HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 119,
+                "channelNumber": 544,
+                "lxdChannel": "CHA16237",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490978_D2E36912D83F93B7.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 150,
+                "isDolby": true,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": false,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR308340",
+              "title": "Fosse/Verdon",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F24%2F94%2F24948700_7a65f254c46eea626be8ab565b08e7a6.jpg&template=3&title=Fosse%2FVerdon"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F24%2F94%2F24948700_7a65f254c46eea626be8ab565b08e7a6.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Drama",
+                "Miniserie"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Sat1 emotions",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6439",
+                "title": "SAT.1 emotions",
+                "callLetter": "Sat1 emotions",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 76,
+                "channelNumber": 535,
+                "lxdChannel": "CHA16232",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR300435",
+              "title": "Common Side Effects",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F90%2F23903828_cd8a1cb28ff0ac632318202cde14f023.jpg&template=3&title=Common%20Side%20Effects"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F90%2F23903828_cd8a1cb28ff0ac632318202cde14f023.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Comedy",
+                "Drama",
+                "Thriller"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490978_D2E36912D83F93B7.png"
+                }
+              },
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "WarnerTV Comedy HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE233",
+                "age": 16,
+                "code": "16",
+                "shortDescription": "Ab 16 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6543",
+                "title": "Warner TV Comedy",
+                "callLetter": "WarnerTV Comedy HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 119,
+                "channelNumber": 544,
+                "lxdChannel": "CHA16237",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490978_D2E36912D83F93B7.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 150,
+                "isDolby": true,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": false,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR239248",
+              "title": "Ash vs. Evil Dead",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F27%2F97%2F27978726_f9598e0bcba57fca0d218929c4ac6e06.jpg&template=3&title=Ash%20vs.%20Evil%20Dead"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F27%2F97%2F27978726_f9598e0bcba57fca0d218929c4ac6e06.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Action",
+                "Comedy",
+                "Horror"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Pro7 FUN HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE234",
+                "age": 18,
+                "code": "18",
+                "shortDescription": "Ab 18 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924774_9685E4AEB60994ED.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6425",
+                "title": "ProSieben FUN",
+                "callLetter": "Pro7 FUN HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 62,
+                "channelNumber": 530,
+                "lxdChannel": "CHA16227",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR221710",
+              "title": "American Horror Story",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F55%2F28557004_81a80ebc1eb4da574ea7344013067149.jpg&template=3&title=American%20Horror%20Story"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F55%2F28557004_81a80ebc1eb4da574ea7344013067149.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Drama",
+                "Horror",
+                "Thriller"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Pro7 FUN HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE233",
+                "age": 16,
+                "code": "16",
+                "shortDescription": "Ab 16 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6425",
+                "title": "ProSieben FUN",
+                "callLetter": "Pro7 FUN HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 62,
+                "channelNumber": 530,
+                "lxdChannel": "CHA16227",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR235465",
+              "title": "Tramitz and Friends",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23339322_6c024336ecef76053e15109549278970.jpg&template=3&title=Tramitz%20and%20Friends"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23339322_6c024336ecef76053e15109549278970.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Comedy Show"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Pro7 FUN HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6425",
+                "title": "ProSieben FUN",
+                "callLetter": "Pro7 FUN HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 62,
+                "channelNumber": 530,
+                "lxdChannel": "CHA16227",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR221712",
+              "title": "Counterpart",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F88%2F26885433_9ed6fb4d27a54cb043be5c035f5bd10b.jpg&template=3&title=Counterpart"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F88%2F26885433_9ed6fb4d27a54cb043be5c035f5bd10b.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Drama",
+                "Thriller",
+                "Serie"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Pro7 FUN HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE233",
+                "age": 16,
+                "code": "16",
+                "shortDescription": "Ab 16 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6425",
+                "title": "ProSieben FUN",
+                "callLetter": "Pro7 FUN HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 62,
+                "channelNumber": 530,
+                "lxdChannel": "CHA16227",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR221326",
+              "title": "Danni Lowinski",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F25%2F87%2F25877936_b30550ccf022c8a95cda738645bb7a67.jpg&template=3&title=Danni%20Lowinski"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F25%2F87%2F25877936_b30550ccf022c8a95cda738645bb7a67.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Comedy",
+                "Drama",
+                "Serie"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Sat1 emotions",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6439",
+                "title": "SAT.1 emotions",
+                "callLetter": "Sat1 emotions",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 76,
+                "channelNumber": 535,
+                "lxdChannel": "CHA16232",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR228417",
+              "title": "Beforeigners - Mörderische Zeiten",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23723039_e4907c4b58fec63112416a4c83f84f9f.jpg&template=3&title=Beforeigners%20-%20M%C3%B6rderische%20Zeiten"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23723039_e4907c4b58fec63112416a4c83f84f9f.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Drama",
+                "Serie",
+                "Science Fiction"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Pro7 FUN HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6425",
+                "title": "ProSieben FUN",
+                "callLetter": "Pro7 FUN HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 62,
+                "channelNumber": 530,
+                "lxdChannel": "CHA16227",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR319276",
+              "title": "Panhandle",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F27%2F92%2F27929861_f0e2447572114b14cde942e7b62b14d1.jpg&template=3&title=Panhandle"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F27%2F92%2F27929861_f0e2447572114b14cde942e7b62b14d1.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Comedy",
+                "Serie"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Pro7 FUN HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6425",
+                "title": "ProSieben FUN",
+                "callLetter": "Pro7 FUN HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 62,
+                "channelNumber": 530,
+                "lxdChannel": "CHA16227",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR221321",
+              "title": "Morden im Norden",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F32%2F23327941_4760f3498483b5fe3ac16680517668c0.jpg&template=3&title=Morden%20im%20Norden"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F32%2F23327941_4760f3498483b5fe3ac16680517668c0.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Comedy",
+                "Thriller",
+                "Verbrechen"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Sat1 emotions",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6439",
+                "title": "SAT.1 emotions",
+                "callLetter": "Sat1 emotions",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 76,
+                "channelNumber": 535,
+                "lxdChannel": "CHA16232",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR325890",
+              "title": "De big fuck-up",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F51%2F28517481_c72b6b982819e154c623528a25ca236d.jpg&template=3&title=De%20big%20fuck-up"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F51%2F28517481_c72b6b982819e154c623528a25ca236d.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Drama",
+                "Verbrechen",
+                "Serie"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Pro7 FUN HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6425",
+                "title": "ProSieben FUN",
+                "callLetter": "Pro7 FUN HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 62,
+                "channelNumber": 530,
+                "lxdChannel": "CHA16227",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490684_1271B6B6068A5C62.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR220612",
+              "title": "Navy CIS",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F60%2F23606927_31e57220d30202904b1289a4b82d17f3.jpg&template=3&title=Navy%20CIS"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F60%2F23606927_31e57220d30202904b1289a4b82d17f3.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Action",
+                "Drama",
+                "Thriller"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490980_7FD6E9BEA01FCB39.png"
+                }
+              },
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "WarnerTV Serie HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6541",
+                "title": "Warner TV Serie",
+                "callLetter": "WarnerTV Serie HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 121,
+                "channelNumber": 543,
+                "lxdChannel": "CHA16236",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490980_7FD6E9BEA01FCB39.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 150,
+                "isDolby": true,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": false,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR221319",
+              "title": "Knallerfrauen",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F32%2F23329782_a88c0f759db5dd4faea534ae20ef92d1.jpg&template=3&title=Knallerfrauen"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F32%2F23329782_a88c0f759db5dd4faea534ae20ef92d1.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Comedy Show"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Sat1 emotions",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6439",
+                "title": "SAT.1 emotions",
+                "callLetter": "Sat1 emotions",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 76,
+                "channelNumber": 535,
+                "lxdChannel": "CHA16232",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR263280",
+              "title": "Genial daneben",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F90%2F23903829_6dcceb6295540d627a2733282d1fb275.jpg&template=3&title=Genial%20daneben"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F90%2F23903829_6dcceb6295540d627a2733282d1fb275.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Comedy Show"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Sat1 emotions",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6439",
+                "title": "SAT.1 emotions",
+                "callLetter": "Sat1 emotions",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 76,
+                "channelNumber": 535,
+                "lxdChannel": "CHA16232",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490702_30A9423CD3D22AF3.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 90,
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": true,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            },
+            {
+              "pid": "LSR221414",
+              "title": "Hotel Portofino",
+              "commercializationType": 6,
+              "requiresPin": false,
+              "images": [
+                {
+                  "type": "BobPortrait",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F70%2F23709578_5f67818526dd7e066aa9bb25a18daed9.jpg&template=3&title=Hotel%20Portofino"
+                },
+                {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F70%2F23709578_5f67818526dd7e066aa9bb25a18daed9.jpg&template=5"
+                }
+              ],
+              "genres": [
+                "Drama",
+                "Serie",
+                "Geschichte"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473007_D35B076F7D2ACA75.png"
+                }
+              },
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": true
+              },
+              "logoutUrl": "",
+              "distributor": "Sony Channel HD",
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "liveChannel": {
+                "pid": "LCH6448",
+                "title": "AXN White",
+                "callLetter": "Sony Channel HD",
+                "distributorId": 0,
+                "epgLiveChannelReferenceId": 84,
+                "channelNumber": 504,
+                "lxdChannel": "CHA16221",
+                "tags": {
+                  "completed": false,
+                  "favorite": false,
+                  "follow": false,
+                  "hidden": false,
+                  "watched": false
+                },
+                "image": {
+                  "type": "Extra",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473007_D35B076F7D2ACA75.png"
+                },
+                "hasPlaylistExperience": false,
+                "isFastChannel": false,
+                "maxLiveNowGap": 150,
+                "isDolby": true,
+                "isDolbyAtmos": false,
+                "wmk": false,
+                "isKids": false
+              },
+              "subscriptions": [
+                {
+                  "pid": "SUB2505",
+                  "title": "Pay-TV für o2 TV",
+                  "description": "- Über 40 Pay-TV Sender in HD für Sportbegeisterte, Kinofans, Serienjunkies, Kinder, Doku-Interessierte u.v.m.\r\n- 1 Monat gratis testen, jederzeit kündbar",
+                  "image": {
+                    "type": "Banner",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/61/28611718_3AB314720C3B7B39.png"
+                  },
+                  "logo": {
+                    "image": {
+                      "type": "Icon",
+                      "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/62/28621858_9B33DD180FE75264.png"
+                    }
+                  },
+                  "commercialization": {
+                    "isTvod": false,
+                    "isSubscribable": true
+                  },
+                  "isPurchaseAllowed": false,
+                  "buttons": {
+                    "isSubscribeVisible": true
+                  }
+                }
+              ],
+              "buttons": {
+                "isSubscribeVisible": true
+              },
+              "rights": {
+                "canWatch": false,
+                "isSubscribed": false
+              },
+              "bars": {
+                "isSubscribeOnlyVisible": true,
+                "isSubscribeErrorVisible": false,
+                "isHomeBlockErrorVisible": false
+              },
+              "isHomeBlocked": false,
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "collectionLayoutStyle": "shapedSquaredSmall",
+          "pid": "CHA16433",
+          "title": "TV-Archiv nach Pay-TV Sendern",
+          "showGrid": false,
+          "showAllPid": "CHA16433",
+          "refreshAfter": 1794174005,
+          "requiresPin": false,
+          "isMoreContentsEnabled": false,
+          "contents": [
+            {
+              "pid": "CHA15593",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA15593",
+              "title": "13th Street",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/92/19923358_6DBB3E1B2A120170.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16228",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA16228",
+              "title": "Romance TV",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17795043_ED1B65AB6BC3AE2C.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA17636",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA17636",
+              "title": "Universal TV",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/78/20788136_33D2CF50E94F903C.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15559",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA15559",
+              "title": "Crime + Investigation",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20072783_23D55383EAC344BE.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA17635",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA17635",
+              "title": "Sky Sci-fi",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/87/23878251_BF1637B6DFC85A07.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              },
+              "uniqueChild": {
+                "pid": "SER45730810",
+                "distributor": "NBCU"
+              }
+            },
+            {
+              "pid": "CHA16237",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA16237",
+              "title": "Warner TV Comedy",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956003_1C261F907B399B62.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16238",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA16238",
+              "title": "Warner TV Film",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/59/20591844_A912DECA6776B7A7.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15565",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA15565",
+              "title": "The HISTORY Channel",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/54/20541963_54A93B83853B55EA.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16236",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA16236",
+              "title": "Warner TV Serie",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956004_BD3E0FA336A78326.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16434",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA16434",
+              "title": "ProSiebenSat.1",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/00/20002321_F7D42DCC71872DC6.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16215",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA16215",
+              "title": "Heimatkanal",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20072786_8B8A5AA71AB40F24.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15561",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA15561",
+              "title": "Discovery Channel",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/54/20541892_642B7ABADD676087.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16222",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA16222",
+              "title": "AXN Black",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20070818_FB5AB21B2C77DAF6.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15588",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA15588",
+              "title": "Animal Planet",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/54/20541940_88E034111F1AFA02.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16221",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA16221",
+              "title": "AXN White",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20070817_E39232D8D27607BD.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16235",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA16235",
+              "title": "Sportdigital FUSSBALL",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20072782_F0985CD3BF2338B8.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA19286",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA19286",
+              "title": "Eurosport 2",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/59/20592411_1F3851CD7FDB879A.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16226",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA16226",
+              "title": "Nick Jr.",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/81/22817704_F7A2C157E24E6123.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16234",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA16234",
+              "title": "Sportdigital1+",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/81/22817592_4CC838C20D6E8EB5.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15581",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA15581",
+              "title": "GoldStar TV",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20072793_8AB542A975956423.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16224",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA16224",
+              "title": "Motorvision+",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20072806_30E098F8B59E44FA.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16239",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA16239",
+              "title": "wetter.com TV",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/54/20541898_050F35C051591A85.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15579",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA15579",
+              "title": "Fix & Foxi",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20072788_4A160054F0351949.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA16220",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA16220",
+              "title": "Waidwerk",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17790606_346C7F0FBE1DB0CF.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15591",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA15591",
+              "title": "auto, motor und sport TV",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20072784_60DADF16EF0025D5.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15481",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA15481",
+              "title": "Bergblick",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789124_F8946E02385A70F8.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15585",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA15585",
+              "title": "eSportsONE",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/14/25149447_449EC1AC0185A28D.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15558",
+              "description": "",
+              "showGrid": false,
+              "showAllPid": "CHA15558",
+              "title": "Sportdigital EDGE",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/14/25149783_0C78535F3A996783.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15554",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA15554",
+              "title": "Fight24",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/07/20072807_C69AE21E91E63804.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15590",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA15590",
+              "title": "360 TuneBox",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17794775_DDA6E09A592C3D9E.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              }
+            },
+            {
+              "pid": "CHA15548",
+              "description": "",
+              "showGrid": true,
+              "showAllPid": "CHA15548",
+              "title": "FightBox",
+              "logo": {
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/54/20541895_533121FAF21B0E62.png"
+                }
+              },
+              "image": {
+                "type": "Background",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/25/18258976_7F665910BC80FBFC.jpeg"
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false
+              },
+              "uniqueChild": {
+                "pid": "LSR224231",
+                "distributor": "FightBox HD"
+              }
+            }
+          ]
+        }
+      ],
+      "page": 2,
+      "nextPage": null,
+      "requestId": "OP-07b373885c7f87e2bd0af0daad33bb0d",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 308
+  }
+}

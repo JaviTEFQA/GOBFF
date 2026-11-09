@@ -1,0 +1,773 @@
+{
+  "endpointId": "GET nsh/thematic-grid-page/{pid}",
+  "samples": 1,
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "thematicGrid": {
+        "types": [
+          "object"
+        ],
+        "properties": {
+          "type": {
+            "types": [
+              "string"
+            ]
+          },
+          "title": {
+            "types": [
+              "string"
+            ]
+          },
+          "collectionLayoutStyle": {
+            "types": [
+              "string"
+            ]
+          },
+          "orderList": {
+            "types": [
+              "array"
+            ],
+            "items": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "0": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "1": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "2": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "8": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "9": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "10": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "11": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "isSelected": {
+                  "types": [
+                    "boolean"
+                  ]
+                }
+              },
+              "required": []
+            }
+          },
+          "refreshAfter": {
+            "types": [
+              "number"
+            ]
+          },
+          "requiresPin": {
+            "types": [
+              "boolean"
+            ]
+          },
+          "contents": {
+            "types": [
+              "array"
+            ],
+            "items": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "ageRating": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "age": {
+                      "types": [
+                        "number"
+                      ]
+                    },
+                    "code": {
+                      "types": [
+                        "string"
+                      ]
+                    },
+                    "image": {
+                      "types": [
+                        "object"
+                      ],
+                      "properties": {
+                        "type": {
+                          "types": [
+                            "string"
+                          ]
+                        },
+                        "url": {
+                          "types": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "url"
+                      ]
+                    },
+                    "isHidden": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "pid": {
+                      "types": [
+                        "string"
+                      ]
+                    },
+                    "shortDescription": {
+                      "types": [
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "age",
+                    "code",
+                    "image",
+                    "isHidden",
+                    "pid",
+                    "shortDescription"
+                  ]
+                },
+                "bars": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "isHomeBlockErrorVisible": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "isSubscribeErrorVisible": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "isSubscribeOnlyVisible": {
+                      "types": [
+                        "boolean"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "isHomeBlockErrorVisible",
+                    "isSubscribeErrorVisible",
+                    "isSubscribeOnlyVisible"
+                  ]
+                },
+                "buttons": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "isSubscribeVisible": {
+                      "types": [
+                        "boolean"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "isSubscribeVisible"
+                  ]
+                },
+                "commercialization": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "isSubscribable": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "isTvod": {
+                      "types": [
+                        "boolean"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "isSubscribable",
+                    "isTvod"
+                  ]
+                },
+                "commercializationType": {
+                  "types": [
+                    "number"
+                  ]
+                },
+                "distributor": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "genres": {
+                  "types": [
+                    "array"
+                  ],
+                  "items": {
+                    "types": [
+                      "string"
+                    ]
+                  }
+                },
+                "images": {
+                  "types": [
+                    "array"
+                  ],
+                  "items": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "type": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "url": {
+                        "types": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "url"
+                    ]
+                  }
+                },
+                "isDolby": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "isDolbyAtmos": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "isHomeBlocked": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "liveChannel": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "callLetter": {
+                      "types": [
+                        "string"
+                      ]
+                    },
+                    "channelNumber": {
+                      "types": [
+                        "number"
+                      ]
+                    },
+                    "distributorId": {
+                      "types": [
+                        "number"
+                      ]
+                    },
+                    "epgLiveChannelReferenceId": {
+                      "types": [
+                        "number"
+                      ]
+                    },
+                    "hasPlaylistExperience": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "image": {
+                      "types": [
+                        "object"
+                      ],
+                      "properties": {
+                        "type": {
+                          "types": [
+                            "string"
+                          ]
+                        },
+                        "url": {
+                          "types": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "url"
+                      ]
+                    },
+                    "isDolby": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "isDolbyAtmos": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "isFastChannel": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "isKids": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "lxdChannel": {
+                      "types": [
+                        "string"
+                      ]
+                    },
+                    "maxLiveNowGap": {
+                      "types": [
+                        "number"
+                      ]
+                    },
+                    "pid": {
+                      "types": [
+                        "string"
+                      ]
+                    },
+                    "tags": {
+                      "types": [
+                        "object"
+                      ],
+                      "properties": {
+                        "completed": {
+                          "types": [
+                            "boolean"
+                          ]
+                        },
+                        "favorite": {
+                          "types": [
+                            "boolean"
+                          ]
+                        },
+                        "follow": {
+                          "types": [
+                            "boolean"
+                          ]
+                        },
+                        "hidden": {
+                          "types": [
+                            "boolean"
+                          ]
+                        },
+                        "watched": {
+                          "types": [
+                            "boolean"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "completed",
+                        "favorite",
+                        "follow",
+                        "hidden",
+                        "watched"
+                      ]
+                    },
+                    "title": {
+                      "types": [
+                        "string"
+                      ]
+                    },
+                    "wmk": {
+                      "types": [
+                        "boolean"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "callLetter",
+                    "channelNumber",
+                    "distributorId",
+                    "epgLiveChannelReferenceId",
+                    "hasPlaylistExperience",
+                    "image",
+                    "isDolby",
+                    "isDolbyAtmos",
+                    "isFastChannel",
+                    "isKids",
+                    "lxdChannel",
+                    "maxLiveNowGap",
+                    "pid",
+                    "tags",
+                    "title",
+                    "wmk"
+                  ]
+                },
+                "logo": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "image": {
+                      "types": [
+                        "object"
+                      ],
+                      "properties": {
+                        "type": {
+                          "types": [
+                            "string"
+                          ]
+                        },
+                        "url": {
+                          "types": [
+                            "string"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "type",
+                        "url"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "image"
+                  ]
+                },
+                "logoutUrl": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "pid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "requiresPin": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "rights": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "canWatch": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "isSubscribed": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "subscription": {
+                      "types": [
+                        "object"
+                      ],
+                      "properties": {
+                        "catalogItemId": {
+                          "types": [
+                            "number"
+                          ]
+                        },
+                        "catalogItemType": {
+                          "types": [
+                            "number"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "catalogItemId",
+                        "catalogItemType"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "canWatch",
+                    "isSubscribed"
+                  ]
+                },
+                "subscriptions": {
+                  "types": [
+                    "array"
+                  ],
+                  "items": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "pid": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "title": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "description": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "image": {
+                        "types": [
+                          "object"
+                        ],
+                        "properties": {
+                          "type": {
+                            "types": [
+                              "string"
+                            ]
+                          },
+                          "url": {
+                            "types": [
+                              "string"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "url"
+                        ]
+                      },
+                      "logo": {
+                        "types": [
+                          "object"
+                        ],
+                        "properties": {
+                          "image": {
+                            "types": [
+                              "object"
+                            ],
+                            "properties": {
+                              "type": {
+                                "types": [
+                                  "string"
+                                ]
+                              },
+                              "url": {
+                                "types": [
+                                  "string"
+                                ]
+                              }
+                            },
+                            "required": [
+                              "type",
+                              "url"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "image"
+                        ]
+                      },
+                      "commercialization": {
+                        "types": [
+                          "object"
+                        ],
+                        "properties": {
+                          "isTvod": {
+                            "types": [
+                              "boolean"
+                            ]
+                          },
+                          "isSubscribable": {
+                            "types": [
+                              "boolean"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "isSubscribable",
+                          "isTvod"
+                        ]
+                      },
+                      "isPurchaseAllowed": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "buttons": {
+                        "types": [
+                          "object"
+                        ],
+                        "properties": {
+                          "isSubscribeVisible": {
+                            "types": [
+                              "boolean"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "isSubscribeVisible"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "buttons",
+                      "commercialization",
+                      "description",
+                      "image",
+                      "isPurchaseAllowed",
+                      "logo",
+                      "pid",
+                      "title"
+                    ]
+                  }
+                },
+                "tags": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "completed": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "favorite": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "follow": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "hidden": {
+                      "types": [
+                        "boolean"
+                      ]
+                    },
+                    "watched": {
+                      "types": [
+                        "boolean"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "completed",
+                    "favorite",
+                    "follow",
+                    "hidden",
+                    "watched"
+                  ]
+                },
+                "title": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "uxReference": {
+                  "types": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "ageRating",
+                "bars",
+                "buttons",
+                "commercialization",
+                "commercializationType",
+                "distributor",
+                "genres",
+                "images",
+                "isDolby",
+                "isDolbyAtmos",
+                "isHomeBlocked",
+                "liveChannel",
+                "logo",
+                "logoutUrl",
+                "pid",
+                "requiresPin",
+                "rights",
+                "tags",
+                "title",
+                "uxReference"
+              ]
+            }
+          }
+        },
+        "required": [
+          "collectionLayoutStyle",
+          "contents",
+          "orderList",
+          "refreshAfter",
+          "requiresPin",
+          "title",
+          "type"
+        ]
+      },
+      "page": {
+        "types": [
+          "number"
+        ]
+      },
+      "nextPage": {
+        "types": [
+          "number"
+        ]
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "nextPage",
+      "page",
+      "requestId",
+      "thematicGrid",
+      "version"
+    ]
+  }
+}

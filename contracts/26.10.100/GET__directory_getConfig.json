@@ -1,0 +1,35 @@
+{
+  "endpointId": "GET directory/getConfig",
+  "samples": 1,
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "SERVICE_URLS": {
+        "types": [
+          "object"
+        ],
+        "properties": {
+          "apiGw": {
+            "types": [
+              "string"
+            ]
+          },
+          "apiGwCdn": {
+            "types": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "apiGw",
+          "apiGwCdn"
+        ]
+      }
+    },
+    "required": [
+      "SERVICE_URLS"
+    ]
+  }
+}

@@ -1,0 +1,4383 @@
+{
+  "endpointId": "GET nsh/channels/userOrder",
+  "key": "GET nsh/channels/userOrder?appVersion=26.10.100&isPlayable=true",
+  "journey": "epg-detail",
+  "recordedAt": "2026-11-08T21:44:39.947Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/channels/userOrder?appVersion=26.10.100&isPlayable=true",
+    "servicePath": "nsh/channels/userOrder",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/tv-guide/epg",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:44:37 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:44:37 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-85840dcf62e493f177122dbef04842a6",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "userChannels": [
+        {
+          "pid": "LCH6378",
+          "title": "ZDF",
+          "callLetter": "ZDF",
+          "channelNumber": 2,
+          "channelMapNumber": 2,
+          "userChannelNumber": 1,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": true
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/16/17164436_6EF8EB10ACAAA4E9.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6359",
+          "title": "Das Erste",
+          "callLetter": "Das Erste",
+          "channelNumber": 1,
+          "channelMapNumber": 1,
+          "userChannelNumber": 2,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": true
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17784043_9142BA43684D98EB.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6435",
+          "title": "RTL",
+          "callLetter": "RTL",
+          "channelNumber": 3,
+          "channelMapNumber": 3,
+          "userChannelNumber": 3,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789383_B142750284B84EDE.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6438",
+          "title": "SAT.1",
+          "callLetter": "SAT.1",
+          "channelNumber": 4,
+          "channelMapNumber": 4,
+          "userChannelNumber": 4,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17834601_AE8B8F15A3E7F7B7.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6424",
+          "title": "ProSieben",
+          "callLetter": "ProSieben",
+          "channelNumber": 5,
+          "channelMapNumber": 5,
+          "userChannelNumber": 5,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17834602_F52CECEB5B629AA8.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6361",
+          "title": "VOX",
+          "callLetter": "VOX",
+          "channelNumber": 6,
+          "channelMapNumber": 6,
+          "userChannelNumber": 6,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17784044_C85EA24C05955BE6.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6416",
+          "title": "WELT",
+          "callLetter": "Welt",
+          "channelNumber": 8,
+          "channelMapNumber": 8,
+          "userChannelNumber": 7,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17784045_3F7E29A9642231BD.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6420",
+          "title": "ntv",
+          "callLetter": "n-tv",
+          "channelNumber": 9,
+          "channelMapNumber": 9,
+          "userChannelNumber": 8,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17834604_2366D150371EDF1E.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6400",
+          "title": "tagesschau24",
+          "callLetter": "Tagesschau24",
+          "channelNumber": 10,
+          "channelMapNumber": 10,
+          "userChannelNumber": 9,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/01/22010217_A0A5E5F91DB07428.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6368",
+          "title": "ZDFinfo",
+          "callLetter": "ZDFinfo",
+          "channelNumber": 11,
+          "channelMapNumber": 11,
+          "userChannelNumber": 10,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17834608_700AD95A6A8B7252.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6423",
+          "title": "phoenix",
+          "callLetter": "Phoenix",
+          "channelNumber": 12,
+          "channelMapNumber": 12,
+          "userChannelNumber": 11,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/99/21996781_566633F609ACA6DD.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6371",
+          "title": "BBC World News",
+          "callLetter": "BBC World News",
+          "channelNumber": 13,
+          "channelMapNumber": 13,
+          "userChannelNumber": 12,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/15/84/15847198_6C5566D38363CFF0.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6367",
+          "title": "ZDFneo",
+          "callLetter": "ZDFneo",
+          "channelNumber": 14,
+          "channelMapNumber": 14,
+          "userChannelNumber": 13,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17834607_2CB9AA4D0C17F6F4.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6391",
+          "title": "ONE",
+          "callLetter": "ONE",
+          "channelNumber": 15,
+          "channelMapNumber": 15,
+          "userChannelNumber": 14,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17838021_B252C86F3EFC3B8C.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6443",
+          "title": "ARTE",
+          "callLetter": "ARTE",
+          "channelNumber": 16,
+          "channelMapNumber": 16,
+          "userChannelNumber": 15,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17784884_2F3F90AD264891A6.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6389",
+          "title": "3sat",
+          "callLetter": "3sat",
+          "channelNumber": 17,
+          "channelMapNumber": 17,
+          "userChannelNumber": 16,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17784885_4D41E0DF236F8C0C.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6409",
+          "title": "KiKA",
+          "callLetter": "KiKA",
+          "channelNumber": 18,
+          "channelMapNumber": 18,
+          "userChannelNumber": 17,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789012_BBB322CDB4DF57BB.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6418",
+          "title": "Nickelodeon",
+          "callLetter": "Nickelodeon",
+          "channelNumber": 19,
+          "channelMapNumber": 19,
+          "userChannelNumber": 18,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/01/17017608_4C5D4CC83128FE7B.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6453",
+          "title": "SUPER RTL",
+          "callLetter": "Super RTL",
+          "channelNumber": 21,
+          "channelMapNumber": 21,
+          "userChannelNumber": 19,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/77/21778339_6D9E1DCF0D2B3B9E.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6432",
+          "title": "ARD-alpha",
+          "callLetter": "ARD-alpha",
+          "channelNumber": 22,
+          "channelMapNumber": 22,
+          "userChannelNumber": 20,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/87/17876272_BC1E4999C5847085.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6417",
+          "title": "N24 Doku",
+          "callLetter": "N24 Doku",
+          "channelNumber": 23,
+          "channelMapNumber": 23,
+          "userChannelNumber": 21,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17785001_9648CAF8824A29F2.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6404",
+          "title": "Kabel Eins Doku",
+          "callLetter": "kabel eins Doku",
+          "channelNumber": 25,
+          "channelMapNumber": 25,
+          "userChannelNumber": 22,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17834609_6AD8FF3DD4F16BF0.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6377",
+          "title": "Sport1",
+          "callLetter": "SPORT1",
+          "channelNumber": 27,
+          "channelMapNumber": 27,
+          "userChannelNumber": 23,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": true
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789019_E58085DA9C10B677.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6556",
+          "title": "Eurosport 1",
+          "callLetter": "Eurosport 1",
+          "channelNumber": 28,
+          "channelMapNumber": 28,
+          "userChannelNumber": 24,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17834606_701F53013AE2D076.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6365",
+          "title": "DMAX",
+          "callLetter": "DMAX",
+          "channelNumber": 29,
+          "channelMapNumber": 29,
+          "userChannelNumber": 25,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17834614_19300CF937E1D035.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6433",
+          "title": "RTLZWEI",
+          "callLetter": "RTL II",
+          "channelNumber": 30,
+          "channelMapNumber": 30,
+          "userChannelNumber": 26,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17784889_67F0C0993F2C4C8D.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6370",
+          "title": "Bibel TV",
+          "callLetter": "Bibel TV",
+          "channelNumber": 31,
+          "channelMapNumber": 31,
+          "userChannelNumber": 27,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17790264_7BD0EDB94E1288CD.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7018",
+          "title": "DF1",
+          "callLetter": "DF1",
+          "channelNumber": 32,
+          "channelMapNumber": 32,
+          "userChannelNumber": 28,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/60/20601404_84D1EFEB56D6127E.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6460",
+          "title": "TLC",
+          "callLetter": "TLC",
+          "channelNumber": 33,
+          "channelMapNumber": 33,
+          "userChannelNumber": 29,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/06/40/6404405_CD52322046D5E2FB.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6405",
+          "title": "Kabel Eins",
+          "callLetter": "kabel eins",
+          "channelNumber": 34,
+          "channelMapNumber": 34,
+          "userChannelNumber": 30,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17784887_E0BF632924C425AE.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6590",
+          "title": "BR Nord",
+          "callLetter": "BR Fernsehen Nord HD",
+          "channelNumber": 35,
+          "channelMapNumber": 35,
+          "userChannelNumber": 31,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/96/19960422_4285A3BDBE654D09.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6589",
+          "title": "BR Süd",
+          "callLetter": "BR Fernsehen Sud HD",
+          "channelNumber": 36,
+          "channelMapNumber": 36,
+          "userChannelNumber": 32,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/96/19960421_8C2F79F54782E260.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6401",
+          "title": "hr-fernsehen",
+          "callLetter": "HR",
+          "channelNumber": 37,
+          "channelMapNumber": 37,
+          "userChannelNumber": 33,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/99/21995936_6ACDE75400947EC6.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6570",
+          "title": "MDR Sachsen",
+          "callLetter": "MDR Sachsen HD",
+          "channelNumber": 38,
+          "channelMapNumber": 38,
+          "userChannelNumber": 34,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789034_9E4BB9C27DC7654D.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6569",
+          "title": "MDR Sachsen-Anhalt",
+          "callLetter": "MDR S-Anhalt HD",
+          "channelNumber": 39,
+          "channelMapNumber": 39,
+          "userChannelNumber": 35,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789034_9E4BB9C27DC7654D.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6586",
+          "title": "MDR Thüringen",
+          "callLetter": "MDR Thueringen HD",
+          "channelNumber": 40,
+          "channelMapNumber": 40,
+          "userChannelNumber": 36,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789034_9E4BB9C27DC7654D.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6585",
+          "title": "NDR Hamburg",
+          "callLetter": "NDR Fernsehen HH HD",
+          "channelNumber": 41,
+          "channelMapNumber": 41,
+          "userChannelNumber": 37,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/99/21996576_22ACA6F87DCEA3F5.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6584",
+          "title": "NDR Mecklenburg-Vorpommern",
+          "callLetter": "NDR Fernsehen MV HD",
+          "channelNumber": 42,
+          "channelMapNumber": 42,
+          "userChannelNumber": 38,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/99/21996473_F974FB88928CC5AD.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6567",
+          "title": "NDR Niedersachsen",
+          "callLetter": "NDR Fernsehen NDS HD",
+          "channelNumber": 43,
+          "channelMapNumber": 43,
+          "userChannelNumber": 39,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/99/21996332_4D2AC9819A3BA24A.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6583",
+          "title": "NDR Schleswig-Holstein",
+          "callLetter": "NDR Fernsehen SH HD",
+          "channelNumber": 44,
+          "channelMapNumber": 44,
+          "userChannelNumber": 40,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/99/21996411_44FF84BC9E840E74.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6421",
+          "title": "Radio Bremen",
+          "callLetter": "Radiobremen",
+          "channelNumber": 45,
+          "channelMapNumber": 45,
+          "userChannelNumber": 41,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789100_608C333858FC170C.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6566",
+          "title": "RBB Berlin",
+          "callLetter": "RBB Berlin HD",
+          "channelNumber": 46,
+          "channelMapNumber": 46,
+          "userChannelNumber": 42,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/63/23636839_C5FD2719314A12FF.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6565",
+          "title": "RBB Brandenburg",
+          "callLetter": "RBB Brandenburg HD",
+          "channelNumber": 47,
+          "channelMapNumber": 47,
+          "userChannelNumber": 43,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/63/23636840_B5E07693CFDF64E7.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6564",
+          "title": "SR",
+          "callLetter": "SWR-Fernsehen SR HD",
+          "channelNumber": 48,
+          "channelMapNumber": 48,
+          "userChannelNumber": 44,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/99/21996884_8C703D9D16F1EABE.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6581",
+          "title": "SWR Baden-Württemberg",
+          "callLetter": "SWR-Fernsehen BW HD",
+          "channelNumber": 49,
+          "channelMapNumber": 49,
+          "userChannelNumber": 45,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789108_B31633D1AABE7645.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6580",
+          "title": "SWR Rheinland-Pfalz",
+          "callLetter": "SWR-Fernsehen RP HD",
+          "channelNumber": 50,
+          "channelMapNumber": 50,
+          "userChannelNumber": 46,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789108_B31633D1AABE7645.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6562",
+          "title": "WDR Aachen",
+          "callLetter": "WDR HD Achen",
+          "channelNumber": 51,
+          "channelMapNumber": 51,
+          "userChannelNumber": 47,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": true
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956013_C4C20B1FD73E1FF5.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6592",
+          "title": "WDR Bielefeld",
+          "callLetter": "WDR HD Bielefeld",
+          "channelNumber": 52,
+          "channelMapNumber": 52,
+          "userChannelNumber": 48,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956014_387668697FE74DDA.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6561",
+          "title": "WDR Bonn",
+          "callLetter": "WDR HD Bonn",
+          "channelNumber": 53,
+          "channelMapNumber": 53,
+          "userChannelNumber": 49,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956016_302AE8A52E3EBFC7.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6577",
+          "title": "WDR Düsseldorf",
+          "callLetter": "WDR HD Dusseldorf",
+          "channelNumber": 54,
+          "channelMapNumber": 54,
+          "userChannelNumber": 50,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956015_5F3D460687D994F7.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6579",
+          "title": "WDR Dortmund",
+          "callLetter": "WDR HD Dortmund",
+          "channelNumber": 55,
+          "channelMapNumber": 55,
+          "userChannelNumber": 51,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956017_7B8FB2494058C4C3.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6578",
+          "title": "WDR Duisburg",
+          "callLetter": "WDR HD Duisburg",
+          "channelNumber": 56,
+          "channelMapNumber": 56,
+          "userChannelNumber": 52,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956018_A535DBC1B53140CA.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6594",
+          "title": "WDR Essen",
+          "callLetter": "WDR HD Essen",
+          "channelNumber": 57,
+          "channelMapNumber": 57,
+          "userChannelNumber": 53,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956019_C43D59AB2A19FE29.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6576",
+          "title": "WDR Köln",
+          "callLetter": "WDR HD Koln",
+          "channelNumber": 58,
+          "channelMapNumber": 58,
+          "userChannelNumber": 54,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956020_5050BECC0F84E7A3.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6560",
+          "title": "WDR Münster",
+          "callLetter": "WDR HD Munster",
+          "channelNumber": 59,
+          "channelMapNumber": 59,
+          "userChannelNumber": 55,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956021_014BF8FE6397DE8E.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6593",
+          "title": "WDR Siegen",
+          "callLetter": "WDR HD Siegen",
+          "channelNumber": 60,
+          "channelMapNumber": 60,
+          "userChannelNumber": 56,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956022_A5856790E36D57FD.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6591",
+          "title": "WDR Wuppertal",
+          "callLetter": "WDR HD Wuppertal",
+          "channelNumber": 61,
+          "channelMapNumber": 61,
+          "userChannelNumber": 57,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19956023_72189AE3CFA5B609.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6374",
+          "title": "Comedy Central",
+          "callLetter": "Comedy Central",
+          "channelNumber": 65,
+          "channelMapNumber": 65,
+          "userChannelNumber": 58,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/06/40/6402245_C6769A3F09CF8D21.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6436",
+          "title": "NITRO",
+          "callLetter": "NITRO",
+          "channelNumber": 66,
+          "channelMapNumber": 66,
+          "userChannelNumber": 59,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/17/83/17834610_C58AC3EFC2671158.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6426",
+          "title": "ProSieben MAXX",
+          "callLetter": "ProSieben MAXX",
+          "channelNumber": 67,
+          "channelMapNumber": 67,
+          "userChannelNumber": 60,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/94/17943308_12DA0E7725670FB4.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6544",
+          "title": "RTLup",
+          "callLetter": "RTLup HD",
+          "channelNumber": 68,
+          "channelMapNumber": 68,
+          "userChannelNumber": 61,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/92/17920520_49D6156A8E37EF44.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6440",
+          "title": "SAT.1 GOLD",
+          "callLetter": "SAT.1 GOLD",
+          "channelNumber": 69,
+          "channelMapNumber": 69,
+          "userChannelNumber": 62,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/94/17943981_D564A7CD7884E0BA.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6445",
+          "title": "sixx",
+          "callLetter": "SIXX",
+          "channelNumber": 70,
+          "channelMapNumber": 70,
+          "userChannelNumber": 63,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/94/17943575_CB1D9CE83E83CF85.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6459",
+          "title": "Tele 5",
+          "callLetter": "TELE 5",
+          "channelNumber": 71,
+          "channelMapNumber": 71,
+          "userChannelNumber": 64,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/82/17826320_199F32F4C4B71D10.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6362",
+          "title": "VOXup",
+          "callLetter": "VOXup",
+          "channelNumber": 72,
+          "channelMapNumber": 72,
+          "userChannelNumber": 65,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/82/17826431_CAEE48C606D5A653.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6934",
+          "title": "ducktv",
+          "callLetter": "Duck TV",
+          "channelNumber": 80,
+          "channelMapNumber": 80,
+          "userChannelNumber": 66,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/19/60/19605850_CD45AD02D4E858F8.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7148",
+          "title": "Naruto",
+          "callLetter": "Naruto",
+          "channelNumber": 82,
+          "channelMapNumber": 82,
+          "userChannelNumber": 67,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/78/21784701_CA43E5832E00FED4.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6430",
+          "title": "RiC",
+          "callLetter": "RiC",
+          "channelNumber": 83,
+          "channelMapNumber": 83,
+          "userChannelNumber": 68,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789129_B3E3EA44B5D51E1E.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6434",
+          "title": "TOGGO plus",
+          "callLetter": "TOGGO plus",
+          "channelNumber": 85,
+          "channelMapNumber": 85,
+          "userChannelNumber": 69,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789131_CF912A6EC7066314.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7140",
+          "title": "Yu-Gi-Oh!",
+          "callLetter": "Yu-Gi-Oh!",
+          "channelNumber": 86,
+          "channelMapNumber": 86,
+          "userChannelNumber": 70,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/63/21634561_C0E7F606E49214C4.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7027",
+          "title": "Arthouse CNMA",
+          "callLetter": "Arthouse CNMA",
+          "channelNumber": 101,
+          "channelMapNumber": 101,
+          "userChannelNumber": 71,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/62/20627445_096E5BA71888DAA3.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7039",
+          "title": "ARTFLIX - Filmklassiker",
+          "callLetter": "ARTFLIX - Filmklassi",
+          "channelNumber": 102,
+          "channelMapNumber": 102,
+          "userChannelNumber": 72,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/76/20760746_2CC551E2D2F891A2.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7010",
+          "title": "Bloody Movies",
+          "callLetter": "Bloody Movies",
+          "channelNumber": 104,
+          "channelMapNumber": 104,
+          "userChannelNumber": 73,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/26/19265324_53194CE72BC9D99B.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7033",
+          "title": "Cinema of Hearts",
+          "callLetter": "Cinema of Hearts",
+          "channelNumber": 105,
+          "channelMapNumber": 105,
+          "userChannelNumber": 74,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/62/20627449_0D0989B71927ECC9.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7050",
+          "title": "Cirkus Krimi",
+          "callLetter": "Cirkus Krimi",
+          "channelNumber": 106,
+          "channelMapNumber": 106,
+          "userChannelNumber": 75,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Logo",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7038",
+          "title": "Fabella",
+          "callLetter": "Fabella",
+          "channelNumber": 108,
+          "channelMapNumber": 108,
+          "userChannelNumber": 76,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/76/20760748_5BCA7208B2531107.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7042",
+          "title": "Fantasja",
+          "callLetter": "Fantasja",
+          "channelNumber": 109,
+          "channelMapNumber": 109,
+          "userChannelNumber": 77,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/77/20773177_DE1F87EA000A30D2.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7020",
+          "title": "Film Total",
+          "callLetter": "Film Total",
+          "channelNumber": 110,
+          "channelMapNumber": 110,
+          "userChannelNumber": 78,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/28/18280116_CE2166B056F20EE5.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7034",
+          "title": "FilmGold",
+          "callLetter": "FilmGold",
+          "channelNumber": 111,
+          "channelMapNumber": 111,
+          "userChannelNumber": 79,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/62/20627450_95715065B76C2F88.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7032",
+          "title": "Filmlegenden",
+          "callLetter": "Filmlegenden",
+          "channelNumber": 112,
+          "channelMapNumber": 112,
+          "userChannelNumber": 80,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/62/20627448_48F33FD3BA11E46F.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7028",
+          "title": "Filmtastic",
+          "callLetter": "Filmtastic",
+          "channelNumber": 115,
+          "channelMapNumber": 115,
+          "userChannelNumber": 81,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/62/20627446_F9DD984907D0E0CB.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7047",
+          "title": "Grjngo",
+          "callLetter": "Grjngo",
+          "channelNumber": 117,
+          "channelMapNumber": 117,
+          "userChannelNumber": 82,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/77/20773184_ABE031EBD6C1559E.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7029",
+          "title": "Home of Horror",
+          "callLetter": "Home of Horror",
+          "channelNumber": 121,
+          "channelMapNumber": 121,
+          "userChannelNumber": 83,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/62/20627447_4DC2DF5B4777DEF5.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7012",
+          "title": "Love & Passion",
+          "callLetter": "Love & Passion",
+          "channelNumber": 123,
+          "channelMapNumber": 123,
+          "userChannelNumber": 84,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/26/19265325_933B43E2D23AF6FF.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7059",
+          "title": "Netzkino",
+          "callLetter": "Netzkino",
+          "channelNumber": 124,
+          "channelMapNumber": 124,
+          "userChannelNumber": 85,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/80/20804486_07543DF31442B4C6.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7136",
+          "title": "Top Filme",
+          "callLetter": "Top Filme",
+          "channelNumber": 127,
+          "channelMapNumber": 127,
+          "userChannelNumber": 86,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/63/21634557_4418E71734EAA396.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7139",
+          "title": "Top Sci-Fi",
+          "callLetter": "Top Sci-Fi",
+          "channelNumber": 128,
+          "channelMapNumber": 128,
+          "userChannelNumber": 87,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/63/21634560_009DCE1B545C4A67.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7138",
+          "title": "Top Serien",
+          "callLetter": "Top Serien",
+          "channelNumber": 129,
+          "channelMapNumber": 129,
+          "userChannelNumber": 88,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": true
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/63/21634559_69790EDE657EA37A.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7004",
+          "title": "Wedo Movies",
+          "callLetter": "Wedo Movies",
+          "channelNumber": 135,
+          "channelMapNumber": 135,
+          "userChannelNumber": 89,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/29/20293972_B426FD743E24FA46.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7049",
+          "title": "DDR TV-Archiv",
+          "callLetter": "DDR TV-Archiv",
+          "channelNumber": 143,
+          "channelMapNumber": 143,
+          "userChannelNumber": 90,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/77/20779687_44BA82DFACC33049.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7005",
+          "title": "Failarmy",
+          "callLetter": "Failarmy",
+          "channelNumber": 144,
+          "channelMapNumber": 144,
+          "userChannelNumber": 91,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/29/20293974_6054EF367101C73B.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7003",
+          "title": "The Pet Collective",
+          "callLetter": "The Pet Collective",
+          "channelNumber": 147,
+          "channelMapNumber": 147,
+          "userChannelNumber": 92,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/29/20293970_55F2D7E84EB89456.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6573",
+          "title": "Fashion TV",
+          "callLetter": "Fashion.tv",
+          "channelNumber": 162,
+          "channelMapNumber": 162,
+          "userChannelNumber": 93,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17790266_CDA95113E9B7BE42.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6398",
+          "title": "Home & Garden TV",
+          "callLetter": "HGTV",
+          "channelNumber": 164,
+          "channelMapNumber": 164,
+          "userChannelNumber": 94,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": true
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/06/50/6502145_B26126E65BFB4AE2.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7031",
+          "title": "INFAST",
+          "callLetter": "INFAST",
+          "channelNumber": 165,
+          "channelMapNumber": 165,
+          "userChannelNumber": 95,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": true
+          },
+          "image": {
+            "type": "Logo",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/64/20641710_7DB0B68CE47E017B.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7030",
+          "title": "INTROUBLE",
+          "callLetter": "INTROUBLE",
+          "channelNumber": 182,
+          "channelMapNumber": 182,
+          "userChannelNumber": 96,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Logo",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/64/20641711_C0F9B53C38794181.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6999",
+          "title": "More than Sports TV",
+          "callLetter": "MoreThanSportsFAST",
+          "channelNumber": 184,
+          "channelMapNumber": 184,
+          "userChannelNumber": 97,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19950948_B88C3CA32241D5F4.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6553",
+          "title": "Red Bull TV",
+          "callLetter": "RedBull TV",
+          "channelNumber": 185,
+          "channelMapNumber": 185,
+          "userChannelNumber": 98,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/38/21387515_EDB350ADF94B15C1.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7198",
+          "title": "SPORT BILD TV",
+          "callLetter": "SPORT BILD TV",
+          "channelNumber": 187,
+          "channelMapNumber": 187,
+          "userChannelNumber": 99,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/36/22369450_205DC42633DDF399.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7055",
+          "title": "Sportdigital",
+          "callLetter": "Sportdigital",
+          "channelNumber": 188,
+          "channelMapNumber": 188,
+          "userChannelNumber": 100,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/39/21391584_BF19752F548462F3.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7135",
+          "title": "Tennis Channel",
+          "callLetter": "Tennis Channel",
+          "channelNumber": 189,
+          "channelMapNumber": 189,
+          "userChannelNumber": 101,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/59/21593852_37C8FF98721DA0C1.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7009",
+          "title": "Wedo Sports",
+          "callLetter": "Wedo Sports",
+          "channelNumber": 190,
+          "channelMapNumber": 190,
+          "userChannelNumber": 102,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/30/20301992_2D5F29BAABADB3E1.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7051",
+          "title": "World of Freesports",
+          "callLetter": "World of Freesports",
+          "channelNumber": 191,
+          "channelMapNumber": 191,
+          "userChannelNumber": 103,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/78/20785389_F69B278901EEAD2C.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6422",
+          "title": "Al Jazeera",
+          "callLetter": "Al Jazeera English",
+          "channelNumber": 200,
+          "channelMapNumber": 200,
+          "userChannelNumber": 104,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17790636_C525C09EE24B1611.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6373",
+          "title": "CNBC Europe",
+          "callLetter": "CNBC Europe",
+          "channelNumber": 202,
+          "channelMapNumber": 202,
+          "userChannelNumber": 105,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17790639_D402CF6DA3FA20D8.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6523",
+          "title": "CNN International",
+          "callLetter": "CNN",
+          "channelNumber": 203,
+          "channelMapNumber": 203,
+          "userChannelNumber": 106,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/01/17018026_261BBDE26D6DDE3A.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6411",
+          "title": "France 24 EN",
+          "callLetter": "FRANCE 24 (English)",
+          "channelNumber": 205,
+          "channelMapNumber": 205,
+          "userChannelNumber": 107,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/13/68/13684896_0424D393A1679B0A.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7043",
+          "title": "Moconomy",
+          "callLetter": "Moconomy",
+          "channelNumber": 209,
+          "channelMapNumber": 209,
+          "userChannelNumber": 108,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/77/20773200_7D286D358462E35A.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7040",
+          "title": "wetter.com Free",
+          "callLetter": "wetter.com",
+          "channelNumber": 211,
+          "channelMapNumber": 211,
+          "userChannelNumber": 109,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/94/17944028_A9F28387E108F8F8.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7125",
+          "title": "BBC History",
+          "callLetter": "BBC History",
+          "channelNumber": 222,
+          "channelMapNumber": 222,
+          "userChannelNumber": 110,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/42/21428877_75D89ACB4BCFB138.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7200",
+          "title": "BILD TV",
+          "callLetter": "BILD TV",
+          "channelNumber": 223,
+          "channelMapNumber": 223,
+          "userChannelNumber": 111,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/36/22369448_7977187148AB0BFB.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7130",
+          "title": "Curiosity Now",
+          "callLetter": "Curiosity Now",
+          "channelNumber": 225,
+          "channelMapNumber": 225,
+          "userChannelNumber": 112,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/46/21463421_9D37510792BA5AE2.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7045",
+          "title": "Focus TV Reportage",
+          "callLetter": "Focus TV",
+          "channelNumber": 226,
+          "channelMapNumber": 226,
+          "userChannelNumber": 113,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/77/20773178_4E76A3421EF734BB.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7067",
+          "title": "Royalworld",
+          "callLetter": "Royalworld",
+          "channelNumber": 228,
+          "channelMapNumber": 228,
+          "userChannelNumber": 114,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/82/20827953_59E69A7DAADE215C.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7129",
+          "title": "Spiegel TV Konflikte",
+          "callLetter": "Spiegel TV Konflikte",
+          "channelNumber": 231,
+          "channelMapNumber": 231,
+          "userChannelNumber": 115,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/46/21463420_6C4717705EEC342C.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7052",
+          "title": "Tempora",
+          "callLetter": "Tempora",
+          "channelNumber": 232,
+          "channelMapNumber": 232,
+          "userChannelNumber": 116,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/78/20787020_BF52B8E36B7A508E.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7053",
+          "title": "Tierwelt Live",
+          "callLetter": "Tierwelt Live",
+          "channelNumber": 234,
+          "channelMapNumber": 234,
+          "userChannelNumber": 117,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/78/20787314_FCFD19CD2C36CC74.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7137",
+          "title": "Top True Crime",
+          "callLetter": "Top True Crime",
+          "channelNumber": 235,
+          "channelMapNumber": 235,
+          "userChannelNumber": 118,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/63/21634558_E76E1DECB62E82F5.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7007",
+          "title": "Wedo Big Stories",
+          "callLetter": "Wedo Big Stories",
+          "channelNumber": 237,
+          "channelMapNumber": 237,
+          "userChannelNumber": 119,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/29/20293978_D9E1A15CED6C233C.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7197",
+          "title": "Wedo True Stories",
+          "callLetter": "Wedo True Stories",
+          "channelNumber": 238,
+          "channelMapNumber": 238,
+          "userChannelNumber": 120,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/05/23051848_9B28A91BE71E875D.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6363",
+          "title": "Welt der Wunder",
+          "callLetter": "Welt der Wunder",
+          "channelNumber": 239,
+          "channelMapNumber": 239,
+          "userChannelNumber": 121,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/78/17789125_905FD889DAC07BE2.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7044",
+          "title": "Höhenrausch",
+          "callLetter": "Bergblick Free",
+          "channelNumber": 252,
+          "channelMapNumber": 252,
+          "userChannelNumber": 122,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/97/20974559_AE6E42E994F0DF3C.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7061",
+          "title": "just.fishing",
+          "callLetter": "just.fishing",
+          "channelNumber": 253,
+          "channelMapNumber": 253,
+          "userChannelNumber": 123,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/80/20804691_3ABEE4BFF9CF9353.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7019",
+          "title": "Love the Planet",
+          "callLetter": "Love the Planet",
+          "channelNumber": 254,
+          "channelMapNumber": 254,
+          "userChannelNumber": 124,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20560739_076A776B78D8C6FE.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7058",
+          "title": "One Terra",
+          "callLetter": "One Terra",
+          "channelNumber": 257,
+          "channelMapNumber": 257,
+          "userChannelNumber": 125,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/80/20802098_E24ADE6F19120CB4.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7131",
+          "title": "Terra Mater WILD",
+          "callLetter": "Terra Mater Wild",
+          "channelNumber": 258,
+          "channelMapNumber": 258,
+          "userChannelNumber": 126,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/46/21463422_6728895BDB1B120B.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7068",
+          "title": "Xplore",
+          "callLetter": "Xplore Free",
+          "channelNumber": 260,
+          "channelMapNumber": 260,
+          "userChannelNumber": 127,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/81/20813451_6F828070DE227129.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7201",
+          "title": "Computer BILD TV",
+          "callLetter": "Computer BILD TV",
+          "channelNumber": 271,
+          "channelMapNumber": 271,
+          "userChannelNumber": 128,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/36/22369449_17B053E323A2D669.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7008",
+          "title": "People Are Awesome",
+          "callLetter": "People Are Awesome",
+          "channelNumber": 273,
+          "channelMapNumber": 273,
+          "userChannelNumber": 129,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/29/20293980_14E94CDD21CED401.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7006",
+          "title": "WeatherSpy",
+          "callLetter": "WeatherSpy",
+          "channelNumber": 274,
+          "channelMapNumber": 274,
+          "userChannelNumber": 130,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/29/20293976_2EA53309DCDCC0E5.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7199",
+          "title": "AUTO BILD TV",
+          "callLetter": "AUTO BILD TV",
+          "channelNumber": 280,
+          "channelMapNumber": 280,
+          "userChannelNumber": 131,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/22/36/22369444_9BC16B5DB63BC28F.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7048",
+          "title": "auto motor und sport TV",
+          "callLetter": "auto motor und sport",
+          "channelNumber": 281,
+          "channelMapNumber": 281,
+          "userChannelNumber": 132,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/77/20779686_C09F025FABCDD5B7.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6997",
+          "title": "Motorvision",
+          "callLetter": "Motorvision",
+          "channelNumber": 283,
+          "channelMapNumber": 283,
+          "userChannelNumber": 133,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17795039_FA88FF8398D6B215.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6998",
+          "title": "Motorvision Classic",
+          "callLetter": "Motorvision Classic",
+          "channelNumber": 284,
+          "channelMapNumber": 284,
+          "userChannelNumber": 134,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/95/19950947_313EA9664F59351B.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7126",
+          "title": "Top Gear",
+          "callLetter": "Top Gear",
+          "channelNumber": 285,
+          "channelMapNumber": 285,
+          "userChannelNumber": 135,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/42/21428878_49FDB78A8FFB5B36.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7070",
+          "title": "Just cooking",
+          "callLetter": "Just cooking",
+          "channelNumber": 292,
+          "channelMapNumber": 292,
+          "userChannelNumber": 136,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/81/20813452_0B2801C9E0047690.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6399",
+          "title": "HSE",
+          "callLetter": "HSE",
+          "channelNumber": 300,
+          "channelMapNumber": 300,
+          "userChannelNumber": 137,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/92/17920662_295344E3B7973D61.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6429",
+          "title": "QVC",
+          "callLetter": "QVC",
+          "channelNumber": 301,
+          "channelMapNumber": 301,
+          "userChannelNumber": 138,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/92/17920711_B2B95FCA04ED40CB.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7037",
+          "title": "Deluxe Deutschpop",
+          "callLetter": "Deluxe Deutschpop",
+          "channelNumber": 310,
+          "channelMapNumber": 310,
+          "userChannelNumber": 139,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/76/20760749_2588FF402F0C2782.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7041",
+          "title": "Deluxe Lounge",
+          "callLetter": "Deluxe Lounge",
+          "channelNumber": 311,
+          "channelMapNumber": 311,
+          "userChannelNumber": 140,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/78/20781722_5AC4F33A3F4A617E.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6375",
+          "title": "Deluxe Music",
+          "callLetter": "DELUXE MUSIC TV",
+          "channelNumber": 312,
+          "channelMapNumber": 312,
+          "userChannelNumber": 141,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17790648_A767862D8C2D46D3.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6464",
+          "title": "Deutsches Musik Fernsehen",
+          "callLetter": "Deutsches Musik Fern",
+          "channelNumber": 313,
+          "channelMapNumber": 313,
+          "userChannelNumber": 142,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/87/17876274_7E762AFEE1B66D6A.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6572",
+          "title": "Folx TV",
+          "callLetter": "FOLX. TV",
+          "channelNumber": 315,
+          "channelMapNumber": 315,
+          "userChannelNumber": 143,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/82/17826432_E2CC131961B9AF19.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6412",
+          "title": "Melodie TV",
+          "callLetter": "Melodie TV",
+          "channelNumber": 316,
+          "channelMapNumber": 316,
+          "userChannelNumber": 144,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17794767_C58F82FA0E7D9563.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6414",
+          "title": "MTV",
+          "callLetter": "MTV",
+          "channelNumber": 318,
+          "channelMapNumber": 318,
+          "userChannelNumber": 145,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/06/31/6310601_CDA7FB49C0753B8E.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6582",
+          "title": "One Music Television",
+          "callLetter": "ONE MUSIC TELEVISION",
+          "channelNumber": 319,
+          "channelMapNumber": 319,
+          "userChannelNumber": 146,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/82/17826433_A5B1A262783AC838.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7025",
+          "title": "Qello Concerts",
+          "callLetter": "Qello Concerts",
+          "channelNumber": 320,
+          "channelMapNumber": 320,
+          "userChannelNumber": 147,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20568877_2DA2F685E42B9BC2.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6452",
+          "title": "Schlager Deluxe",
+          "callLetter": "Schlager Deluxe",
+          "channelNumber": 321,
+          "channelMapNumber": 321,
+          "userChannelNumber": 148,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/79/17794769_B8C89AB854E293DD.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7132",
+          "title": "Stingray Classica",
+          "callLetter": "Stingray Classica",
+          "channelNumber": 322,
+          "channelMapNumber": 322,
+          "userChannelNumber": 149,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/51/21518571_76A44B9283B619A1.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7021",
+          "title": "ZenLIFE",
+          "callLetter": "ZenLIFE",
+          "channelNumber": 324,
+          "channelMapNumber": 324,
+          "userChannelNumber": 150,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20568876_8CE7720D9DDD1525.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH6575",
+          "title": "Zwei Music Television",
+          "callLetter": "ZWEI MUSIC TELEVISIO",
+          "channelNumber": 325,
+          "channelMapNumber": 325,
+          "userChannelNumber": 151,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/17/82/17826434_4C61AC297CF54D94.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7290",
+          "title": "ZDFtivi",
+          "callLetter": "ZDFtivi",
+          "channelNumber": 87,
+          "channelMapNumber": 87,
+          "userChannelNumber": 152,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/00/24007464_9965A88A1ED27367.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7291",
+          "title": "CopStories & Schnell ermittelt",
+          "callLetter": "CopStories & Schnell",
+          "channelNumber": 107,
+          "channelMapNumber": 107,
+          "userChannelNumber": 153,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/00/24007460_2D7EA46C49CDC7D9.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7289",
+          "title": "Herzfrequenz",
+          "callLetter": "Herzfrequenz",
+          "channelNumber": 118,
+          "channelMapNumber": 118,
+          "userChannelNumber": 154,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/00/24007431_F18A4C6373748137.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7302",
+          "title": "Himmlisches Kino",
+          "callLetter": "Himmlisches Kino",
+          "channelNumber": 120,
+          "channelMapNumber": 120,
+          "userChannelNumber": 155,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/00/27001544_F9E1A6607FC6E724.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7303",
+          "title": "DEFA TV",
+          "callLetter": "DEFA TV",
+          "channelNumber": 142,
+          "channelMapNumber": 142,
+          "userChannelNumber": 156,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/00/27001545_40FBEBC46372F189.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7287",
+          "title": "Kaminfeuer",
+          "callLetter": "Kaminfeuer",
+          "channelNumber": 167,
+          "channelMapNumber": 167,
+          "userChannelNumber": 157,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Logo",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/97/23974043_4C3890DEAB67723B.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7301",
+          "title": "Landlust",
+          "callLetter": "Landlust",
+          "channelNumber": 168,
+          "channelMapNumber": 168,
+          "userChannelNumber": 158,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/55/25552436_02695B7D470B21E3.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7288",
+          "title": "Slow TV",
+          "callLetter": "Slow TV",
+          "channelNumber": 170,
+          "channelMapNumber": 170,
+          "userChannelNumber": 159,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/00/24007463_B1E5BE1D0505D1F9.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7300",
+          "title": "scooore",
+          "callLetter": "scooore",
+          "channelNumber": 186,
+          "channelMapNumber": 186,
+          "userChannelNumber": 160,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25159821_2034979723A53146.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7244",
+          "title": "Euronews Deutsch",
+          "callLetter": "Euronews Deutsch",
+          "channelNumber": 204,
+          "channelMapNumber": 204,
+          "userChannelNumber": 161,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/75/23756774_60D20DC4D79B79F7.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7299",
+          "title": "Nachrichten 360",
+          "callLetter": "Nachrichten 360",
+          "channelNumber": 210,
+          "channelMapNumber": 210,
+          "userChannelNumber": 162,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/15/25159813_01CD2155161B0D07.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7315",
+          "title": "Crimify",
+          "callLetter": "Crimify",
+          "channelNumber": 224,
+          "channelMapNumber": 224,
+          "userChannelNumber": 163,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/51/28512767_054FF664901DCE70.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7314",
+          "title": "Spiegel TV",
+          "callLetter": "Spiegel TV",
+          "channelNumber": 229,
+          "channelMapNumber": 229,
+          "userChannelNumber": 164,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/51/28512765_B760F02AB29AC715.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7220",
+          "title": "SPIEGEL TV action+crime",
+          "callLetter": "SPIEGEL TV actionplu",
+          "channelNumber": 230,
+          "channelMapNumber": 230,
+          "userChannelNumber": 165,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea10/IMAGES/00/23/43/23437448_013D577FB957CCDF.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": true,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        },
+        {
+          "pid": "LCH7292",
+          "title": "Terra X",
+          "callLetter": "Terra X",
+          "channelNumber": 233,
+          "channelMapNumber": 233,
+          "userChannelNumber": 166,
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/24/00/24007462_CA36EC20FF889821.png"
+          },
+          "hasPlaylistExperience": true,
+          "isFastChannel": false,
+          "wmk": false,
+          "isKids": false,
+          "isDolby": false,
+          "isDolbyAtmos": false,
+          "renderChild": true
+        }
+      ],
+      "requestId": "OP-85840dcf62e493f177122dbef04842a6",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 213
+  }
+}

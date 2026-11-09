@@ -1,0 +1,22 @@
+{
+  "GET channels": {
+    "optional": [
+      "$.channels[].contents"
+    ]
+  },
+  "GET nsh/unified-detailed/{pid}": {
+    "optional": [
+      "$.relatedContents.contents[].trackId"
+    ]
+  },
+  "GET nsh/thematic-grid-page/{pid}": {
+    "optional": [
+      "$.thematicGrid.contents[].genres"
+    ]
+  },
+  "GET nsh/thematic-site-page-prio": {
+    "optional": [
+      "$.thematicSite[].contents[].content.uniqueId"
+    ]
+  }
+}

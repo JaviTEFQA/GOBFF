@@ -1,0 +1,2324 @@
+{
+  "endpointId": "GET nsh/unified-detailed/{pid}",
+  "key": "GET nsh/unified-detailed/LSR220317?appVersion=26.10.100",
+  "journey": "player-vod",
+  "recordedAt": "2026-11-08T21:43:50.573Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/unified-detailed/LSR220317?appVersion=26.10.100",
+    "servicePath": "nsh/unified-detailed/LSR220317",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/details/live-serie/das-1-quiz-wie-clever-ist-deutschland-220317",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:43:48 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:43:48 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-8f26eb1f906dde41ef331076cc5623ba",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "pid": "LSR220317",
+      "title": "Das 1% Quiz - Wie clever ist Deutschland?",
+      "commercializationType": 6,
+      "requiresPin": false,
+      "shortDescription": "Quizmaster Jörg Pilawa möchte wissen: Wie clever ist Deutschland?",
+      "image": {
+        "type": "BobLandscape",
+        "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F32%2F23328196_625684ae4f2729fa3bd5e8f5611f13e0.jpg&template=5"
+      },
+      "genres": [
+        "Quiz"
+      ],
+      "logo": {
+        "image": {
+          "type": "Extra",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+        }
+      },
+      "isDolby": true,
+      "isDolbyAtmos": false,
+      "payment": 3,
+      "description": "Jörg PIlawa will es wissen: Wie clever ist Deutschland? In dieser unterhaltsamen Show kämpfen sich 100 Kandidatinnen und Kandidaten durch insgesamt 19 Fragen - nicht nur klassische Wissensfragen, sondern auch solche, die logisches und mathematisches Denken erfordern. Die allerletzte Frage können nur 1% der Bevölkerung beantworten. Gehört auch einer der Kandidaten zur absoluten Wissenselite?",
+      "year": 2023,
+      "descriptors": [
+        "Ab 6 Jahren"
+      ],
+      "isScripted": true,
+      "isSport": false,
+      "countries": [
+        "Deutschland"
+      ],
+      "distributor": "SAT.1",
+      "ageRating": {
+        "isHidden": false,
+        "pid": "AGE231",
+        "age": 6,
+        "code": "6",
+        "shortDescription": "Ab 6 Jahren",
+        "image": {
+          "type": "Cover",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+        }
+      },
+      "liveChannel": {
+        "pid": "LCH6438",
+        "title": "SAT.1",
+        "callLetter": "SAT.1",
+        "distributorId": 0,
+        "epgLiveChannelReferenceId": 75,
+        "channelNumber": 4,
+        "lxdChannel": "CHA15592",
+        "tags": {
+          "completed": false,
+          "favorite": false,
+          "follow": false,
+          "hidden": false,
+          "watched": false
+        },
+        "image": {
+          "type": "Extra",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+        },
+        "hasPlaylistExperience": false,
+        "isFastChannel": false,
+        "maxLiveNowGap": 90,
+        "isDolby": true,
+        "isDolbyAtmos": false,
+        "wmk": false,
+        "isKids": false
+      },
+      "rights": {
+        "canWatch": true,
+        "isSubscribed": true,
+        "subscription": {
+          "catalogItemId": 2471,
+          "catalogItemType": 132
+        }
+      },
+      "commercialization": {
+        "isTvod": false,
+        "isSubscribable": false
+      },
+      "uniqueId": "252721",
+      "logoutUrl": "",
+      "relevantSeason": {
+        "pid": "LSE0",
+        "title": "Future",
+        "seasonNumber": 999,
+        "commercializationType": 6,
+        "payment": 3,
+        "episodes": [
+          {
+            "pid": "LSC642510018",
+            "episodeNumber": 17,
+            "liveProgramPid": "LPR288741597",
+            "shortDescription": "Daniel Boschmann und Özcan Cosar treten zum ultimativen Quiz an.",
+            "seriesId": 309616666,
+            "seriesPid": "LSR220317",
+            "seriesName": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "availableFrom": 1762974900,
+            "availableUntil": 1794518400,
+            "availableUntilPolaris": 1795115700,
+            "liveChannel": {
+              "pid": "LCH6438",
+              "title": "SAT.1",
+              "callLetter": "SAT.1",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 4,
+              "lxdChannel": "CHA15592",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "isPreferent": false,
+              "maxLiveNowGap": 90,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": true,
+              "isRpvrEnabled": false,
+              "hasThumbnails": true,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794510900,
+              "end": 1794518400
+            },
+            "title": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F89%2F23898842_8097d445a8e0821b6aa1c8a075001a9f.jpg&template=5"
+            },
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "descriptors": [
+              "Ab 6 Jahren"
+            ],
+            "countries": [
+              "Deutschland"
+            ],
+            "duration": 7500,
+            "genres": [
+              "Quiz"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE231",
+              "age": 6,
+              "code": "6",
+              "shortDescription": "Ab 6 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+              }
+            },
+            "forbiddenTechnology": 0,
+            "logoutUrl": "",
+            "epgScheduleId": "45_75_5203440_20261112_1",
+            "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/SAT1/SmoothStreaming-{quality}/SAT1.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+            "isHomeBlocked": true,
+            "isFFRWBlockedInLive": true,
+            "isHomeBlockedChannel": true,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "description": "Jörg Pilawa stellt 100 Kandidat:innen im Publikum sowie Daniel Boschmann und Özcan Cosar wieder einzigartige Quizfragen. Wer schafft es bis zur 1%-Frage?",
+            "year": 2025,
+            "seasonNumber": 4,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": true
+            },
+            "emissions": {
+              "future": [
+                {
+                  "start": 1794525000,
+                  "end": 1794531900
+                },
+                {
+                  "start": 1794675600,
+                  "end": 1794682500
+                }
+              ]
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://b46221.5.cdn.telefonica.com/46221/_-_psi_-_/Dashavc/SAT1.mpd",
+                  "pid": "MED14806_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 600,
+              "isLatencyKey": true,
+              "isStartOverBeforeBufferEnabled": true,
+              "isStartOverEnabled": true
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": true,
+              "isRecordingSingleVisible": true,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": true,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": true,
+              "isRpvrAvailable": false
+            },
+            "hasAds": true,
+            "hasPrerollAds": false,
+            "hasThumbnails": true
+          },
+          {
+            "pid": "LSC642510019",
+            "episodeNumber": 17,
+            "liveProgramPid": "LPR288741597",
+            "shortDescription": "Daniel Boschmann und Özcan Cosar treten zum ultimativen Quiz an.",
+            "seriesId": 309616666,
+            "seriesPid": "LSR220317",
+            "seriesName": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "availableFrom": 1762989000,
+            "availableUntil": 1794531900,
+            "availableUntilPolaris": 1794531900,
+            "liveChannel": {
+              "pid": "LCH6438",
+              "title": "SAT.1",
+              "callLetter": "SAT.1",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 4,
+              "lxdChannel": "CHA15592",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "isPreferent": false,
+              "maxLiveNowGap": 90,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": true,
+              "isRpvrEnabled": false,
+              "hasThumbnails": true,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794525000,
+              "end": 1794531900
+            },
+            "title": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F89%2F23898842_8097d445a8e0821b6aa1c8a075001a9f.jpg&template=5"
+            },
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "descriptors": [
+              "Ab 6 Jahren"
+            ],
+            "countries": [
+              "Deutschland"
+            ],
+            "duration": 6900,
+            "genres": [
+              "Quiz"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE231",
+              "age": 6,
+              "code": "6",
+              "shortDescription": "Ab 6 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+              }
+            },
+            "forbiddenTechnology": 0,
+            "logoutUrl": "",
+            "epgScheduleId": "45_75_5203440_20261112_2",
+            "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/SAT1/SmoothStreaming-{quality}/SAT1.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+            "isHomeBlocked": true,
+            "isFFRWBlockedInLive": true,
+            "isHomeBlockedChannel": true,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "description": "Jörg Pilawa stellt 100 Kandidat:innen im Publikum sowie Daniel Boschmann und Özcan Cosar wieder einzigartige Quizfragen. Wer schafft es bis zur 1%-Frage?",
+            "year": 2025,
+            "seasonNumber": 4,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": true
+            },
+            "emissions": {
+              "future": [
+                {
+                  "start": 1794510900,
+                  "end": 1794518400
+                },
+                {
+                  "start": 1794675600,
+                  "end": 1794682500
+                }
+              ]
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://b46221.5.cdn.telefonica.com/46221/_-_psi_-_/Dashavc/SAT1.mpd",
+                  "pid": "MED14806_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 600,
+              "isLatencyKey": true,
+              "isStartOverBeforeBufferEnabled": true,
+              "isStartOverEnabled": true
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": true,
+              "isRecordingSingleVisible": true,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": true,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": true,
+              "isRpvrAvailable": false
+            },
+            "hasAds": true,
+            "hasPrerollAds": false,
+            "hasThumbnails": true
+          },
+          {
+            "pid": "LSC642666125",
+            "episodeNumber": 17,
+            "liveProgramPid": "LPR288741597",
+            "shortDescription": "Daniel Boschmann und Özcan Cosar treten zum ultimativen Quiz an.",
+            "seriesId": 309616666,
+            "seriesPid": "LSR220317",
+            "seriesName": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "availableFrom": 1763139600,
+            "availableUntil": 1794682500,
+            "availableUntilPolaris": 1795280400,
+            "liveChannel": {
+              "pid": "LCH6438",
+              "title": "SAT.1",
+              "callLetter": "SAT.1",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 4,
+              "lxdChannel": "CHA15592",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "isPreferent": false,
+              "maxLiveNowGap": 90,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": true,
+              "isRpvrEnabled": false,
+              "hasThumbnails": true,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794675600,
+              "end": 1794682500
+            },
+            "title": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F89%2F23898842_8097d445a8e0821b6aa1c8a075001a9f.jpg&template=5"
+            },
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "descriptors": [
+              "Ab 6 Jahren"
+            ],
+            "countries": [
+              "Deutschland"
+            ],
+            "duration": 6900,
+            "genres": [
+              "Quiz"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE231",
+              "age": 6,
+              "code": "6",
+              "shortDescription": "Ab 6 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+              }
+            },
+            "forbiddenTechnology": 0,
+            "logoutUrl": "",
+            "epgScheduleId": "45_75_5203440_20261114_1",
+            "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/SAT1/SmoothStreaming-{quality}/SAT1.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+            "isHomeBlocked": true,
+            "isFFRWBlockedInLive": true,
+            "isHomeBlockedChannel": true,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "description": "Jörg Pilawa stellt 100 Kandidat:innen im Publikum sowie Daniel Boschmann und Özcan Cosar wieder einzigartige Quizfragen. Wer schafft es bis zur 1%-Frage?",
+            "year": 2025,
+            "seasonNumber": 4,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": true
+            },
+            "emissions": {
+              "future": [
+                {
+                  "start": 1794510900,
+                  "end": 1794518400
+                },
+                {
+                  "start": 1794525000,
+                  "end": 1794531900
+                }
+              ]
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://b46221.5.cdn.telefonica.com/46221/_-_psi_-_/Dashavc/SAT1.mpd",
+                  "pid": "MED14806_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 600,
+              "isLatencyKey": true,
+              "isStartOverBeforeBufferEnabled": true,
+              "isStartOverEnabled": true
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": true,
+              "isRecordingSingleVisible": true,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": true,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": true,
+              "isRpvrAvailable": false
+            },
+            "hasAds": true,
+            "hasPrerollAds": false,
+            "hasThumbnails": true
+          },
+          {
+            "pid": "LSC643019836",
+            "episodeNumber": 18,
+            "liveProgramPid": "LPR288824897",
+            "shortDescription": "Thore und Jana Schölermann treten zum ultimativen Quiz an.",
+            "seriesId": 309616666,
+            "seriesPid": "LSR220317",
+            "seriesName": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "availableFrom": 1763579700,
+            "availableUntil": 1795123200,
+            "availableUntilPolaris": 1795720500,
+            "liveChannel": {
+              "pid": "LCH6438",
+              "title": "SAT.1",
+              "callLetter": "SAT.1",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 4,
+              "lxdChannel": "CHA15592",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "isPreferent": false,
+              "maxLiveNowGap": 90,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": true,
+              "isRpvrEnabled": false,
+              "hasThumbnails": true,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1795115700,
+              "end": 1795123200
+            },
+            "title": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F62%2F28629250_1b01b3b03ec14d45bfc9ba2c151d7ddc.jpg&template=5"
+            },
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "descriptors": [
+              "Ab 6 Jahren"
+            ],
+            "countries": [
+              "Deutschland"
+            ],
+            "duration": 7500,
+            "genres": [
+              "Quiz"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE231",
+              "age": 6,
+              "code": "6",
+              "shortDescription": "Ab 6 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+              }
+            },
+            "forbiddenTechnology": 0,
+            "logoutUrl": "",
+            "epgScheduleId": "45_75_5242390_20261119_1",
+            "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/SAT1/SmoothStreaming-{quality}/SAT1.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+            "isHomeBlocked": true,
+            "isFFRWBlockedInLive": true,
+            "isHomeBlockedChannel": true,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "description": "Jörg Pilawa stellt 100 Kandidat:innen im Publikum sowie Thore und Jana Schölermann wieder einzigartige Quizfragen. Wer schafft es bis zur 1%-Frage?",
+            "year": 2025,
+            "seasonNumber": 4,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": true
+            },
+            "emissions": {
+              "future": [
+                {
+                  "start": 1795130100,
+                  "end": 1795137000
+                },
+                {
+                  "start": 1795280400,
+                  "end": 1795287300
+                }
+              ]
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://b46221.5.cdn.telefonica.com/46221/_-_psi_-_/Dashavc/SAT1.mpd",
+                  "pid": "MED14806_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 600,
+              "isLatencyKey": true,
+              "isStartOverBeforeBufferEnabled": true,
+              "isStartOverEnabled": true
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": true,
+              "isRecordingSingleVisible": true,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": true,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": true,
+              "isRpvrAvailable": false
+            },
+            "hasAds": true,
+            "hasPrerollAds": false,
+            "hasThumbnails": true
+          },
+          {
+            "pid": "LSC643019839",
+            "episodeNumber": 18,
+            "liveProgramPid": "LPR288824897",
+            "shortDescription": "Thore und Jana Schölermann treten zum ultimativen Quiz an.",
+            "seriesId": 309616666,
+            "seriesPid": "LSR220317",
+            "seriesName": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "availableFrom": 1763594100,
+            "availableUntil": 1795137000,
+            "availableUntilPolaris": 1795137000,
+            "liveChannel": {
+              "pid": "LCH6438",
+              "title": "SAT.1",
+              "callLetter": "SAT.1",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 4,
+              "lxdChannel": "CHA15592",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "isPreferent": false,
+              "maxLiveNowGap": 90,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": true,
+              "isRpvrEnabled": false,
+              "hasThumbnails": true,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1795130100,
+              "end": 1795137000
+            },
+            "title": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F62%2F28629250_1b01b3b03ec14d45bfc9ba2c151d7ddc.jpg&template=5"
+            },
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "descriptors": [
+              "Ab 6 Jahren"
+            ],
+            "countries": [
+              "Deutschland"
+            ],
+            "duration": 6900,
+            "genres": [
+              "Quiz"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE231",
+              "age": 6,
+              "code": "6",
+              "shortDescription": "Ab 6 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+              }
+            },
+            "forbiddenTechnology": 0,
+            "logoutUrl": "",
+            "epgScheduleId": "45_75_5242390_20261119_2",
+            "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/SAT1/SmoothStreaming-{quality}/SAT1.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+            "isHomeBlocked": true,
+            "isFFRWBlockedInLive": true,
+            "isHomeBlockedChannel": true,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "description": "Jörg Pilawa stellt 100 Kandidat:innen im Publikum sowie Thore und Jana Schölermann wieder einzigartige Quizfragen. Wer schafft es bis zur 1%-Frage?",
+            "year": 2025,
+            "seasonNumber": 4,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": true
+            },
+            "emissions": {
+              "future": [
+                {
+                  "start": 1795115700,
+                  "end": 1795123200
+                },
+                {
+                  "start": 1795280400,
+                  "end": 1795287300
+                }
+              ]
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://b46221.5.cdn.telefonica.com/46221/_-_psi_-_/Dashavc/SAT1.mpd",
+                  "pid": "MED14806_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 600,
+              "isLatencyKey": true,
+              "isStartOverBeforeBufferEnabled": true,
+              "isStartOverEnabled": true
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": true,
+              "isRecordingSingleVisible": true,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": true,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": true,
+              "isRpvrAvailable": false
+            },
+            "hasAds": true,
+            "hasPrerollAds": false,
+            "hasThumbnails": true
+          },
+          {
+            "pid": "LSC643177684",
+            "episodeNumber": 18,
+            "liveProgramPid": "LPR288824897",
+            "shortDescription": "Thore und Jana Schölermann treten zum ultimativen Quiz an.",
+            "seriesId": 309616666,
+            "seriesPid": "LSR220317",
+            "seriesName": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "availableFrom": 1763744400,
+            "availableUntil": 1795287300,
+            "availableUntilPolaris": 1795885200,
+            "liveChannel": {
+              "pid": "LCH6438",
+              "title": "SAT.1",
+              "callLetter": "SAT.1",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 4,
+              "lxdChannel": "CHA15592",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "isPreferent": false,
+              "maxLiveNowGap": 90,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": true,
+              "isRpvrEnabled": false,
+              "hasThumbnails": true,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1795280400,
+              "end": 1795287300
+            },
+            "title": "Das 1% Quiz - Wie clever ist Deutschland?",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F62%2F28629250_1b01b3b03ec14d45bfc9ba2c151d7ddc.jpg&template=5"
+            },
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "descriptors": [
+              "Ab 6 Jahren"
+            ],
+            "countries": [
+              "Deutschland"
+            ],
+            "duration": 6900,
+            "genres": [
+              "Quiz"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE231",
+              "age": 6,
+              "code": "6",
+              "shortDescription": "Ab 6 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+              }
+            },
+            "forbiddenTechnology": 0,
+            "logoutUrl": "",
+            "epgScheduleId": "45_75_5242390_20261121_1",
+            "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/SAT1/SmoothStreaming-{quality}/SAT1.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+            "isHomeBlocked": true,
+            "isFFRWBlockedInLive": true,
+            "isHomeBlockedChannel": true,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "description": "Jörg Pilawa stellt 100 Kandidat:innen im Publikum sowie Thore und Jana Schölermann wieder einzigartige Quizfragen. Wer schafft es bis zur 1%-Frage?",
+            "year": 2025,
+            "seasonNumber": 4,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": true
+            },
+            "emissions": {
+              "future": [
+                {
+                  "start": 1795115700,
+                  "end": 1795123200
+                },
+                {
+                  "start": 1795130100,
+                  "end": 1795137000
+                }
+              ]
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://b46221.5.cdn.telefonica.com/46221/_-_psi_-_/Dashavc/SAT1.mpd",
+                  "pid": "MED14806_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 600,
+              "isLatencyKey": true,
+              "isStartOverBeforeBufferEnabled": true,
+              "isStartOverEnabled": true
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": true,
+              "isRecordingSingleVisible": true,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": true,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": true,
+              "isRpvrAvailable": false
+            },
+            "hasAds": true,
+            "hasPrerollAds": false,
+            "hasThumbnails": true
+          }
+        ]
+      },
+      "seasons": [
+        {
+          "pid": "LSE0",
+          "title": "Future",
+          "seasonNumber": 999,
+          "episodesCount": 6,
+          "isRelevant": true,
+          "isLostEpisodes": false,
+          "isFutureSeason": true
+        }
+      ],
+      "relevantEpisode": {
+        "pid": "LSC642510018",
+        "episodeNumber": 17,
+        "liveProgramPid": "LPR288741597",
+        "shortDescription": "Daniel Boschmann und Özcan Cosar treten zum ultimativen Quiz an.",
+        "seriesId": 309616666,
+        "seriesPid": "LSR220317",
+        "seriesName": "Das 1% Quiz - Wie clever ist Deutschland?",
+        "availableFrom": 1762974900,
+        "availableUntil": 1794518400,
+        "availableUntilPolaris": 1795115700,
+        "liveChannel": {
+          "pid": "LCH6438",
+          "title": "SAT.1",
+          "callLetter": "SAT.1",
+          "distributorId": 0,
+          "providerChannel": "",
+          "channelNumber": 4,
+          "lxdChannel": "CHA15592",
+          "tags": {
+            "completed": false,
+            "favorite": false,
+            "follow": false,
+            "hidden": false,
+            "watched": false
+          },
+          "image": {
+            "type": "Extra",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+          },
+          "hasPlaylistExperience": false,
+          "isFastChannel": false,
+          "isPreferent": false,
+          "maxLiveNowGap": 90,
+          "isDolby": true,
+          "isDolbyAtmos": false,
+          "isCpvrEnabled": true,
+          "isRpvrEnabled": false,
+          "hasThumbnails": true,
+          "wmk": false,
+          "isKids": false
+        },
+        "deviceTypes": [
+          401
+        ],
+        "emissionDate": {
+          "start": 1794510900,
+          "end": 1794518400
+        },
+        "title": "Das 1% Quiz - Wie clever ist Deutschland?",
+        "episodeTitle": "",
+        "isFutureProgram": true,
+        "isAirProgram": false,
+        "image": {
+          "type": "BobLandscape",
+          "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F89%2F23898842_8097d445a8e0821b6aa1c8a075001a9f.jpg&template=5"
+        },
+        "isOTT": true,
+        "logo": {
+          "image": {
+            "type": "Extra",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+          }
+        },
+        "isDolby": true,
+        "isDolbyAtmos": false,
+        "isAudioDescription": false,
+        "descriptors": [
+          "Ab 6 Jahren"
+        ],
+        "countries": [
+          "Deutschland"
+        ],
+        "duration": 7500,
+        "genres": [
+          "Quiz"
+        ],
+        "ageRating": {
+          "isHidden": false,
+          "pid": "AGE231",
+          "age": 6,
+          "code": "6",
+          "shortDescription": "Ab 6 Jahren",
+          "image": {
+            "type": "Cover",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+          }
+        },
+        "forbiddenTechnology": 0,
+        "logoutUrl": "",
+        "epgScheduleId": "45_75_5203440_20261112_1",
+        "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/SAT1/SmoothStreaming-{quality}/SAT1.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+        "isHomeBlocked": true,
+        "isFFRWBlockedInLive": true,
+        "isHomeBlockedChannel": true,
+        "commercialization": {
+          "isTvod": false,
+          "isSubscribable": false
+        },
+        "description": "Jörg Pilawa stellt 100 Kandidat:innen im Publikum sowie Daniel Boschmann und Özcan Cosar wieder einzigartige Quizfragen. Wer schafft es bis zur 1%-Frage?",
+        "year": 2025,
+        "seasonNumber": 4,
+        "payment": 3,
+        "bars": {
+          "isNotAvailableInThisDevice": false,
+          "isActivatedPendingVisible": false,
+          "isSubscribeVisible": false,
+          "isRecordingEpisodeVisible": false,
+          "isRecordingSingleVisible": false,
+          "isRecordingSeasonVisible": false,
+          "isRecordingSeriesVisible": false,
+          "isBlackoutVisible": false,
+          "isHomeBlockErrorVisible": true
+        },
+        "emissions": {
+          "future": [
+            {
+              "start": 1794525000,
+              "end": 1794531900
+            },
+            {
+              "start": 1794675600,
+              "end": 1794682500
+            }
+          ]
+        },
+        "requiresPin": false,
+        "playback": {
+          "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+          "medias": [
+            {
+              "url": "https://b46221.5.cdn.telefonica.com/46221/_-_psi_-_/Dashavc/SAT1.mpd",
+              "pid": "MED14806_CDNLIVE",
+              "quality": 2,
+              "drmType": 4,
+              "streamingType": 4
+            }
+          ],
+          "maxQualities": {
+            "401": 2
+          },
+          "cdnBuffer": 600,
+          "isLatencyKey": true,
+          "isStartOverBeforeBufferEnabled": true,
+          "isStartOverEnabled": true
+        },
+        "rights": {
+          "canWatch": true,
+          "isSubscribed": true,
+          "endDate": 2114380800,
+          "subscription": {
+            "catalogItemId": 2471,
+            "catalogItemType": 132
+          }
+        },
+        "buttons": {
+          "isHiddenChannelVisible": false,
+          "isPlayVisible": false,
+          "isPlayLiveChannelVisible": true,
+          "isStopWatchingVisible": false,
+          "isPlayAgainVisible": false,
+          "isRecordingEpisodeVisible": true,
+          "isRecordingSingleVisible": true,
+          "isRecordingSeasonVisible": false,
+          "isRecordingSeriesVisible": true,
+          "isRecordingCancelEpisodeVisible": false,
+          "isRecordingCancelSingleVisible": false,
+          "isRecordingCancelSeasonVisible": false,
+          "isRecordingCancelSeriesVisible": false,
+          "isHomeBlockUnlockVisible": true,
+          "isPlayFromBeginningVisible": false,
+          "isSubscribeVisible": false
+        },
+        "isContentRecordable": {
+          "isCpvrAvailable": true,
+          "isRpvrAvailable": false
+        },
+        "hasAds": true,
+        "hasPrerollAds": false,
+        "hasThumbnails": true
+      },
+      "relatedContents": {
+        "collectionLayoutStyle": "portraitSmall",
+        "type": "category",
+        "contents": [
+          {
+            "pid": "LSR325058",
+            "title": "Buchstaben Battle",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F48%2F28483346_85f99dfd8b64c0f96fa4559e5456f5da.jpg&template=3&title=Buchstaben%20Battle"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F48%2F28483346_85f99dfd8b64c0f96fa4559e5456f5da.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.1",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "SAT.1",
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE231",
+              "age": 6,
+              "code": "6",
+              "shortDescription": "Ab 6 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924768_9E06AB0D31AFED9B.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6438",
+              "title": "SAT.1",
+              "callLetter": "SAT.1",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 75,
+              "channelNumber": 4,
+              "lxdChannel": "CHA15592",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 90,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": true
+          },
+          {
+            "pid": "LSR224362",
+            "title": "Das große Hessenquiz",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23333751_0e6b5fbf34f7c5b083bf7f930420fc2a.jpg&template=3&title=Das%20gro%C3%9Fe%20Hessenquiz"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23333751_0e6b5fbf34f7c5b083bf7f930420fc2a.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486394_8C961154D1030FCF.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.2",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "HR",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6401",
+              "title": "hr-fernsehen",
+              "callLetter": "HR",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 40,
+              "channelNumber": 37,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486394_8C961154D1030FCF.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR253806",
+            "title": "Gefragt - Gejagt",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=3&title=Gefragt%20-%20Gejagt"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490947_6E1FB9F165E8CDBA.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.3",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "SWR-Fernsehen BW HD",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6581",
+              "title": "SWR Baden-Württemberg",
+              "callLetter": "SWR-Fernsehen BW HD",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 144,
+              "channelNumber": 49,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490947_6E1FB9F165E8CDBA.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR253804",
+            "title": "Gefragt - Gejagt",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=3&title=Gefragt%20-%20Gejagt"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490949_FDD964308DFD2393.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.4",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "SWR-Fernsehen SR HD",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6564",
+              "title": "SR",
+              "callLetter": "SWR-Fernsehen SR HD",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 143,
+              "channelNumber": 48,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490949_FDD964308DFD2393.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR223921",
+            "title": "Quizjagd",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23331130_3dbf61f181de93d38d69d579c04f0b7b.jpg&template=3&title=Quizjagd"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23331130_3dbf61f181de93d38d69d579c04f0b7b.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473121_2853E0A30035196A.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.5",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "DF1",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH7018",
+              "title": "DF1",
+              "callLetter": "DF1",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 159,
+              "channelNumber": 32,
+              "lxdChannel": "CHA17303",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473121_2853E0A30035196A.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR253810",
+            "title": "Gefragt - Gejagt",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=3&title=Gefragt%20-%20Gejagt"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490985_2659BA41C5456BFA.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.6",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "WDR HD Achen",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6562",
+              "title": "WDR Aachen",
+              "callLetter": "WDR HD Achen",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 147,
+              "channelNumber": 51,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": true
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490985_2659BA41C5456BFA.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR253797",
+            "title": "Gefragt - Gejagt",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=3&title=Gefragt%20-%20Gejagt"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486430_F1287A66C4852BE0.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.7",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "MDR Sachsen HD",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6570",
+              "title": "MDR Sachsen",
+              "callLetter": "MDR Sachsen HD",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 132,
+              "channelNumber": 38,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486430_F1287A66C4852BE0.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR253813",
+            "title": "Gefragt - Gejagt",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=3&title=Gefragt%20-%20Gejagt"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490996_A7F2A485CD23D252.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.8",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "WDR HD Duisburg",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6578",
+              "title": "WDR Duisburg",
+              "callLetter": "WDR HD Duisburg",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 150,
+              "channelNumber": 56,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490996_A7F2A485CD23D252.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR253814",
+            "title": "Gefragt - Gejagt",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=3&title=Gefragt%20-%20Gejagt"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490997_BFA54750883206A5.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.9",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "WDR HD Dusseldorf",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6577",
+              "title": "WDR Düsseldorf",
+              "callLetter": "WDR HD Dusseldorf",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 151,
+              "channelNumber": 54,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490997_BFA54750883206A5.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          },
+          {
+            "pid": "LSR253815",
+            "title": "Gefragt - Gejagt",
+            "commercializationType": 6,
+            "requiresPin": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=3&title=Gefragt%20-%20Gejagt"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F72%2F23729462_d764e6f48425ac0dd874ffaccebb6569.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Quiz"
+            ],
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490992_F078BF33D74DDDF7.png"
+              }
+            },
+            "isDolby": true,
+            "isDolbyAtmos": false,
+            "trackId": "518363857.190.1794174227433.10",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "distributor": "WDR HD Koln",
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "liveChannel": {
+              "pid": "LCH6576",
+              "title": "WDR Köln",
+              "callLetter": "WDR HD Koln",
+              "distributorId": 0,
+              "epgLiveChannelReferenceId": 152,
+              "channelNumber": 58,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490992_F078BF33D74DDDF7.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": false,
+              "maxLiveNowGap": 120,
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "buttons": {
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "isHomeBlocked": false
+          }
+        ]
+      },
+      "tags": {
+        "completed": false,
+        "favorite": false,
+        "follow": false,
+        "hidden": false,
+        "watched": false
+      },
+      "buttons": {
+        "isAddMyListVisible": true,
+        "isRemoveMyListVisible": false,
+        "isStopWatchingVisible": false
+      },
+      "requestId": "OP-8f26eb1f906dde41ef331076cc5623ba",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 1244
+  }
+}

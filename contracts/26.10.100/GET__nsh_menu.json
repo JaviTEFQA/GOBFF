@@ -1,0 +1,343 @@
+{
+  "endpointId": "GET nsh/menu",
+  "samples": 1,
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "menu": {
+        "types": [
+          "object"
+        ],
+        "properties": {
+          "topMenu": {
+            "types": [
+              "array"
+            ],
+            "items": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "deeplinkType": {
+                  "types": [
+                    "number"
+                  ]
+                },
+                "opensNewWindow": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "pid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "requiresPin": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "showAllPid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "showGrid": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "titleInMenu": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "toolTip": {
+                  "types": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "opensNewWindow",
+                "pid",
+                "requiresPin",
+                "showAllPid",
+                "showGrid",
+                "titleInMenu"
+              ]
+            }
+          },
+          "profileMenu": {
+            "types": [
+              "array"
+            ],
+            "items": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "deeplinkPid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "deeplinkType": {
+                  "types": [
+                    "number"
+                  ]
+                },
+                "opensNewWindow": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "pid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "requiresPin": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "showAllPid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "showGrid": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "titleInMenu": {
+                  "types": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "opensNewWindow",
+                "pid",
+                "requiresPin",
+                "showAllPid",
+                "showGrid",
+                "titleInMenu"
+              ]
+            }
+          },
+          "minimalBottomMenu": {
+            "types": [
+              "array"
+            ],
+            "items": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "contents": {
+                  "types": [
+                    "array"
+                  ],
+                  "items": {
+                    "types": [
+                      "object"
+                    ],
+                    "properties": {
+                      "externalUrl": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "image": {
+                        "types": [
+                          "object"
+                        ],
+                        "properties": {
+                          "type": {
+                            "types": [
+                              "string"
+                            ]
+                          },
+                          "url": {
+                            "types": [
+                              "string"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "url"
+                        ]
+                      },
+                      "opensNewWindow": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "pid": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "showAllPid": {
+                        "types": [
+                          "string"
+                        ]
+                      },
+                      "showGrid": {
+                        "types": [
+                          "boolean"
+                        ]
+                      },
+                      "titleInMenu": {
+                        "types": [
+                          "string"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "externalUrl",
+                      "opensNewWindow",
+                      "pid",
+                      "showAllPid",
+                      "showGrid",
+                      "titleInMenu"
+                    ]
+                  }
+                },
+                "isComplexCollection": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "opensNewWindow": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "pid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "requiresPin": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "showAllPid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "showGrid": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "titleInMenu": {
+                  "types": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "contents",
+                "isComplexCollection",
+                "opensNewWindow",
+                "pid",
+                "requiresPin",
+                "showAllPid",
+                "showGrid",
+                "titleInMenu"
+              ]
+            }
+          },
+          "supportMenu": {
+            "types": [
+              "array"
+            ],
+            "items": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "externalUrl": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "opensNewWindow": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "pid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "requiresPin": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "showAllPid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "showGrid": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "titleInMenu": {
+                  "types": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "externalUrl",
+                "opensNewWindow",
+                "pid",
+                "requiresPin",
+                "showAllPid",
+                "showGrid",
+                "titleInMenu"
+              ]
+            }
+          }
+        },
+        "required": [
+          "minimalBottomMenu",
+          "profileMenu",
+          "supportMenu",
+          "topMenu"
+        ]
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "menu",
+      "requestId",
+      "version"
+    ]
+  }
+}

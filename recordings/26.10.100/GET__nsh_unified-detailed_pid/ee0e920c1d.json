@@ -1,0 +1,2233 @@
+{
+  "endpointId": "GET nsh/unified-detailed/{pid}",
+  "key": "GET nsh/unified-detailed/SER52943583?appVersion=26.10.100",
+  "journey": "detail-serie",
+  "recordedAt": "2026-11-08T21:41:21.347Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/unified-detailed/SER52943583?appVersion=26.10.100",
+    "servicePath": "nsh/unified-detailed/SER52943583",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/details/serie/trigger-point-52943583",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:41:18 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:41:19 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-0041286d4adc9f05caa218ab493e3a02",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "pid": "SER52943583",
+      "title": "Trigger Point",
+      "commercializationType": 3,
+      "requiresPin": false,
+      "distributor": "CIRKUS",
+      "shortDescription": "Dramaserie über Lana Washington, eine erfahrene Bombenentschärfungsbeamtin der Metropolitan Police.",
+      "image": {
+        "type": "BobLandscape",
+        "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F54%2F28547212_238F3609F17CD349.jpg&template=5"
+      },
+      "genres": [
+        "Drama",
+        "Verbrechen"
+      ],
+      "logo": {
+        "image": {
+          "type": "Logo",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+        }
+      },
+      "isDolby": false,
+      "isDolbyAtmos": false,
+      "is5s": false,
+      "isAudioDescription": false,
+      "payment": 3,
+      "description": "Mitten in der hitzigen Sommerhitze einer Terrorkampagne muss Lana Washington ihre persönliche Tragödie beiseiteschieben, um das Rätsel um die Drahtzieher der Anschläge zu lösen. Während die Bombenanschläge zunehmen und eine Gruppe namens „Die Kreuzritter“ die Verantwortung übernimmt, kämpft Lana mit den Gefahren ihres Berufs.",
+      "year": 2022,
+      "ageRating": {
+        "isHidden": false,
+        "pid": "AGE233",
+        "age": 16,
+        "code": "16",
+        "shortDescription": "Ab 16 Jahren",
+        "image": {
+          "type": "Cover",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+        }
+      },
+      "isDtp": false,
+      "actors": [
+        "Adrian Lester",
+        "Cal Macaninch",
+        "Vicky McClure"
+      ],
+      "directors": [
+        "Gilles Bannier"
+      ],
+      "descriptors": [
+        "Ab 16 Jahren"
+      ],
+      "countries": [
+        "Großbritannien"
+      ],
+      "isComingSoon": false,
+      "producer": {
+        "pid": "CMP1914",
+        "title": "Cirkus Krimi",
+        "image": {
+          "type": "Logo",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+        }
+      },
+      "rights": {
+        "canWatch": true,
+        "isSubscribed": true,
+        "subscription": {
+          "catalogItemId": 2471,
+          "catalogItemType": 132
+        }
+      },
+      "commercialization": {
+        "isTvod": false,
+        "isSubscribable": false
+      },
+      "uniqueId": "868312981",
+      "logoutUrl": "",
+      "isWatching": true,
+      "relevantEpisode": {
+        "pid": "EPI53009069",
+        "duration": 2742,
+        "episodeNumber": 1,
+        "seasonNumber": 1,
+        "distributor": "CIRKUS",
+        "commercializationType": 3,
+        "seriesId": 52943583,
+        "seriesPid": "SER52943583",
+        "shortDescription": "Die Sprengstoffexperten Lana Washington und Joel Nutkins werden zu einem Anti-Terror-Einsatz gerufen.",
+        "seriesName": "Trigger Point",
+        "nextEpisodePid": "EPI53009070",
+        "title": "Folge 1",
+        "episodeTitle": "Folge 1",
+        "image": {
+          "type": "BobLandscape",
+          "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28563542_69E001422916B13B.jpg&template=5"
+        },
+        "genres": [
+          "Drama",
+          "Verbrechen"
+        ],
+        "playback": {
+          "transparentProvider": 0,
+          "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+          "audioIsoCodes": [
+            "deu"
+          ],
+          "resume": {
+            "time": 203,
+            "audioIsoCode": "deu",
+            "subtitleIsoCode": "zxx"
+          },
+          "medias": [
+            {
+              "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293276_E2A56CED145BF445/PR_SVOD_ALL_PREMIUM__992bec5681c944b6.mpd?tcdn-bitrate-filter=HD",
+              "pid": "MED371293280",
+              "quality": 2,
+              "drmType": 4,
+              "streamingType": 4
+            },
+            {
+              "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293276_E2A56CED145BF445/PR_SVOD_ALL_PREMIUM__992bec5681c944b6.mpd?tcdn-bitrate-filter=SD",
+              "pid": "MED371293281",
+              "quality": 3,
+              "drmType": 4,
+              "streamingType": 4
+            },
+            {
+              "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293276_E2A56CED145BF445/PR_SVOD_ALL_PREMIUM__992bec5681c944b6.mpd?tcdn-bitrate-filter=SUBSD",
+              "pid": "MED371293282",
+              "quality": 4,
+              "drmType": 4,
+              "streamingType": 4
+            }
+          ],
+          "maxQualities": {
+            "401": 2
+          }
+        },
+        "logo": {
+          "image": {
+            "type": "Logo",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+          }
+        },
+        "isDolby": false,
+        "isDolbyAtmos": false,
+        "ageRating": {
+          "isHidden": false,
+          "pid": "AGE233",
+          "age": 16,
+          "code": "16",
+          "shortDescription": "Ab 16 Jahren",
+          "image": {
+            "type": "Cover",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+          }
+        },
+        "is5s": false,
+        "isAudioDescription": false,
+        "description": "Die Sprengstoffexperten Lana Washington und Joel Nutkins werden zu einem Anti-Terror-Einsatz in eine Londoner Wohnsiedlung gerufen, um eine mögliche Bombenfabrik zu untersuchen. Mieter der Wohnung ist Andy Phelan.",
+        "isDtp": false,
+        "year": 2022,
+        "payment": 3,
+        "commercialization": {
+          "isTvod": false,
+          "isSubscribable": false
+        },
+        "bars": {
+          "isNotAvailableInThisDevice": false,
+          "isActivatedPendingVisible": false,
+          "isSubscribeVisible": false,
+          "isPurchaseVisible": false,
+          "isPurchaseErrorVisible": false,
+          "isPurchaseExpirationVisible": false,
+          "isBlockTvodVisible": false,
+          "isCatalogExpirationVisible": false
+        },
+        "actors": [
+          "Adrian Lester",
+          "Cal Macaninch",
+          "Vicky McClure"
+        ],
+        "directors": [
+          "Gilles Bannier"
+        ],
+        "descriptors": [
+          "Ab 16 Jahren"
+        ],
+        "tags": {
+          "completed": true,
+          "favorite": false,
+          "follow": false,
+          "hidden": false,
+          "watched": true
+        },
+        "countries": [
+          "Großbritannien"
+        ],
+        "isComingSoon": false,
+        "requiresPin": false,
+        "availableFrom": 1793491200,
+        "availableUntil": 1830297540,
+        "producer": {
+          "pid": "CMP1914",
+          "title": "Cirkus Krimi",
+          "image": {
+            "type": "Logo",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+          }
+        },
+        "deviceTypes": [
+          401
+        ],
+        "rights": {
+          "canWatch": true,
+          "isSubscribed": true,
+          "endDate": 2114380800
+        },
+        "buttons": {
+          "isExternalCatchupVisible": false,
+          "isPlayVisible": true,
+          "isPlayFromBeginningVisible": true,
+          "isPlayAgainVisible": true,
+          "isPurchaseVisible": false,
+          "isSubscribeVisible": false,
+          "isAmazonInterstitialVisible": false,
+          "isAmazonDirectVisible": false,
+          "isExternalCatchupInterstitialVisible": false
+        },
+        "hasAds": false
+      },
+      "renderChild": true,
+      "relevantSeason": {
+        "pid": "SEA52943582",
+        "title": "Trigger Point",
+        "availableFrom": 1793491200,
+        "availableUntil": 1830297540,
+        "distributor": "CIRKUS",
+        "seasonNumber": 1,
+        "commercializationType": 3,
+        "year": 2022,
+        "duration": 0,
+        "payment": 3,
+        "episodes": [
+          {
+            "pid": "EPI53009069",
+            "duration": 2742,
+            "episodeNumber": 1,
+            "seasonNumber": 1,
+            "distributor": "CIRKUS",
+            "commercializationType": 3,
+            "seriesId": 52943583,
+            "seriesPid": "SER52943583",
+            "shortDescription": "Die Sprengstoffexperten Lana Washington und Joel Nutkins werden zu einem Anti-Terror-Einsatz gerufen.",
+            "seriesName": "Trigger Point",
+            "nextEpisodePid": "EPI53009070",
+            "title": "Folge 1",
+            "episodeTitle": "Folge 1",
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28563542_69E001422916B13B.jpg&template=5"
+            },
+            "genres": [
+              "Drama",
+              "Verbrechen"
+            ],
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "audioIsoCodes": [
+                "deu"
+              ],
+              "resume": {
+                "time": 203,
+                "audioIsoCode": "deu",
+                "subtitleIsoCode": "zxx"
+              },
+              "medias": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293276_E2A56CED145BF445/PR_SVOD_ALL_PREMIUM__992bec5681c944b6.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED371293280",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293276_E2A56CED145BF445/PR_SVOD_ALL_PREMIUM__992bec5681c944b6.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED371293281",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293276_E2A56CED145BF445/PR_SVOD_ALL_PREMIUM__992bec5681c944b6.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED371293282",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "is5s": false,
+            "isAudioDescription": false,
+            "description": "Die Sprengstoffexperten Lana Washington und Joel Nutkins werden zu einem Anti-Terror-Einsatz in eine Londoner Wohnsiedlung gerufen, um eine mögliche Bombenfabrik zu untersuchen. Mieter der Wohnung ist Andy Phelan.",
+            "isDtp": false,
+            "year": 2022,
+            "payment": 3,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            },
+            "actors": [
+              "Adrian Lester",
+              "Cal Macaninch",
+              "Vicky McClure"
+            ],
+            "directors": [
+              "Gilles Bannier"
+            ],
+            "descriptors": [
+              "Ab 16 Jahren"
+            ],
+            "tags": {
+              "completed": true,
+              "favorite": false,
+              "follow": false,
+              "hidden": false,
+              "watched": true
+            },
+            "countries": [
+              "Großbritannien"
+            ],
+            "isComingSoon": false,
+            "requiresPin": false,
+            "availableFrom": 1793491200,
+            "availableUntil": 1830297540,
+            "producer": {
+              "pid": "CMP1914",
+              "title": "Cirkus Krimi",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800
+            },
+            "buttons": {
+              "isExternalCatchupVisible": false,
+              "isPlayVisible": true,
+              "isPlayFromBeginningVisible": true,
+              "isPlayAgainVisible": true,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonInterstitialVisible": false,
+              "isAmazonDirectVisible": false,
+              "isExternalCatchupInterstitialVisible": false
+            },
+            "hasAds": false
+          },
+          {
+            "pid": "EPI53009070",
+            "duration": 2710,
+            "episodeNumber": 2,
+            "seasonNumber": 1,
+            "distributor": "CIRKUS",
+            "commercializationType": 3,
+            "seriesId": 52943583,
+            "seriesPid": "SER52943583",
+            "shortDescription": "Bei dem Bombenanschlag im Wohngebiet Westhaven sind mehrere Menschen ums Leben gekommen.",
+            "seriesName": "Trigger Point",
+            "nextEpisodePid": "EPI53009841",
+            "title": "Folge 2",
+            "episodeTitle": "Folge 2",
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28563543_E9F311E023A1A5BE.jpg&template=5"
+            },
+            "genres": [
+              "Drama",
+              "Verbrechen"
+            ],
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "audioIsoCodes": [
+                "deu"
+              ],
+              "resume": {
+                "audioIsoCode": "deu",
+                "subtitleIsoCode": "zxx"
+              },
+              "medias": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293283_2B52E97B67F8E119/PR_SVOD_ALL_PREMIUM__9ea755e7e30e4466.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED371293288",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293283_2B52E97B67F8E119/PR_SVOD_ALL_PREMIUM__9ea755e7e30e4466.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED371293289",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293283_2B52E97B67F8E119/PR_SVOD_ALL_PREMIUM__9ea755e7e30e4466.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED371293290",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "is5s": false,
+            "isAudioDescription": false,
+            "description": "Bei dem Bombenanschlag im Wohngebiet Westhaven sind mehrere Menschen ums Leben gekommen. Darunter auch der Entschärfer Joel Nutkins. Die Entschärferin Lana Washington glaubt, dass es sich bei den Bombenbauern nicht um Amateure handelt.",
+            "isDtp": false,
+            "year": 2022,
+            "payment": 3,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            },
+            "actors": [
+              "Warren Brown",
+              "Kerry Godliman",
+              "Vicky McClure"
+            ],
+            "directors": [
+              "Gilles Bannier"
+            ],
+            "descriptors": [
+              "Ab 16 Jahren"
+            ],
+            "tags": {
+              "completed": false,
+              "favorite": false,
+              "follow": false,
+              "hidden": false,
+              "watched": false
+            },
+            "countries": [
+              "Großbritannien"
+            ],
+            "isComingSoon": false,
+            "requiresPin": false,
+            "availableFrom": 1793491200,
+            "availableUntil": 1830297540,
+            "producer": {
+              "pid": "CMP1914",
+              "title": "Cirkus Krimi",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800
+            },
+            "buttons": {
+              "isExternalCatchupVisible": false,
+              "isPlayVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonInterstitialVisible": false,
+              "isAmazonDirectVisible": false,
+              "isExternalCatchupInterstitialVisible": false
+            },
+            "hasAds": false
+          },
+          {
+            "pid": "EPI53009841",
+            "duration": 2771,
+            "episodeNumber": 3,
+            "seasonNumber": 1,
+            "distributor": "CIRKUS",
+            "commercializationType": 3,
+            "seriesId": 52943583,
+            "seriesPid": "SER52943583",
+            "shortDescription": "Lana Washington gelingt es nicht, die Bombe in der Moschee zu entschärfen.",
+            "seriesName": "Trigger Point",
+            "nextEpisodePid": "EPI53009896",
+            "title": "Folge 3",
+            "episodeTitle": "Folge 3",
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28563548_045D4351D2749468.jpg&template=5"
+            },
+            "genres": [
+              "Drama",
+              "Verbrechen"
+            ],
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "audioIsoCodes": [
+                "deu"
+              ],
+              "resume": {
+                "audioIsoCode": "deu",
+                "subtitleIsoCode": "zxx"
+              },
+              "medias": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293291_EA4D6605C22BEF0F/PR_SVOD_ALL_PREMIUM__7d35ffbfc52a4ca1.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED371293296",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293291_EA4D6605C22BEF0F/PR_SVOD_ALL_PREMIUM__7d35ffbfc52a4ca1.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED371293297",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293291_EA4D6605C22BEF0F/PR_SVOD_ALL_PREMIUM__7d35ffbfc52a4ca1.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED371293298",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "is5s": false,
+            "isAudioDescription": false,
+            "description": "Lana Washington gelingt es nicht, die Bombe in der Moschee zu entschärfen. Bei der Explosion kommt ein junger Muezzin ums Leben. Eine Gruppe Rechtsextremer, die sich die Kreuzritter nennen, bekennt sich zu dem Anschlag. Die Analyse des Sprengstoffes bestätigt, dass es sich um denselben Sprengstoff handelt, wie in Westhaven, und die Ermittlungen laufen auf Hochtouren.",
+            "isDtp": false,
+            "year": 2022,
+            "payment": 3,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            },
+            "actors": [
+              "Vicky McClure",
+              "Kris Hitchen",
+              "Cal  MacAninch"
+            ],
+            "directors": [
+              "Gilles Bannier"
+            ],
+            "descriptors": [
+              "Ab 16 Jahren"
+            ],
+            "tags": {
+              "completed": false,
+              "favorite": false,
+              "follow": false,
+              "hidden": false,
+              "watched": false
+            },
+            "countries": [
+              "Großbritannien"
+            ],
+            "isComingSoon": false,
+            "requiresPin": false,
+            "availableFrom": 1793491200,
+            "availableUntil": 1830297540,
+            "producer": {
+              "pid": "CMP1914",
+              "title": "Cirkus Krimi",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800
+            },
+            "buttons": {
+              "isExternalCatchupVisible": false,
+              "isPlayVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonInterstitialVisible": false,
+              "isAmazonDirectVisible": false,
+              "isExternalCatchupInterstitialVisible": false
+            },
+            "hasAds": false
+          },
+          {
+            "pid": "EPI53009896",
+            "duration": 2811,
+            "episodeNumber": 4,
+            "seasonNumber": 1,
+            "distributor": "CIRKUS",
+            "commercializationType": 3,
+            "seriesId": 52943583,
+            "seriesPid": "SER52943583",
+            "shortDescription": "Die Polizei findet das Fluchtfahrzeug des Attentäters vom Fairhall Hochhaus ausgebrannt am Flussufer.",
+            "seriesName": "Trigger Point",
+            "nextEpisodePid": "EPI53009947",
+            "title": "Folge 4",
+            "episodeTitle": "Folge 4",
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28563602_9706F84ED6B56C03.jpg&template=5"
+            },
+            "genres": [
+              "Drama",
+              "Verbrechen"
+            ],
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "audioIsoCodes": [
+                "deu"
+              ],
+              "resume": {
+                "audioIsoCode": "deu",
+                "subtitleIsoCode": "zxx"
+              },
+              "medias": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371296572_78691105C5D81090/PR_SVOD_ALL_PREMIUM__d7bf43fb1f284098.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED371296606",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371296572_78691105C5D81090/PR_SVOD_ALL_PREMIUM__d7bf43fb1f284098.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED371296607",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371296572_78691105C5D81090/PR_SVOD_ALL_PREMIUM__d7bf43fb1f284098.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED371296608",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "is5s": false,
+            "isAudioDescription": false,
+            "description": "Die Polizei findet das Fluchtfahrzeug des Attentäters vom Fairhall Hochhaus ausgebrannt am Flussufer. Die Ermittlungen laufen auf Hochtouren. Lana ist sich sicher, dass ihr Kollege John Hudson in die Sache verwickelt ist und stellt ihm nach.",
+            "isDtp": false,
+            "year": 2022,
+            "payment": 3,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            },
+            "actors": [
+              "Ralph Ineson",
+              "Cal Macaninch",
+              "Kris Hitchen"
+            ],
+            "directors": [
+              "Jennie Darnell"
+            ],
+            "descriptors": [
+              "Ab 16 Jahren"
+            ],
+            "tags": {
+              "completed": false,
+              "favorite": false,
+              "follow": false,
+              "hidden": false,
+              "watched": false
+            },
+            "countries": [
+              "Großbritannien"
+            ],
+            "isComingSoon": false,
+            "requiresPin": false,
+            "availableFrom": 1793491200,
+            "availableUntil": 1830297540,
+            "producer": {
+              "pid": "CMP1914",
+              "title": "Cirkus Krimi",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800
+            },
+            "buttons": {
+              "isExternalCatchupVisible": false,
+              "isPlayVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonInterstitialVisible": false,
+              "isAmazonDirectVisible": false,
+              "isExternalCatchupInterstitialVisible": false
+            },
+            "hasAds": false
+          },
+          {
+            "pid": "EPI53009947",
+            "duration": 2805,
+            "episodeNumber": 5,
+            "seasonNumber": 1,
+            "distributor": "CIRKUS",
+            "commercializationType": 3,
+            "seriesId": 52943583,
+            "seriesPid": "SER52943583",
+            "shortDescription": "Lana glaubt, dass ihr Kollege John Hudson mitverantwortlich für die Anschläge ist.",
+            "seriesName": "Trigger Point",
+            "nextEpisodePid": "EPI53010318",
+            "title": "Folge 5",
+            "episodeTitle": "Folge 5",
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28563661_2701358710DFB78A.jpg&template=5"
+            },
+            "genres": [
+              "Drama",
+              "Verbrechen"
+            ],
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "audioIsoCodes": [
+                "deu"
+              ],
+              "resume": {
+                "audioIsoCode": "deu",
+                "subtitleIsoCode": "zxx"
+              },
+              "medias": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371296592_3E526C18417A4E49/PR_SVOD_ALL_PREMIUM__36ae67b102de4cca.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED371296612",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371296592_3E526C18417A4E49/PR_SVOD_ALL_PREMIUM__36ae67b102de4cca.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED371296613",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371296592_3E526C18417A4E49/PR_SVOD_ALL_PREMIUM__36ae67b102de4cca.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED371296614",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "is5s": false,
+            "isAudioDescription": false,
+            "description": "Lana glaubt, dass ihr Kollege John Hudson mitverantwortlich für die Anschläge ist. Doch ihr Freund DI Thom Youngblood, der ihn überprüft hat, glaubt ihr nicht. Es bestätigt sich, dass Lanas Bruder Billy, der bei dem Autobombenanschlag getötet wurde, nichts mit der Sache zu tun hatte, und er nur benutzt wurde.",
+            "isDtp": false,
+            "year": 2022,
+            "payment": 3,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            },
+            "actors": [
+              "Warren Brown",
+              "Kerry Godliman",
+              "Vicky McClure"
+            ],
+            "directors": [
+              "Jennie Darnell"
+            ],
+            "descriptors": [
+              "Ab 16 Jahren"
+            ],
+            "tags": {
+              "completed": false,
+              "favorite": false,
+              "follow": false,
+              "hidden": false,
+              "watched": false
+            },
+            "countries": [
+              "Großbritannien"
+            ],
+            "isComingSoon": false,
+            "requiresPin": false,
+            "availableFrom": 1793491200,
+            "availableUntil": 1830297540,
+            "producer": {
+              "pid": "CMP1914",
+              "title": "Cirkus Krimi",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800
+            },
+            "buttons": {
+              "isExternalCatchupVisible": false,
+              "isPlayVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonInterstitialVisible": false,
+              "isAmazonDirectVisible": false,
+              "isExternalCatchupInterstitialVisible": false
+            },
+            "hasAds": false
+          },
+          {
+            "pid": "EPI53010318",
+            "duration": 2773,
+            "episodeNumber": 6,
+            "seasonNumber": 1,
+            "distributor": "CIRKUS",
+            "commercializationType": 3,
+            "seriesId": 52943583,
+            "seriesPid": "SER52943583",
+            "shortDescription": "Der Sprengsatz im Auto sollte eine große Gasexplosion in der Gegend auslösen.",
+            "seriesName": "Trigger Point",
+            "nextEpisodePid": "EPI53010318",
+            "title": "Folge 6",
+            "episodeTitle": "Folge 6",
+            "image": {
+              "type": "BobLandscape",
+              "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28563740_2495A543002EA56F.jpg&template=5"
+            },
+            "genres": [
+              "Drama",
+              "Verbrechen"
+            ],
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "audioIsoCodes": [
+                "deu"
+              ],
+              "resume": {
+                "audioIsoCode": "deu",
+                "subtitleIsoCode": "zxx"
+              },
+              "medias": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371296832_A401BE2ECC68E387/PR_SVOD_ALL_PREMIUM__456993adc1074e42.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED371296872",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371296832_A401BE2ECC68E387/PR_SVOD_ALL_PREMIUM__456993adc1074e42.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED371296873",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371296832_A401BE2ECC68E387/PR_SVOD_ALL_PREMIUM__456993adc1074e42.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED371296874",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "is5s": false,
+            "isAudioDescription": false,
+            "description": "Der Sprengsatz im Auto sollte eine große Gasexplosion in der Gegend, in der das Wahlkampfbüro der Progressiven Allianz ist, auslösen. Alle Häuser im Umkreis von zwei Meilen werden evakuiert.",
+            "isDtp": false,
+            "year": 2022,
+            "payment": 3,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            },
+            "actors": [
+              "Warren Brown",
+              "Kerry Godliman",
+              "Vicky McClure"
+            ],
+            "directors": [
+              "Jennie Darnell"
+            ],
+            "descriptors": [
+              "Ab 16 Jahren"
+            ],
+            "tags": {
+              "completed": false,
+              "favorite": false,
+              "follow": false,
+              "hidden": false,
+              "watched": false
+            },
+            "countries": [
+              "Großbritannien"
+            ],
+            "isComingSoon": false,
+            "requiresPin": false,
+            "availableFrom": 1793491200,
+            "availableUntil": 1830297540,
+            "producer": {
+              "pid": "CMP1914",
+              "title": "Cirkus Krimi",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800
+            },
+            "buttons": {
+              "isExternalCatchupVisible": false,
+              "isPlayVisible": true,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonInterstitialVisible": false,
+              "isAmazonDirectVisible": false,
+              "isExternalCatchupInterstitialVisible": false
+            },
+            "hasAds": false
+          }
+        ],
+        "genres": [
+          "Drama",
+          "Verbrechen"
+        ],
+        "producer": {
+          "pid": "CMP1914",
+          "title": "Cirkus Krimi",
+          "image": {
+            "type": "Logo",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+          }
+        },
+        "ageRating": {
+          "isHidden": false,
+          "pid": "AGE233",
+          "age": 16,
+          "code": "16",
+          "shortDescription": "Ab 16 Jahren",
+          "image": {
+            "type": "Cover",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+          }
+        }
+      },
+      "seasons": [
+        {
+          "pid": "SEA52943582",
+          "seasonNumber": 1,
+          "episodesCount": 6,
+          "isRelevant": true
+        }
+      ],
+      "tags": {
+        "completed": false,
+        "favorite": false,
+        "follow": false,
+        "hidden": false,
+        "watched": false
+      },
+      "relatedContents": {
+        "collectionLayoutStyle": "portraitSmall",
+        "type": "category",
+        "contents": [
+          {
+            "pid": "SER35811486",
+            "title": "Blutige Anfänger",
+            "commercializationType": 3,
+            "requiresPin": false,
+            "distributor": "ZDF Studios GmbH",
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F20%2F75%2F20756534_C31196C9B3F32710.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F20%2F75%2F20756536_D7AB6B9D2AC79506.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Drama",
+              "Verbrechen"
+            ],
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "trackId": "1920171260.193.1794174079129.1",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "isWatching": false,
+            "relevantEpisode": {
+              "pid": "EPI35825805",
+              "duration": 2612,
+              "episodeNumber": 1,
+              "seasonNumber": 1,
+              "distributor": "ZDF Studios GmbH",
+              "commercializationType": 3,
+              "seriesId": 35811486,
+              "seriesPid": "SER35811486",
+              "seriesName": "Blutige Anfänger",
+              "nextEpisodePid": "EPI35825894",
+              "title": "Selfie, Mord und Totschlag",
+              "episodeTitle": "Selfie, Mord und Totschlag",
+              "genres": [
+                "Drama",
+                "Verbrechen"
+              ],
+              "playback": {
+                "transparentProvider": 0,
+                "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+                "audioIsoCodes": [
+                  "deu"
+                ],
+                "medias": [
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/02/43/41/243417589_68E980C699F7EC7F/PR_SVOD_ALL_PREMIUM__645ab59f87c4436f.mpd?tcdn-bitrate-filter=HD",
+                    "pid": "MED243417594",
+                    "quality": 2,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/02/43/41/243417589_68E980C699F7EC7F/PR_SVOD_ALL_PREMIUM__645ab59f87c4436f.mpd?tcdn-bitrate-filter=SD",
+                    "pid": "MED243417595",
+                    "quality": 3,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/02/43/41/243417589_68E980C699F7EC7F/PR_SVOD_ALL_PREMIUM__645ab59f87c4436f.mpd?tcdn-bitrate-filter=SUBSD",
+                    "pid": "MED243417596",
+                    "quality": 4,
+                    "drmType": 4,
+                    "streamingType": 4
+                  }
+                ],
+                "maxQualities": {
+                  "401": 2
+                }
+              },
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "requiresPin": false,
+              "availableFrom": 1724796000,
+              "availableUntil": 1822255200,
+              "producer": {
+                "pid": "CMP2037",
+                "title": "Krimi"
+              },
+              "deviceTypes": [
+                401
+              ],
+              "rights": {
+                "canWatch": true,
+                "isSubscribed": true,
+                "endDate": 2114380800
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false,
+                "isPlayVisible": true,
+                "isPlayFromBeginningVisible": false,
+                "isPlayAgainVisible": false,
+                "isPurchaseVisible": false,
+                "isSubscribeVisible": false,
+                "isAmazonInterstitialVisible": false,
+                "isAmazonDirectVisible": false,
+                "isExternalCatchupInterstitialVisible": false
+              },
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": false
+              }
+            },
+            "payment": 3,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "producer": {
+              "pid": "CMP2037",
+              "title": "Krimi"
+            },
+            "buttons": {
+              "isTrailerVisible": false,
+              "isAmazonVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            }
+          },
+          {
+            "pid": "SER45835080",
+            "title": "Elvira",
+            "commercializationType": 5,
+            "requiresPin": false,
+            "distributor": "DisneyPlus",
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F82%2F26824890_9f44baddac49f67c722a7f90f6f2819a.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F39%2F28396281_1c5cc637258b3bf3d372f253bd474992.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Verbrechen",
+              "Drama"
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "trackId": "1920171260.193.1794174079129.2",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-bd0a099e-ad45-4a16-b66c-64b263cae51a?distributionPartner=o2",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "isWatching": false,
+            "payment": 3,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "buttons": {
+              "isTrailerVisible": false,
+              "isAmazonVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            }
+          },
+          {
+            "pid": "SER45834952",
+            "title": "This Is Not Hollywood",
+            "commercializationType": 5,
+            "requiresPin": false,
+            "distributor": "DisneyPlus",
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23121425_098979c966b27fa95cd79b80037aedd2.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23121422_519229262279866f9a771190c385ee8c.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Verbrechen",
+              "Drama"
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "trackId": "1920171260.193.1794174079129.3",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-70b41a99-963d-4d6a-b7b4-f2f115f8779e?distributionPartner=o2",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "isWatching": false,
+            "payment": 3,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "producer": {
+              "pid": "CMP1471",
+              "title": "DisneyPlusOriginal",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "buttons": {
+              "isTrailerVisible": false,
+              "isAmazonVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            }
+          },
+          {
+            "pid": "SER45834605",
+            "title": "Mayans M.C.",
+            "commercializationType": 5,
+            "requiresPin": false,
+            "distributor": "DisneyPlus",
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23120361_54527385eaab5e9bf68e7250ce6abae4.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F36%2F26362693_346d110c5f639d246f05caa332b7db46.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Verbrechen",
+              "Drama"
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "trackId": "1920171260.193.1794174079129.4",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-ea57ec26-db49-499d-aabc-a5dfa23dd96f?distributionPartner=o2",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "isWatching": false,
+            "payment": 3,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE234",
+              "age": 18,
+              "code": "18",
+              "shortDescription": "Ab 18 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924774_9685E4AEB60994ED.png"
+              }
+            },
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "buttons": {
+              "isTrailerVisible": false,
+              "isAmazonVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            }
+          },
+          {
+            "pid": "MOV45844022",
+            "title": "Wederopstanding Van Een Klootzak, De",
+            "duration": 5130,
+            "requiresPin": false,
+            "trackId": "1920171260.193.1794174079129.5",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1735891200,
+            "availableUntil": 1893452400,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-a85e4790-6f36-4a9a-83d2-725f28f95a90?distributionPartner=o2",
+            "genres": [
+              "Verbrechen",
+              "Drama"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F15%2F23152416_f51e2e26d23fae37c97c34fb16747b53.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F15%2F23152415_2b63ca9a65963c2e9c3d48c2c811f96d.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV45842876",
+            "title": "Der Gutachter - Ein Mord zu viel",
+            "duration": 5312,
+            "requiresPin": false,
+            "trackId": "1920171260.193.1794174079129.6",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1758697200,
+            "availableUntil": 1830294000,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-c6591a5b-88f4-4688-a221-379a25ba6cc2?distributionPartner=o2",
+            "genres": [
+              "Verbrechen",
+              "Drama"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F62%2F28627144_e390e78db3751592399685aeda49e137.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23127234_5dce1ac74ee62ed8896c73064b81ebab.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV45840505",
+            "title": "Big Boys Don't Cry",
+            "duration": 5417,
+            "requiresPin": false,
+            "trackId": "1920171260.193.1794174079129.7",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1735891200,
+            "availableUntil": 1893452400,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-cf0ee8e1-f639-4fe9-a632-134a9fdf12fe?distributionPartner=o2",
+            "genres": [
+              "Verbrechen",
+              "Drama"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23125323_58a0d6e1311351e8dc5efb6fd3ee5b16.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23125321_861096498d9bdbdb96c1509142b12c6c.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "MOV45841323",
+            "title": "Der Millionenraub",
+            "duration": 5381,
+            "requiresPin": false,
+            "trackId": "1920171260.193.1794174079129.8",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "availableFrom": 1758697200,
+            "availableUntil": 1830294000,
+            "distributor": "DisneyPlus",
+            "commercializationType": 5,
+            "externalTypeId": 0,
+            "seriesPid": "",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-d1791107-d899-40cc-8916-9a91f9659fc2?distributionPartner=o2",
+            "genres": [
+              "Verbrechen",
+              "Drama"
+            ],
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F82%2F26825478_3f1a4a29751feef2a29e3c00773a0dfd.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23126004_99b6fd16ff8986b95044361749659163.jpg&template=5"
+              }
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "deviceTypes": [
+              401
+            ],
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "playback": {
+              "transparentProvider": 0,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "maxQualities": {
+                "401": 2
+              }
+            },
+            "buttons": {
+              "isExternalCatchupVisible": true,
+              "isPlayVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isTrailerVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isPlayAgainVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false,
+              "isPurchaseVisible": false,
+              "isSubscribeVisible": false,
+              "isAmazonVisible": false
+            },
+            "hasThumbnails": true,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isPurchaseVisible": false,
+              "isPurchaseErrorVisible": false,
+              "isPurchaseExpirationVisible": false,
+              "isBlockTvodVisible": false,
+              "isCatalogExpirationVisible": false
+            }
+          },
+          {
+            "pid": "SER45834394",
+            "title": "Godfather of Harlem",
+            "commercializationType": 5,
+            "requiresPin": false,
+            "distributor": "DisneyPlus",
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F11%2F23119861_31e19fca846f684c927eb7e4b342155c.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F11%2F23119858_f9d249a2cdde793cfecbb87755f5b041.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Verbrechen",
+              "Drama"
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "trackId": "1920171260.193.1794174079129.9",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-2848b961-64dc-495b-8954-469d87dd3fcd?distributionPartner=o2",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "isWatching": false,
+            "payment": 3,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE233",
+              "age": 16,
+              "code": "16",
+              "shortDescription": "Ab 16 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+              }
+            },
+            "producer": {
+              "pid": "CMP1472",
+              "title": "DisneyPlusLibrary",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "buttons": {
+              "isTrailerVisible": false,
+              "isAmazonVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            }
+          },
+          {
+            "pid": "SER45834679",
+            "title": "Under the Bridge",
+            "commercializationType": 5,
+            "requiresPin": false,
+            "distributor": "DisneyPlus",
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23120649_5c36888d1ff8e61f66e8d60e93abd952.jpg&template=1"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F12%2F23120646_163d18f0ddf9852d8896dba6ca1d9033.jpg&template=5"
+              }
+            ],
+            "genres": [
+              "Verbrechen",
+              "Drama"
+            ],
+            "logo": {
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "is5s": false,
+            "isAudioDescription": false,
+            "trackId": "1920171260.193.1794174079129.10",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "externalCatchupUrl": "https://www.disneyplus.com/browse/entity-9f6e597e-1e0a-4b07-8837-7f0f7c7be158?distributionPartner=o2",
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "logoutUrl": "",
+            "isWatching": false,
+            "payment": 3,
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "producer": {
+              "pid": "CMP1471",
+              "title": "DisneyPlusOriginal",
+              "image": {
+                "type": "Logo",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/19/22/19223558_3545652D077D2779.png"
+              }
+            },
+            "buttons": {
+              "isTrailerVisible": false,
+              "isAmazonVisible": false,
+              "isAddMyListVisible": true,
+              "isRemoveMyListVisible": false,
+              "isStopWatchingVisible": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            }
+          }
+        ]
+      },
+      "buttons": {
+        "isTrailerVisible": false,
+        "isAmazonVisible": false,
+        "isAddMyListVisible": true,
+        "isRemoveMyListVisible": false,
+        "isStopWatchingVisible": true
+      },
+      "requestId": "OP-0041286d4adc9f05caa218ab493e3a02",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 329
+  }
+}

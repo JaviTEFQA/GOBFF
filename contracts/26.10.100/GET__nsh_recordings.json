@@ -1,0 +1,108 @@
+{
+  "endpointId": "GET nsh/recordings",
+  "samples": 1,
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "recordings": {
+        "types": [
+          "object"
+        ],
+        "properties": {
+          "ongoing": {
+            "types": [
+              "array"
+            ]
+          },
+          "scheduled": {
+            "types": [
+              "array"
+            ],
+            "items": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "channelPid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "emissionDate": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "start": {
+                      "types": [
+                        "number"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "start"
+                  ]
+                },
+                "isConflicted": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "isEntireSeries": {
+                  "types": [
+                    "boolean"
+                  ]
+                },
+                "pid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "recordingSeriesPid": {
+                  "types": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "channelPid",
+                "emissionDate",
+                "isConflicted",
+                "isEntireSeries",
+                "pid",
+                "recordingSeriesPid"
+              ]
+            }
+          },
+          "notified": {
+            "types": [
+              "array"
+            ]
+          }
+        },
+        "required": [
+          "notified",
+          "ongoing",
+          "scheduled"
+        ]
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "recordings",
+      "requestId",
+      "version"
+    ]
+  }
+}

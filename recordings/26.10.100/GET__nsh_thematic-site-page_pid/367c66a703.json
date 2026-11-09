@@ -1,0 +1,1493 @@
+{
+  "endpointId": "GET nsh/thematic-site-page/{pid}",
+  "key": "GET nsh/thematic-site-page/CHA20290?appVersion=26.10.100&page=1",
+  "journey": "favorites",
+  "recordedAt": "2026-11-08T21:37:14.035Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/thematic-site-page/CHA20290?appVersion=26.10.100&page=1",
+    "servicePath": "nsh/thematic-site-page/CHA20290",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/catalog/mein-o2-tv-20290",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:37:11 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:37:11 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-751b06665ece16fb43b061fa2da02a32",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "thematicSite": [
+        {
+          "type": "availableRecordings",
+          "collectionLayoutStyle": "landscapeSmall",
+          "pid": "CHA20288",
+          "title": "Verfügbare Aufnahmen",
+          "showGrid": true,
+          "showAllPid": "CHA20288",
+          "refreshAfter": 1794173831,
+          "requiresPin": false,
+          "isMoreContentsEnabled": true,
+          "storageInfo": {
+            "available": 0,
+            "percentage": 0,
+            "state": "alert",
+            "total": 100
+          },
+          "contents": [
+            {
+              "pid": "RSR3240304_LCH6420",
+              "title": "Nachrichten",
+              "seriesId": 3240304,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486441_C0A6592CC82DC3D1.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F24%2F67%2F24675277_c3613e18565ba1e72e31a71a583f250d.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": true,
+              "buttons": {
+                "isRecordingDeleteSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR5143692_LCH6400",
+              "title": "Tagesschau-Nachrichten",
+              "seriesId": 5143692,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490950_8B76BA89433B62A5.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F75%2F23752419_28c01ab9dda0f4b0637738f15f1617be.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "buttons": {
+                "isRecordingDeleteSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR1592783_LCH6378",
+              "title": "ZDF-Morgenmagazin",
+              "seriesId": 1592783,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F47%2F28474887_3be146ae18b6b75a2854507790d605ad.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "buttons": {
+                "isRecordingDeleteSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR1592783_LCH6423",
+              "title": "ZDF-Morgenmagazin",
+              "seriesId": 1592783,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490682_21C16A2E305CE801.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F47%2F28474887_3be146ae18b6b75a2854507790d605ad.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "buttons": {
+                "isRecordingDeleteSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR10857467_LCH6438",
+              "title": "Auf Streife",
+              "seriesId": 10857467,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F52%2F23528084_23d83ed2c6de5f35bb619ae1328fec86.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 2,
+              "isEntireSeries": true,
+              "isHomeBlocked": true,
+              "buttons": {
+                "isRecordingDeleteSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR14788709_LCH6562",
+              "title": "kurz und gut",
+              "seriesId": 14788709,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490985_2659BA41C5456BFA.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23330961_f0b0d94dfe4a9f531399497101d5322b.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "buttons": {
+                "isRecordingDeleteSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR185628331_LCH6562",
+              "title": "Nachtstreife",
+              "seriesId": 185628331,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490985_2659BA41C5456BFA.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F38%2F23383101_a92dcd20a01e441dd40d11da31e2ad1d.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "buttons": {
+                "isRecordingDeleteSeriesVisible": true
+              }
+            },
+            {
+              "pid": "REC36229940",
+              "seriesName": "",
+              "title": "JD Vance - Der Mann nach Trump",
+              "episodeTitle": "",
+              "programId": 288572270,
+              "seriesId": 0,
+              "seasonNumber": 0,
+              "episodeNumber": 0,
+              "liveChannel": {
+                "pid": "LCH6581"
+              },
+              "channelName": "SWR Baden-Württemberg",
+              "recordingState": 3,
+              "isConflicted": false,
+              "isEntireSeries": false,
+              "isCanceled": false,
+              "isProtected": false,
+              "isRunning": false,
+              "isFinished": true,
+              "isHomeBlocked": false,
+              "emissionDate": {
+                "start": 1793313300,
+                "end": 1793318100
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F71%2F23710233_f355f2f473c8f69c38764c50fd3c94b0.jpg&template=5"
+              },
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE230",
+                "age": 1,
+                "code": "0",
+                "shortDescription": "Ohne Altersbeschränkung",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924766_8DF1AB82DFD43B46.png"
+                }
+              },
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490947_6E1FB9F165E8CDBA.png"
+                }
+              },
+              "isDolby": true,
+              "isDolbyAtmos": false,
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "isFFRWBlockedInCDVR": false,
+              "deviceTypes": [
+                303,
+                304,
+                306,
+                308,
+                309,
+                310,
+                319,
+                330,
+                401,
+                501,
+                502,
+                601,
+                602,
+                820
+              ],
+              "hasThumbnails": true,
+              "hasAds": false,
+              "isPreferent": false,
+              "recordingDeleteTime": 0,
+              "recordingDuration": 4800,
+              "buttons": {
+                "isRecordingPlayVisible": true,
+                "isRecordingProtectSingleVisible": false,
+                "isRecordingUnprotectSingleVisible": false,
+                "isRecordingDeleteSingleVisible": true,
+                "isRecordingDeleteSeriesVisible": false,
+                "isRecordingCancelSingleVisible": false,
+                "isRecordingCancelSeriesVisible": false,
+                "isScheduleDetailVisible": false,
+                "isHomeBlockUnlockVisible": false,
+                "isRecordingPlayFromBeginningVisible": false,
+                "isSchedulePlayFromBeginningVisible": false
+              },
+              "bars": {
+                "isCanceledVisible": false,
+                "isNonPlayableVisible": false,
+                "isExpirationVisible": false,
+                "isHomeBlockErrorVisible": false,
+                "isRecordingSeriesVisible": false
+              }
+            },
+            {
+              "pid": "RSR96288986_LCH6423",
+              "title": "phoenix runde",
+              "seriesId": 96288986,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490682_21C16A2E305CE801.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F23%2F75%2F23757890_9a5fc04d4d86e1fa34897c45a36c018d.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "buttons": {
+                "isRecordingDeleteSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR37693769_LCH6359",
+              "title": "Wer weiß denn sowas?",
+              "seriesId": 37693769,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473115_24D076C6F3E423E3.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2Fimages%2F00%2F22%2F94%2F22940835_80ab405c5aaaa80aa154d3e296cf943d.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "buttons": {
+                "isRecordingDeleteSeriesVisible": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "scheduledRecordings",
+          "collectionLayoutStyle": "landscapeSmall",
+          "pid": "CHA20287",
+          "title": "Geplante Aufnahmen",
+          "showGrid": true,
+          "showAllPid": "CHA20287",
+          "refreshAfter": 1794173831,
+          "requiresPin": false,
+          "isMoreContentsEnabled": true,
+          "contents": [
+            {
+              "pid": "RSR3240304_LCH6420",
+              "title": "Nachrichten",
+              "seriesId": 3240304,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486441_C0A6592CC82DC3D1.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F24%2F67%2F24675277_c3613e18565ba1e72e31a71a583f250d.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": true,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR5143692_LCH6400",
+              "title": "Tagesschau-Nachrichten",
+              "seriesId": 5143692,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490950_8B76BA89433B62A5.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F75%2F23752419_28c01ab9dda0f4b0637738f15f1617be.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR1592783_LCH6423",
+              "title": "ZDF-Morgenmagazin",
+              "seriesId": 1592783,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490682_21C16A2E305CE801.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23331467_ec61e8e5b9e2ab4b065af427519ca7a6.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR1592783_LCH6378",
+              "title": "ZDF-Morgenmagazin",
+              "seriesId": 1592783,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F33%2F23331467_ec61e8e5b9e2ab4b065af427519ca7a6.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR104564150_LCH6416",
+              "title": "Börsenflash",
+              "seriesId": 104564150,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491005_BBC059922E82AEA2.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F32%2F23327048_737300006422feb2868ef8380ebd28dc.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR293538825_LCH6435",
+              "title": "Ulrich Wetzel - Das Strafgericht",
+              "seriesId": 293538825,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490695_0E8CA84E1A662B53.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F57%2F28574166_5f435e12b789b5884fbb48ad337208d4.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 4,
+              "isEntireSeries": true,
+              "isHomeBlocked": true,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR286123923_LCH6435",
+              "title": "Barbara Salesch - Das Strafgericht",
+              "seriesId": 286123923,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490695_0E8CA84E1A662B53.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F57%2F28574091_8f5f1104769f91a0deae832bec0fa037.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 5,
+              "isEntireSeries": true,
+              "isHomeBlocked": true,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR92316267_LCH6556",
+              "title": "Olympische Spiele: Hall of Fame",
+              "seriesId": 92316267,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473135_D73D6D1EB8133C98.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F42%2F28425072_168e6c7953c7c71913d226eb5832560a.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR37693769_LCH6359",
+              "title": "Wer weiß denn sowas?",
+              "seriesId": 37693769,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473115_24D076C6F3E423E3.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F57%2F28574067_98248bcb714e73c069d559b22814fd13.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 1,
+              "isEntireSeries": true,
+              "isHomeBlocked": false,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            },
+            {
+              "pid": "RSR10857467_LCH6438",
+              "title": "Auf Streife",
+              "seriesId": 10857467,
+              "logo": {
+                "image": {
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490701_6AD4EFFECD26B22A.png"
+                }
+              },
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F23%2F41%2F23413885_36943e81f3cedf7c85f42f63d625a070.jpg&template=5"
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "seasonsCount": 3,
+              "isEntireSeries": true,
+              "isHomeBlocked": true,
+              "isFuture": true,
+              "buttons": {
+                "isRecordingCancelSeriesVisible": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "watching",
+          "collectionLayoutStyle": "landscapeSmall",
+          "pid": "CHA20286",
+          "title": "Weiterschauen",
+          "showGrid": true,
+          "showAllPid": "CHA20286",
+          "refreshAfter": 1794173831,
+          "requiresPin": false,
+          "isMoreContentsEnabled": false,
+          "contents": [
+            {
+              "pid": "MOV51266873",
+              "title": "Detachment",
+              "duration": 5847,
+              "requiresPin": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "availableFrom": 1793487600,
+              "availableUntil": 1840744799,
+              "distributor": "LEONINE",
+              "commercializationType": 3,
+              "externalTypeId": 0,
+              "seriesPid": "",
+              "genres": [
+                "Drama"
+              ],
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F26%2F77%2F26772875_777B3BCD516D5CED.jpg&template=5"
+              },
+              "logo": {
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/57/20577027_4750F9D6D0909373.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "is5s": false,
+              "isAudioDescription": false,
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": false
+              },
+              "uniqueId": "868263715",
+              "logoutUrl": "",
+              "producer": {
+                "pid": "CMP1960",
+                "title": "CNMA Arthouse",
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/57/20577027_4750F9D6D0909373.png"
+                }
+              },
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "deviceTypes": [
+                401
+              ],
+              "rights": {
+                "canWatch": true,
+                "isSubscribed": true,
+                "endDate": 2114380800,
+                "subscription": {
+                  "catalogItemId": 2471,
+                  "catalogItemType": 132
+                }
+              },
+              "playback": {
+                "transparentProvider": 0,
+                "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+                "audioIsoCodes": [
+                  "deu"
+                ],
+                "resume": {
+                  "audioIsoCode": "deu",
+                  "subtitleIsoCode": "zxx"
+                },
+                "medias": [
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/58/84/358844500_4E8BF9303B45F429/PR_SVOD_ALL_PREMIUM__89328d50fb3940fc.mpd?tcdn-bitrate-filter=HD",
+                    "pid": "MED358844505",
+                    "quality": 2,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/58/84/358844500_4E8BF9303B45F429/PR_SVOD_ALL_PREMIUM__89328d50fb3940fc.mpd?tcdn-bitrate-filter=SD",
+                    "pid": "MED358844506",
+                    "quality": 3,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/58/84/358844500_4E8BF9303B45F429/PR_SVOD_ALL_PREMIUM__89328d50fb3940fc.mpd?tcdn-bitrate-filter=SUBSD",
+                    "pid": "MED358844507",
+                    "quality": 4,
+                    "drmType": 4,
+                    "streamingType": 4
+                  }
+                ],
+                "maxQualities": {
+                  "401": 2
+                }
+              },
+              "trailers": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/58/84/358844499_BB6F8D0373C8BB4E/PR_SVOD_ALL_PREMIUM__1f878858411d4862.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED358844511",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/58/84/358844499_BB6F8D0373C8BB4E/PR_SVOD_ALL_PREMIUM__1f878858411d4862.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED358844512",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/58/84/358844499_BB6F8D0373C8BB4E/PR_SVOD_ALL_PREMIUM__1f878858411d4862.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED358844513",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "tags": {
+                "completed": true,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": true
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false,
+                "isPlayVisible": true,
+                "isTrailerVisible": false,
+                "isPlayFromBeginningVisible": false,
+                "isCowatchVisible": false,
+                "isPurchaseVisible": false,
+                "isSubscribeVisible": false,
+                "isAmazonVisible": false,
+                "isAmazonDirectVisible": false,
+                "isAmazonInterstitialVisible": false,
+                "isExternalCatchupInterstitialVisible": false
+              },
+              "hasAds": false,
+              "hasThumbnails": true,
+              "bars": {
+                "isBlockTvodVisible": false,
+                "isPurchaseExpirationVisible": false,
+                "isPurchaseErrorVisible": false,
+                "isSubscribeOnlyVisible": false,
+                "isSubscribeErrorVisible": false,
+                "isCatalogExpirationVisible": false,
+                "isPlaybackErrorVisible": false
+              }
+            },
+            {
+              "pid": "SER52943583",
+              "title": "Trigger Point",
+              "commercializationType": 3,
+              "requiresPin": false,
+              "distributor": "CIRKUS",
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F54%2F28547212_238F3609F17CD349.jpg&template=5"
+              },
+              "genres": [
+                "Drama",
+                "Verbrechen"
+              ],
+              "logo": {
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "is5s": false,
+              "isAudioDescription": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": false
+              },
+              "uniqueId": "868312981",
+              "logoutUrl": "",
+              "isWatching": true,
+              "relevantEpisode": {
+                "pid": "EPI53009069",
+                "duration": 2742,
+                "episodeNumber": 1,
+                "seasonNumber": 1,
+                "distributor": "CIRKUS",
+                "commercializationType": 3,
+                "seriesId": 52943583,
+                "seriesPid": "SER52943583",
+                "seriesName": "Trigger Point",
+                "nextEpisodePid": "EPI53009070",
+                "title": "Folge 1",
+                "episodeTitle": "Folge 1",
+                "image": {
+                  "type": "BobLandscape",
+                  "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28563542_69E001422916B13B.jpg&template=5"
+                },
+                "genres": [
+                  "Drama",
+                  "Verbrechen"
+                ],
+                "playback": {
+                  "transparentProvider": 0,
+                  "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+                  "audioIsoCodes": [
+                    "deu"
+                  ],
+                  "resume": {
+                    "time": 203,
+                    "audioIsoCode": "deu",
+                    "subtitleIsoCode": "zxx"
+                  },
+                  "medias": [
+                    {
+                      "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293276_E2A56CED145BF445/PR_SVOD_ALL_PREMIUM__992bec5681c944b6.mpd?tcdn-bitrate-filter=HD",
+                      "pid": "MED371293280",
+                      "quality": 2,
+                      "drmType": 4,
+                      "streamingType": 4
+                    },
+                    {
+                      "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293276_E2A56CED145BF445/PR_SVOD_ALL_PREMIUM__992bec5681c944b6.mpd?tcdn-bitrate-filter=SD",
+                      "pid": "MED371293281",
+                      "quality": 3,
+                      "drmType": 4,
+                      "streamingType": 4
+                    },
+                    {
+                      "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/71/29/371293276_E2A56CED145BF445/PR_SVOD_ALL_PREMIUM__992bec5681c944b6.mpd?tcdn-bitrate-filter=SUBSD",
+                      "pid": "MED371293282",
+                      "quality": 4,
+                      "drmType": 4,
+                      "streamingType": 4
+                    }
+                  ],
+                  "maxQualities": {
+                    "401": 2
+                  }
+                },
+                "logo": {
+                  "image": {
+                    "type": "Logo",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+                  }
+                },
+                "isDolby": false,
+                "isDolbyAtmos": false,
+                "ageRating": {
+                  "isHidden": false,
+                  "pid": "AGE233",
+                  "age": 16,
+                  "code": "16",
+                  "shortDescription": "Ab 16 Jahren",
+                  "image": {
+                    "type": "Cover",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+                  }
+                },
+                "is5s": false,
+                "isAudioDescription": false,
+                "requiresPin": false,
+                "availableFrom": 1793491200,
+                "availableUntil": 1830297540,
+                "producer": {
+                  "pid": "CMP1914",
+                  "title": "Cirkus Krimi",
+                  "image": {
+                    "type": "Logo",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+                  }
+                },
+                "deviceTypes": [
+                  401
+                ],
+                "rights": {
+                  "canWatch": true,
+                  "isSubscribed": true,
+                  "endDate": 2114380800
+                },
+                "buttons": {
+                  "isExternalCatchupVisible": false,
+                  "isPlayVisible": true,
+                  "isPlayFromBeginningVisible": true,
+                  "isCowatchVisible": false,
+                  "isPurchaseSeasonVisible": false,
+                  "isPurchaseEpisodeVisible": false,
+                  "isAmazonInterstitialVisible": false,
+                  "isAmazonDirectVisible": false,
+                  "isExternalCatchupInterstitialVisible": false
+                },
+                "hasAds": false,
+                "commercialization": {
+                  "isTvod": false,
+                  "isSubscribable": false
+                }
+              },
+              "renderChild": true,
+              "payment": 3,
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE233",
+                "age": 16,
+                "code": "16",
+                "shortDescription": "Ab 16 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924772_D4894F8C24F54A9D.png"
+                }
+              },
+              "producer": {
+                "pid": "CMP1914",
+                "title": "Cirkus Krimi",
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564269_4DE8C929923AB784.png"
+                }
+              },
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false,
+                "isPlayRelevantVisible": true,
+                "isTrailerVisible": false,
+                "isAmazonVisible": false,
+                "isPlayRelevantFromBeginningVisible": true,
+                "isCowatchRelevantVisible": false,
+                "isSubscribeVisible": false,
+                "isAmazonInterstitialVisible": false,
+                "isAmazonDirectVisible": false,
+                "isExternalCatchupInterstitialVisible": false
+              },
+              "rights": {
+                "canWatch": true,
+                "isSubscribed": true,
+                "subscription": {
+                  "catalogItemId": 2471,
+                  "catalogItemType": 132
+                }
+              },
+              "bars": {
+                "isBlockTvodVisible": false,
+                "isSubscribeOnlyVisible": false,
+                "isSubscribeErrorVisible": false
+              },
+              "seasons": [
+                {
+                  "pid": "SEA52943582",
+                  "seasonNumber": 1,
+                  "episodesCount": 6,
+                  "isRelevant": false
+                }
+              ]
+            },
+            {
+              "pid": "MOV44943332",
+              "title": "The Hound of the Baskervilles",
+              "duration": 5427,
+              "requiresPin": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "availableFrom": 1793746800,
+              "availableUntil": 1824933599,
+              "distributor": "tiberius",
+              "commercializationType": 3,
+              "externalTypeId": 0,
+              "seriesPid": "",
+              "genres": [
+                "Drama"
+              ],
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F22%2F91%2F22919894_D7FD36C0585A9AA4.jpg&template=5"
+              },
+              "logo": {
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/28/18280112_13DB610A06D963AE.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "is5s": false,
+              "isAudioDescription": false,
+              "playback": {
+                "transparentProvider": 0,
+                "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+                "audioIsoCodes": [
+                  "deu"
+                ],
+                "resume": {
+                  "time": 77,
+                  "audioIsoCode": "deu",
+                  "subtitleIsoCode": "zxx"
+                },
+                "medias": [
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/13/47/313470226_0D20B7CAC3A100D5/PR_SVOD_ALL_PREMIUM__7290f446b93642c7.mpd?tcdn-bitrate-filter=HD",
+                    "pid": "MED313470255",
+                    "quality": 2,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/13/47/313470226_0D20B7CAC3A100D5/PR_SVOD_ALL_PREMIUM__7290f446b93642c7.mpd?tcdn-bitrate-filter=SD",
+                    "pid": "MED313470256",
+                    "quality": 3,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/13/47/313470226_0D20B7CAC3A100D5/PR_SVOD_ALL_PREMIUM__7290f446b93642c7.mpd?tcdn-bitrate-filter=SUBSD",
+                    "pid": "MED313470257",
+                    "quality": 4,
+                    "drmType": 4,
+                    "streamingType": 4
+                  }
+                ],
+                "maxQualities": {
+                  "401": 2
+                },
+                "subtitles": [
+                  {
+                    "pid": "STL331406",
+                    "contentType": "STL",
+                    "isoLanguageCode": "deu",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/GVP_SUBTITLES/00/00/33/331406_2BEC97BD8AAB3A5B.srt"
+                  }
+                ]
+              },
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": false
+              },
+              "uniqueId": "602092977",
+              "logoutUrl": "",
+              "producer": {
+                "pid": "CMP1871",
+                "title": "FilmTotal",
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/28/18280112_13DB610A06D963AE.png"
+                }
+              },
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "deviceTypes": [
+                401
+              ],
+              "rights": {
+                "canWatch": true,
+                "isSubscribed": true,
+                "endDate": 2114380800,
+                "subscription": {
+                  "catalogItemId": 2471,
+                  "catalogItemType": 132
+                }
+              },
+              "trailers": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/13/47/313470224_0A1DF86F5EE30BD8/PR_SVOD_ALL_PREMIUM__1f671f9b35c0421f.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED313470261",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/13/47/313470224_0A1DF86F5EE30BD8/PR_SVOD_ALL_PREMIUM__1f671f9b35c0421f.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED313470262",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/13/47/313470224_0A1DF86F5EE30BD8/PR_SVOD_ALL_PREMIUM__1f671f9b35c0421f.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED313470263",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": true
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false,
+                "isPlayVisible": true,
+                "isTrailerVisible": false,
+                "isPlayFromBeginningVisible": true,
+                "isCowatchVisible": false,
+                "isPurchaseVisible": false,
+                "isSubscribeVisible": false,
+                "isAmazonVisible": false,
+                "isAmazonDirectVisible": false,
+                "isAmazonInterstitialVisible": false,
+                "isExternalCatchupInterstitialVisible": false
+              },
+              "hasAds": false,
+              "hasThumbnails": true,
+              "bars": {
+                "isBlockTvodVisible": false,
+                "isPurchaseExpirationVisible": false,
+                "isPurchaseErrorVisible": false,
+                "isSubscribeOnlyVisible": false,
+                "isSubscribeErrorVisible": false,
+                "isCatalogExpirationVisible": false,
+                "isPlaybackErrorVisible": false
+              }
+            },
+            {
+              "pid": "MOV45141311",
+              "title": "The 12 Disasters of Christmas",
+              "duration": 5166,
+              "requiresPin": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "availableFrom": 1767222000,
+              "availableUntil": 2055279599,
+              "distributor": "tiberius",
+              "commercializationType": 3,
+              "externalTypeId": 0,
+              "seriesPid": "",
+              "genres": [
+                "Action"
+              ],
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F22%2F96%2F22965463_FBA5D0ABDFF880BE.jpg&template=5"
+              },
+              "logo": {
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/28/18280112_13DB610A06D963AE.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "is5s": false,
+              "isAudioDescription": false,
+              "playback": {
+                "transparentProvider": 0,
+                "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+                "audioIsoCodes": [
+                  "deu"
+                ],
+                "resume": {
+                  "time": 3104,
+                  "audioIsoCode": "deu",
+                  "subtitleIsoCode": "zxx"
+                },
+                "medias": [
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/15/03/315030935_AA23DA2B9F778008/PR_SVOD_ALL_PREMIUM__77cdca032d8d4ace.mpd?tcdn-bitrate-filter=HD",
+                    "pid": "MED315030940",
+                    "quality": 2,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/15/03/315030935_AA23DA2B9F778008/PR_SVOD_ALL_PREMIUM__77cdca032d8d4ace.mpd?tcdn-bitrate-filter=SD",
+                    "pid": "MED315030941",
+                    "quality": 3,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/15/03/315030935_AA23DA2B9F778008/PR_SVOD_ALL_PREMIUM__77cdca032d8d4ace.mpd?tcdn-bitrate-filter=SUBSD",
+                    "pid": "MED315030942",
+                    "quality": 4,
+                    "drmType": 4,
+                    "streamingType": 4
+                  }
+                ],
+                "maxQualities": {
+                  "401": 2
+                },
+                "subtitles": [
+                  {
+                    "pid": "STL331684",
+                    "contentType": "STL",
+                    "isoLanguageCode": "deu",
+                    "url": "http://media.gvp.telefonica.com/storageArea0/GVP_SUBTITLES/00/00/33/331684_00F967833D515F33.srt"
+                  }
+                ]
+              },
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": false
+              },
+              "uniqueId": "812155926",
+              "logoutUrl": "",
+              "producer": {
+                "pid": "CMP1871",
+                "title": "FilmTotal",
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/18/28/18280112_13DB610A06D963AE.png"
+                }
+              },
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "deviceTypes": [
+                401
+              ],
+              "rights": {
+                "canWatch": true,
+                "isSubscribed": true,
+                "endDate": 2114380800,
+                "subscription": {
+                  "catalogItemId": 2471,
+                  "catalogItemType": 132
+                }
+              },
+              "trailers": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/15/03/315030936_33F523CAE95DB320/PR_SVOD_ALL_PREMIUM__c2005224835e4e5a.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED315030946",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/15/03/315030936_33F523CAE95DB320/PR_SVOD_ALL_PREMIUM__c2005224835e4e5a.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED315030947",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/03/15/03/315030936_33F523CAE95DB320/PR_SVOD_ALL_PREMIUM__c2005224835e4e5a.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED315030948",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": true
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false,
+                "isPlayVisible": true,
+                "isTrailerVisible": false,
+                "isPlayFromBeginningVisible": true,
+                "isCowatchVisible": false,
+                "isPurchaseVisible": false,
+                "isSubscribeVisible": false,
+                "isAmazonVisible": false,
+                "isAmazonDirectVisible": false,
+                "isAmazonInterstitialVisible": false,
+                "isExternalCatchupInterstitialVisible": false
+              },
+              "hasAds": false,
+              "hasThumbnails": true,
+              "bars": {
+                "isBlockTvodVisible": false,
+                "isPurchaseExpirationVisible": false,
+                "isPurchaseErrorVisible": false,
+                "isSubscribeOnlyVisible": false,
+                "isSubscribeErrorVisible": false,
+                "isCatalogExpirationVisible": false,
+                "isPlaybackErrorVisible": false
+              }
+            },
+            {
+              "pid": "MOV40814382",
+              "title": "Brick Mansions (Extended Edition)",
+              "duration": 5754,
+              "requiresPin": false,
+              "uxReference": "45.DEFAULT.TA_HIGHLIGHT",
+              "availableFrom": 1793228400,
+              "availableUntil": 1824760799,
+              "distributor": "LEONINE",
+              "commercializationType": 3,
+              "externalTypeId": 0,
+              "seriesPid": "",
+              "genres": [
+                "Action",
+                "Abenteuer",
+                "Thriller"
+              ],
+              "image": {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F21%2F70%2F21701729_793C682E84B6BBA2.jpg&template=5"
+              },
+              "logo": {
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564272_BB989733C6869E8E.png"
+                }
+              },
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "is5s": false,
+              "isAudioDescription": false,
+              "playback": {
+                "transparentProvider": 0,
+                "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+                "resume": {
+                  "time": 7,
+                  "audioIsoCode": "deu",
+                  "subtitleIsoCode": "zxx"
+                },
+                "medias": [
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/02/82/84/282846502_0FCA8FBD9E4DABA5/PR_SVOD_ALL_PREMIUM__7425eedcfd204155.mpd?tcdn-bitrate-filter=HD",
+                    "pid": "MED282846518",
+                    "quality": 2,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/02/82/84/282846502_0FCA8FBD9E4DABA5/PR_SVOD_ALL_PREMIUM__7425eedcfd204155.mpd?tcdn-bitrate-filter=SD",
+                    "pid": "MED282846519",
+                    "quality": 3,
+                    "drmType": 4,
+                    "streamingType": 4
+                  },
+                  {
+                    "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/02/82/84/282846502_0FCA8FBD9E4DABA5/PR_SVOD_ALL_PREMIUM__7425eedcfd204155.mpd?tcdn-bitrate-filter=SUBSD",
+                    "pid": "MED282846520",
+                    "quality": 4,
+                    "drmType": 4,
+                    "streamingType": 4
+                  }
+                ],
+                "maxQualities": {
+                  "401": 2
+                }
+              },
+              "commercialization": {
+                "isTvod": false,
+                "isSubscribable": false
+              },
+              "uniqueId": "185991",
+              "logoutUrl": "",
+              "producer": {
+                "pid": "CMP1963",
+                "title": "Filmtastic",
+                "image": {
+                  "type": "Logo",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/56/20564272_BB989733C6869E8E.png"
+                }
+              },
+              "ageRating": {
+                "isHidden": false,
+                "pid": "AGE232",
+                "age": 12,
+                "code": "12",
+                "shortDescription": "Ab 12 Jahren",
+                "image": {
+                  "type": "Cover",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+                }
+              },
+              "deviceTypes": [
+                401
+              ],
+              "rights": {
+                "canWatch": true,
+                "isSubscribed": true,
+                "endDate": 2114380800,
+                "subscription": {
+                  "catalogItemId": 2471,
+                  "catalogItemType": 132
+                }
+              },
+              "trailers": [
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/02/82/84/282846499_049546C5553C41F1/PR_SVOD_ALL_PREMIUM__5a1e7d78506c4d03.mpd?tcdn-bitrate-filter=HD",
+                  "pid": "MED282846524",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/02/82/84/282846499_049546C5553C41F1/PR_SVOD_ALL_PREMIUM__5a1e7d78506c4d03.mpd?tcdn-bitrate-filter=SD",
+                  "pid": "MED282846525",
+                  "quality": 3,
+                  "drmType": 4,
+                  "streamingType": 4
+                },
+                {
+                  "url": "http://o08000-b46187.5.cdn.telefonica.com/46187/_-_psi_-_/02/82/84/282846499_049546C5553C41F1/PR_SVOD_ALL_PREMIUM__5a1e7d78506c4d03.mpd?tcdn-bitrate-filter=SUBSD",
+                  "pid": "MED282846526",
+                  "quality": 4,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": true
+              },
+              "buttons": {
+                "isExternalCatchupVisible": false,
+                "isPlayVisible": true,
+                "isTrailerVisible": false,
+                "isPlayFromBeginningVisible": true,
+                "isCowatchVisible": false,
+                "isPurchaseVisible": false,
+                "isSubscribeVisible": false,
+                "isAmazonVisible": false,
+                "isAmazonDirectVisible": false,
+                "isAmazonInterstitialVisible": false,
+                "isExternalCatchupInterstitialVisible": false
+              },
+              "hasAds": false,
+              "hasThumbnails": true,
+              "bars": {
+                "isBlockTvodVisible": false,
+                "isPurchaseExpirationVisible": false,
+                "isPurchaseErrorVisible": false,
+                "isSubscribeOnlyVisible": false,
+                "isSubscribeErrorVisible": false,
+                "isCatalogExpirationVisible": false,
+                "isPlaybackErrorVisible": false
+              }
+            }
+          ]
+        }
+      ],
+      "page": 1,
+      "nextPage": null,
+      "requestId": "OP-751b06665ece16fb43b061fa2da02a32",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 370
+  }
+}

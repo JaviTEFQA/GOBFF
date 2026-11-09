@@ -1,0 +1,131 @@
+{
+  "endpointId": "GET nsh/profiles",
+  "samples": 1,
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "profiles": {
+        "types": [
+          "array"
+        ],
+        "items": {
+          "types": [
+            "object"
+          ],
+          "properties": {
+            "hasAccessCode": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "id": {
+              "types": [
+                "number"
+              ]
+            },
+            "isBlocked": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "isDefaultProfile": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "isExitBlocked": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "isKids": {
+              "types": [
+                "boolean"
+              ]
+            },
+            "name": {
+              "types": [
+                "string"
+              ]
+            },
+            "profileImage": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "pid": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "image": {
+                  "types": [
+                    "object"
+                  ],
+                  "properties": {
+                    "type": {
+                      "types": [
+                        "string"
+                      ]
+                    },
+                    "url": {
+                      "types": [
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "url"
+                  ]
+                }
+              },
+              "required": [
+                "image",
+                "pid"
+              ]
+            }
+          },
+          "required": [
+            "hasAccessCode",
+            "id",
+            "isBlocked",
+            "isDefaultProfile",
+            "isExitBlocked",
+            "isKids",
+            "name"
+          ]
+        }
+      },
+      "profilesFirstUse": {
+        "types": [
+          "boolean"
+        ]
+      },
+      "isProfileAddEnabled": {
+        "types": [
+          "boolean"
+        ]
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "isProfileAddEnabled",
+      "profiles",
+      "profilesFirstUse",
+      "requestId",
+      "version"
+    ]
+  }
+}

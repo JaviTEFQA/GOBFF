@@ -1,0 +1,14 @@
+node_modules/
+.env
+# Session: holds the BFF access token and the browser storage state. Never commit.
+.auth/
+test-results/
+playwright-report/
+blob-report/
+# Live captures: respuestas reales del BFF, efímeras. Nunca commitear.
+.live/
+
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc

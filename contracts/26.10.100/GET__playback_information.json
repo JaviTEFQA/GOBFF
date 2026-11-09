@@ -1,0 +1,145 @@
+{
+  "endpointId": "GET playback/information",
+  "samples": 4,
+  "shape": {
+    "types": [
+      "array"
+    ],
+    "items": {
+      "types": [
+        "object"
+      ],
+      "properties": {
+        "URL": {
+          "types": [
+            "string"
+          ]
+        },
+        "audios": {
+          "types": [
+            "array"
+          ],
+          "items": {
+            "types": [
+              "string"
+            ]
+          }
+        },
+        "bingeWatchingAction": {
+          "types": [
+            "string"
+          ]
+        },
+        "contextData": {
+          "types": [
+            "string"
+          ]
+        },
+        "drm": {
+          "types": [
+            "object"
+          ],
+          "properties": {
+            "cToken": {
+              "types": [
+                "string"
+              ]
+            },
+            "drmType": {
+              "types": [
+                "string"
+              ]
+            },
+            "licenseServer": {
+              "types": [
+                "string"
+              ]
+            },
+            "wmkEnabled": {
+              "types": [
+                "boolean"
+              ]
+            }
+          },
+          "required": [
+            "cToken",
+            "drmType",
+            "licenseServer",
+            "wmkEnabled"
+          ]
+        },
+        "nextEpisodePid": {
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        "pid": {
+          "types": [
+            "string"
+          ]
+        },
+        "quality": {
+          "types": [
+            "string"
+          ]
+        },
+        "segments": {
+          "types": [
+            "array"
+          ],
+          "items": {
+            "types": [
+              "object"
+            ],
+            "properties": {
+              "codSegment": {
+                "types": [
+                  "string"
+                ]
+              },
+              "isSkippable": {
+                "types": [
+                  "boolean"
+                ]
+              },
+              "tcIn": {
+                "types": [
+                  "number"
+                ]
+              },
+              "tcOut": {
+                "types": [
+                  "number"
+                ]
+              }
+            },
+            "required": [
+              "codSegment",
+              "isSkippable",
+              "tcIn",
+              "tcOut"
+            ]
+          }
+        },
+        "streamingType": {
+          "types": [
+            "string"
+          ]
+        }
+      },
+      "required": [
+        "URL",
+        "audios",
+        "bingeWatchingAction",
+        "contextData",
+        "drm",
+        "nextEpisodePid",
+        "pid",
+        "quality",
+        "segments",
+        "streamingType"
+      ]
+    }
+  }
+}

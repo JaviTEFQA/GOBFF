@@ -1,0 +1,5101 @@
+{
+  "endpointId": "GET nsh/recordings",
+  "key": "GET nsh/recordings?appVersion=26.10.100",
+  "journey": "epg-detail",
+  "recordedAt": "2026-11-08T21:44:31.612Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/recordings?appVersion=26.10.100",
+    "servicePath": "nsh/recordings",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/profiles/list",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "0",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:44:29 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:44:29 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-7678716c977adac397357434fb907b8d",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "recordings": {
+        "ongoing": [],
+        "scheduled": [
+          {
+            "pid": "REC35894288",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794175200
+            }
+          },
+          {
+            "pid": "REC36027548",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794192300
+            }
+          },
+          {
+            "pid": "REC36036143",
+            "recordingSeriesPid": "RSR1592783_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794198600
+            }
+          },
+          {
+            "pid": "REC36010697",
+            "recordingSeriesPid": "RSR1592783_LCH6378",
+            "channelPid": "LCH6378",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794198600
+            }
+          },
+          {
+            "pid": "REC36027554",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794211200
+            }
+          },
+          {
+            "pid": "REC36035006",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794211200
+            }
+          },
+          {
+            "pid": "REC36035210",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794213000
+            }
+          },
+          {
+            "pid": "REC36042206",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794214200
+            }
+          },
+          {
+            "pid": "REC36071320",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794214800
+            }
+          },
+          {
+            "pid": "REC36035012",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794214800
+            }
+          },
+          {
+            "pid": "REC36035225",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794216600
+            }
+          },
+          {
+            "pid": "REC36042208",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794217800
+            }
+          },
+          {
+            "pid": "REC36070199",
+            "recordingSeriesPid": "RSR92316267_LCH6556",
+            "channelPid": "LCH6556",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794218400
+            }
+          },
+          {
+            "pid": "REC36071322",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794218400
+            }
+          },
+          {
+            "pid": "REC36035024",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794218400
+            }
+          },
+          {
+            "pid": "REC35992104",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794219300
+            }
+          },
+          {
+            "pid": "REC36035031",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794220200
+            }
+          },
+          {
+            "pid": "REC36041751",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794221400
+            }
+          },
+          {
+            "pid": "REC36035239",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794222000
+            }
+          },
+          {
+            "pid": "REC36035036",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794225600
+            }
+          },
+          {
+            "pid": "REC36035251",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794229200
+            }
+          },
+          {
+            "pid": "REC36027295",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794229200
+            }
+          },
+          {
+            "pid": "REC36072428",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794232800
+            }
+          },
+          {
+            "pid": "REC36071095",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794232800
+            }
+          },
+          {
+            "pid": "REC36035255",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794232800
+            }
+          },
+          {
+            "pid": "REC36041759",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794236100
+            }
+          },
+          {
+            "pid": "REC36071090",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794236100
+            }
+          },
+          {
+            "pid": "REC36035260",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794236400
+            }
+          },
+          {
+            "pid": "REC36072449",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794236400
+            }
+          },
+          {
+            "pid": "REC36031801",
+            "recordingSeriesPid": "RSR94796694_LCH6409",
+            "channelPid": "LCH6409",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794237300
+            }
+          },
+          {
+            "pid": "REC36042235",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794239700
+            }
+          },
+          {
+            "pid": "REC36035267",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794240000
+            }
+          },
+          {
+            "pid": "REC36028363",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794243300
+            }
+          },
+          {
+            "pid": "REC35992117",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794243600
+            }
+          },
+          {
+            "pid": "REC36035058",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794243600
+            }
+          },
+          {
+            "pid": "REC36035061",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794247200
+            }
+          },
+          {
+            "pid": "REC36027577",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794247680
+            }
+          },
+          {
+            "pid": "REC36035066",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794250800
+            }
+          },
+          {
+            "pid": "REC36035072",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794254400
+            }
+          },
+          {
+            "pid": "REC36035075",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794258000
+            }
+          },
+          {
+            "pid": "REC36027583",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794261000
+            }
+          },
+          {
+            "pid": "REC36035079",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794261600
+            }
+          },
+          {
+            "pid": "REC36694567",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794282300
+            }
+          },
+          {
+            "pid": "REC36010703",
+            "recordingSeriesPid": "RSR1592783_LCH6378",
+            "channelPid": "LCH6378",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794285000
+            }
+          },
+          {
+            "pid": "REC36036146",
+            "recordingSeriesPid": "RSR1592783_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794285000
+            }
+          },
+          {
+            "pid": "REC36035082",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794297600
+            }
+          },
+          {
+            "pid": "REC36027307",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794297600
+            }
+          },
+          {
+            "pid": "REC36035084",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794299400
+            }
+          },
+          {
+            "pid": "REC36041769",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794300600
+            }
+          },
+          {
+            "pid": "REC36035315",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794301200
+            }
+          },
+          {
+            "pid": "REC36071333",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794301200
+            }
+          },
+          {
+            "pid": "REC36035322",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794303000
+            }
+          },
+          {
+            "pid": "REC36041775",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794304200
+            }
+          },
+          {
+            "pid": "REC36071103",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794304800
+            }
+          },
+          {
+            "pid": "REC36070394",
+            "recordingSeriesPid": "RSR92316267_LCH6556",
+            "channelPid": "LCH6556",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794304800
+            }
+          },
+          {
+            "pid": "REC36035328",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794304800
+            }
+          },
+          {
+            "pid": "REC35992127",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794305700
+            }
+          },
+          {
+            "pid": "REC36035097",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794306600
+            }
+          },
+          {
+            "pid": "REC36042260",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794307800
+            }
+          },
+          {
+            "pid": "REC36035100",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794308400
+            }
+          },
+          {
+            "pid": "REC36035342",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794312000
+            }
+          },
+          {
+            "pid": "REC36035108",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794315600
+            }
+          },
+          {
+            "pid": "REC36027602",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794315600
+            }
+          },
+          {
+            "pid": "REC36035113",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794319200
+            }
+          },
+          {
+            "pid": "REC36071344",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794319200
+            }
+          },
+          {
+            "pid": "REC36072668",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794319200
+            }
+          },
+          {
+            "pid": "REC36071339",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794322500
+            }
+          },
+          {
+            "pid": "REC36041788",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794322500
+            }
+          },
+          {
+            "pid": "REC36035353",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794322800
+            }
+          },
+          {
+            "pid": "REC36072491",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794322800
+            }
+          },
+          {
+            "pid": "REC36031823",
+            "recordingSeriesPid": "RSR94796694_LCH6409",
+            "channelPid": "LCH6409",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794323700
+            }
+          },
+          {
+            "pid": "REC36042281",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794326100
+            }
+          },
+          {
+            "pid": "REC36035359",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794326400
+            }
+          },
+          {
+            "pid": "REC36028127",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794329700
+            }
+          },
+          {
+            "pid": "REC35992302",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794330000
+            }
+          },
+          {
+            "pid": "REC36035123",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794330000
+            }
+          },
+          {
+            "pid": "REC36035365",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794333600
+            }
+          },
+          {
+            "pid": "REC36027608",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794334080
+            }
+          },
+          {
+            "pid": "REC36035370",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794337200
+            }
+          },
+          {
+            "pid": "REC36035129",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794340800
+            }
+          },
+          {
+            "pid": "REC36035378",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794344400
+            }
+          },
+          {
+            "pid": "REC36036144",
+            "recordingSeriesPid": "RSR96288986_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794345300
+            }
+          },
+          {
+            "pid": "REC36027321",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794347400
+            }
+          },
+          {
+            "pid": "REC36035382",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794348000
+            }
+          },
+          {
+            "pid": "REC36194884",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794370500
+            }
+          },
+          {
+            "pid": "REC36173913",
+            "recordingSeriesPid": "RSR1592783_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794371400
+            }
+          },
+          {
+            "pid": "REC36159629",
+            "recordingSeriesPid": "RSR1592783_LCH6378",
+            "channelPid": "LCH6378",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794371400
+            }
+          },
+          {
+            "pid": "REC36173219",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794384000
+            }
+          },
+          {
+            "pid": "REC36169254",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794384000
+            }
+          },
+          {
+            "pid": "REC36173223",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794385800
+            }
+          },
+          {
+            "pid": "REC36175522",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794387000
+            }
+          },
+          {
+            "pid": "REC36194717",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794387600
+            }
+          },
+          {
+            "pid": "REC36173230",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794387600
+            }
+          },
+          {
+            "pid": "REC36173235",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794389400
+            }
+          },
+          {
+            "pid": "REC36175443",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794390300
+            }
+          },
+          {
+            "pid": "REC36194719",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794391200
+            }
+          },
+          {
+            "pid": "REC36194451",
+            "recordingSeriesPid": "RSR92316267_LCH6556",
+            "channelPid": "LCH6556",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794391200
+            }
+          },
+          {
+            "pid": "REC36173091",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794391200
+            }
+          },
+          {
+            "pid": "REC36151973",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794392100
+            }
+          },
+          {
+            "pid": "REC36173242",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794393000
+            }
+          },
+          {
+            "pid": "REC36175531",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794393900
+            }
+          },
+          {
+            "pid": "REC36173248",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794394800
+            }
+          },
+          {
+            "pid": "REC36173254",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794398400
+            }
+          },
+          {
+            "pid": "REC36173106",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794402000
+            }
+          },
+          {
+            "pid": "REC36169259",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794402000
+            }
+          },
+          {
+            "pid": "REC36194948",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794405600
+            }
+          },
+          {
+            "pid": "REC36173262",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794405600
+            }
+          },
+          {
+            "pid": "REC36195055",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794405600
+            }
+          },
+          {
+            "pid": "REC36194946",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794408900
+            }
+          },
+          {
+            "pid": "REC36175460",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794408900
+            }
+          },
+          {
+            "pid": "REC36173115",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794409200
+            }
+          },
+          {
+            "pid": "REC36194909",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794409200
+            }
+          },
+          {
+            "pid": "REC36172059",
+            "recordingSeriesPid": "RSR94796694_LCH6409",
+            "channelPid": "LCH6409",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794410100
+            }
+          },
+          {
+            "pid": "REC36175541",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794412500
+            }
+          },
+          {
+            "pid": "REC36173121",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794412800
+            }
+          },
+          {
+            "pid": "REC36169537",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794416100
+            }
+          },
+          {
+            "pid": "REC36173271",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794416400
+            }
+          },
+          {
+            "pid": "REC36151977",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794416400
+            }
+          },
+          {
+            "pid": "REC36173274",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794420000
+            }
+          },
+          {
+            "pid": "REC36169266",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794420480
+            }
+          },
+          {
+            "pid": "REC36173277",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794423600
+            }
+          },
+          {
+            "pid": "REC36173141",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794427200
+            }
+          },
+          {
+            "pid": "REC36173283",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794430800
+            }
+          },
+          {
+            "pid": "REC36173912",
+            "recordingSeriesPid": "RSR96288986_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794431700
+            }
+          },
+          {
+            "pid": "REC36169340",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794433800
+            }
+          },
+          {
+            "pid": "REC36173285",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794434400
+            }
+          },
+          {
+            "pid": "REC36296922",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794456240
+            }
+          },
+          {
+            "pid": "REC36262279",
+            "recordingSeriesPid": "RSR1592783_LCH6378",
+            "channelPid": "LCH6378",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794457800
+            }
+          },
+          {
+            "pid": "REC36275119",
+            "recordingSeriesPid": "RSR1592783_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794457800
+            }
+          },
+          {
+            "pid": "REC36270489",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794470400
+            }
+          },
+          {
+            "pid": "REC36274406",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794470400
+            }
+          },
+          {
+            "pid": "REC36274411",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794472200
+            }
+          },
+          {
+            "pid": "REC36277228",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794473400
+            }
+          },
+          {
+            "pid": "REC36274571",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794474000
+            }
+          },
+          {
+            "pid": "REC36296156",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794474000
+            }
+          },
+          {
+            "pid": "REC36274424",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794475800
+            }
+          },
+          {
+            "pid": "REC36277373",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794476700
+            }
+          },
+          {
+            "pid": "REC36295461",
+            "recordingSeriesPid": "RSR92316267_LCH6556",
+            "channelPid": "LCH6556",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794477600
+            }
+          },
+          {
+            "pid": "REC36295936",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794477600
+            }
+          },
+          {
+            "pid": "REC36274429",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794477600
+            }
+          },
+          {
+            "pid": "REC36254012",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794478500
+            }
+          },
+          {
+            "pid": "REC36274434",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794479400
+            }
+          },
+          {
+            "pid": "REC36277381",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794480300
+            }
+          },
+          {
+            "pid": "REC36274439",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794481200
+            }
+          },
+          {
+            "pid": "REC36274584",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794484800
+            }
+          },
+          {
+            "pid": "REC36270431",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794488400
+            }
+          },
+          {
+            "pid": "REC36274448",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794488400
+            }
+          },
+          {
+            "pid": "REC36296769",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794492000
+            }
+          },
+          {
+            "pid": "REC36296165",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794492000
+            }
+          },
+          {
+            "pid": "REC36274453",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794492000
+            }
+          },
+          {
+            "pid": "REC36296160",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794495300
+            }
+          },
+          {
+            "pid": "REC36277248",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794495300
+            }
+          },
+          {
+            "pid": "REC36296775",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794495600
+            }
+          },
+          {
+            "pid": "REC36274460",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794495600
+            }
+          },
+          {
+            "pid": "REC36272677",
+            "recordingSeriesPid": "RSR94796694_LCH6409",
+            "channelPid": "LCH6409",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794496500
+            }
+          },
+          {
+            "pid": "REC36277396",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794498900
+            }
+          },
+          {
+            "pid": "REC36274466",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794499200
+            }
+          },
+          {
+            "pid": "REC36270824",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794502500
+            }
+          },
+          {
+            "pid": "REC36253772",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794502800
+            }
+          },
+          {
+            "pid": "REC36274593",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794502800
+            }
+          },
+          {
+            "pid": "REC36274596",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794506400
+            }
+          },
+          {
+            "pid": "REC36270497",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794506880
+            }
+          },
+          {
+            "pid": "REC36274476",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794510000
+            }
+          },
+          {
+            "pid": "REC36275336",
+            "recordingSeriesPid": "RSR96288986_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794513600
+            }
+          },
+          {
+            "pid": "REC36274482",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794513600
+            }
+          },
+          {
+            "pid": "REC36274602",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794517200
+            }
+          },
+          {
+            "pid": "REC36270435",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794520200
+            }
+          },
+          {
+            "pid": "REC36274487",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794520800
+            }
+          },
+          {
+            "pid": "REC36289444",
+            "recordingSeriesPid": "RSR185628331_LCH6562",
+            "channelPid": "LCH6562",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794525300
+            }
+          },
+          {
+            "pid": "REC37005519",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794537000
+            }
+          },
+          {
+            "pid": "REC37010380",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794539700
+            }
+          },
+          {
+            "pid": "REC36403702",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794542700
+            }
+          },
+          {
+            "pid": "REC36373252",
+            "recordingSeriesPid": "RSR1592783_LCH6378",
+            "channelPid": "LCH6378",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794544200
+            }
+          },
+          {
+            "pid": "REC36387799",
+            "recordingSeriesPid": "RSR1592783_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794544200
+            }
+          },
+          {
+            "pid": "REC36384272",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794556800
+            }
+          },
+          {
+            "pid": "REC36387294",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794556800
+            }
+          },
+          {
+            "pid": "REC36387065",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794558600
+            }
+          },
+          {
+            "pid": "REC36390357",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794559800
+            }
+          },
+          {
+            "pid": "REC36387304",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794560400
+            }
+          },
+          {
+            "pid": "REC36404144",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794560400
+            }
+          },
+          {
+            "pid": "REC36387309",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794562200
+            }
+          },
+          {
+            "pid": "REC36390360",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794563400
+            }
+          },
+          {
+            "pid": "REC36403472",
+            "recordingSeriesPid": "RSR92316267_LCH6556",
+            "channelPid": "LCH6556",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794564000
+            }
+          },
+          {
+            "pid": "REC36404149",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794564000
+            }
+          },
+          {
+            "pid": "REC36387316",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794564000
+            }
+          },
+          {
+            "pid": "REC36364826",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794564900
+            }
+          },
+          {
+            "pid": "REC36387078",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794565800
+            }
+          },
+          {
+            "pid": "REC36390367",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794567000
+            }
+          },
+          {
+            "pid": "REC36387324",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794567600
+            }
+          },
+          {
+            "pid": "REC36387326",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794571200
+            }
+          },
+          {
+            "pid": "REC36387332",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794574800
+            }
+          },
+          {
+            "pid": "REC36384277",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794574800
+            }
+          },
+          {
+            "pid": "REC36404169",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794578400
+            }
+          },
+          {
+            "pid": "REC36404153",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794578400
+            }
+          },
+          {
+            "pid": "REC36387092",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794578400
+            }
+          },
+          {
+            "pid": "REC36404151",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794581700
+            }
+          },
+          {
+            "pid": "REC36390377",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794581700
+            }
+          },
+          {
+            "pid": "REC36404181",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794582000
+            }
+          },
+          {
+            "pid": "REC36387095",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794582000
+            }
+          },
+          {
+            "pid": "REC36386472",
+            "recordingSeriesPid": "RSR94796694_LCH6409",
+            "channelPid": "LCH6409",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794582900
+            }
+          },
+          {
+            "pid": "REC36389987",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794585300
+            }
+          },
+          {
+            "pid": "REC36387098",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794585600
+            }
+          },
+          {
+            "pid": "REC36384738",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794588900
+            }
+          },
+          {
+            "pid": "REC36364934",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794589200
+            }
+          },
+          {
+            "pid": "REC36387101",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794589200
+            }
+          },
+          {
+            "pid": "REC36387359",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794592800
+            }
+          },
+          {
+            "pid": "REC36384286",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794593280
+            }
+          },
+          {
+            "pid": "REC36387106",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794596400
+            }
+          },
+          {
+            "pid": "REC36387368",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794600000
+            }
+          },
+          {
+            "pid": "REC36387371",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794603600
+            }
+          },
+          {
+            "pid": "REC36387375",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794607200
+            }
+          },
+          {
+            "pid": "REC36479661",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794618000
+            }
+          },
+          {
+            "pid": "REC36496230",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794629400
+            }
+          },
+          {
+            "pid": "REC36482624",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794632400
+            }
+          },
+          {
+            "pid": "REC36482627",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794636000
+            }
+          },
+          {
+            "pid": "REC36482632",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794637800
+            }
+          },
+          {
+            "pid": "REC36483540",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794639600
+            }
+          },
+          {
+            "pid": "REC36482639",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794641400
+            }
+          },
+          {
+            "pid": "REC36479568",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794643200
+            }
+          },
+          {
+            "pid": "REC36482647",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794643200
+            }
+          },
+          {
+            "pid": "REC36482649",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794645000
+            }
+          },
+          {
+            "pid": "REC36482653",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794646800
+            }
+          },
+          {
+            "pid": "REC36482656",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794648600
+            }
+          },
+          {
+            "pid": "REC36483560",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794650400
+            }
+          },
+          {
+            "pid": "REC36482664",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794652200
+            }
+          },
+          {
+            "pid": "REC36483569",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794654000
+            }
+          },
+          {
+            "pid": "REC36479573",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794654000
+            }
+          },
+          {
+            "pid": "REC36483572",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794657600
+            }
+          },
+          {
+            "pid": "REC36479669",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794657600
+            }
+          },
+          {
+            "pid": "REC36479675",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794661200
+            }
+          },
+          {
+            "pid": "REC36482673",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794661200
+            }
+          },
+          {
+            "pid": "REC36483702",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794664800
+            }
+          },
+          {
+            "pid": "REC36479681",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794664800
+            }
+          },
+          {
+            "pid": "REC36479591",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794668400
+            }
+          },
+          {
+            "pid": "REC36483578",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794668400
+            }
+          },
+          {
+            "pid": "REC36479686",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794672000
+            }
+          },
+          {
+            "pid": "REC36483713",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794672000
+            }
+          },
+          {
+            "pid": "REC36483718",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794675600
+            }
+          },
+          {
+            "pid": "REC36479600",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794675600
+            }
+          },
+          {
+            "pid": "REC36483583",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794679200
+            }
+          },
+          {
+            "pid": "REC36479604",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794679200
+            }
+          },
+          {
+            "pid": "REC36483722",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794682800
+            }
+          },
+          {
+            "pid": "REC36483724",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794686400
+            }
+          },
+          {
+            "pid": "REC36483726",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794690000
+            }
+          },
+          {
+            "pid": "REC36483729",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794693600
+            }
+          },
+          {
+            "pid": "REC36554749",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794709800
+            }
+          },
+          {
+            "pid": "REC36572051",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794715800
+            }
+          },
+          {
+            "pid": "REC36572317",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794716400
+            }
+          },
+          {
+            "pid": "REC36558830",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794718800
+            }
+          },
+          {
+            "pid": "REC36558833",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794722400
+            }
+          },
+          {
+            "pid": "REC36558090",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794724200
+            }
+          },
+          {
+            "pid": "REC36558837",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794726000
+            }
+          },
+          {
+            "pid": "REC36558092",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794729600
+            }
+          },
+          {
+            "pid": "REC36554885",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794729600
+            }
+          },
+          {
+            "pid": "REC36558093",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794731400
+            }
+          },
+          {
+            "pid": "REC36558841",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794733200
+            }
+          },
+          {
+            "pid": "REC36558842",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794735000
+            }
+          },
+          {
+            "pid": "REC36555123",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794735900
+            }
+          },
+          {
+            "pid": "REC36558101",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794736800
+            }
+          },
+          {
+            "pid": "REC36558843",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794738600
+            }
+          },
+          {
+            "pid": "REC36555382",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794739500
+            }
+          },
+          {
+            "pid": "REC36558107",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794740400
+            }
+          },
+          {
+            "pid": "REC36554888",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794740400
+            }
+          },
+          {
+            "pid": "REC36555385",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794743100
+            }
+          },
+          {
+            "pid": "REC36554896",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794744000
+            }
+          },
+          {
+            "pid": "REC36558846",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794744000
+            }
+          },
+          {
+            "pid": "REC36555388",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794746700
+            }
+          },
+          {
+            "pid": "REC36558112",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794747600
+            }
+          },
+          {
+            "pid": "REC36554757",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794747600
+            }
+          },
+          {
+            "pid": "REC36558850",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794751200
+            }
+          },
+          {
+            "pid": "REC36554908",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794751200
+            }
+          },
+          {
+            "pid": "REC36554760",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794754800
+            }
+          },
+          {
+            "pid": "REC36558852",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794754800
+            }
+          },
+          {
+            "pid": "REC36554916",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794758400
+            }
+          },
+          {
+            "pid": "REC36558855",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794758400
+            }
+          },
+          {
+            "pid": "REC36558858",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794762000
+            }
+          },
+          {
+            "pid": "REC36558121",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794765600
+            }
+          },
+          {
+            "pid": "REC36554763",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794766500
+            }
+          },
+          {
+            "pid": "REC36558125",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794769200
+            }
+          },
+          {
+            "pid": "REC36558128",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794772800
+            }
+          },
+          {
+            "pid": "REC36558131",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794776400
+            }
+          },
+          {
+            "pid": "REC36558133",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794780000
+            }
+          },
+          {
+            "pid": "REC36641716",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794797100
+            }
+          },
+          {
+            "pid": "REC36663226",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794802200
+            }
+          },
+          {
+            "pid": "REC36645489",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794816000
+            }
+          },
+          {
+            "pid": "REC36641941",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794816000
+            }
+          },
+          {
+            "pid": "REC36645493",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794817800
+            }
+          },
+          {
+            "pid": "REC36648563",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794819000
+            }
+          },
+          {
+            "pid": "REC36662755",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794819600
+            }
+          },
+          {
+            "pid": "REC36645496",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794819600
+            }
+          },
+          {
+            "pid": "REC36645501",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794821400
+            }
+          },
+          {
+            "pid": "REC36648822",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794822600
+            }
+          },
+          {
+            "pid": "REC36662758",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794823200
+            }
+          },
+          {
+            "pid": "REC36644661",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794823200
+            }
+          },
+          {
+            "pid": "REC36622569",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794824100
+            }
+          },
+          {
+            "pid": "REC36644662",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794825000
+            }
+          },
+          {
+            "pid": "REC36648829",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794826200
+            }
+          },
+          {
+            "pid": "REC36645509",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794826800
+            }
+          },
+          {
+            "pid": "REC36645511",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794830400
+            }
+          },
+          {
+            "pid": "REC36641722",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794834000
+            }
+          },
+          {
+            "pid": "REC36641722",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794834000
+            }
+          },
+          {
+            "pid": "REC36662765",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794837600
+            }
+          },
+          {
+            "pid": "REC36645517",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794837600
+            }
+          },
+          {
+            "pid": "REC36662982",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794837600
+            }
+          },
+          {
+            "pid": "REC36662356",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794840900
+            }
+          },
+          {
+            "pid": "REC36648838",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794840900
+            }
+          },
+          {
+            "pid": "REC36662992",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794841200
+            }
+          },
+          {
+            "pid": "REC36644670",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794841200
+            }
+          },
+          {
+            "pid": "REC36643879",
+            "recordingSeriesPid": "RSR94796694_LCH6409",
+            "channelPid": "LCH6409",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794842100
+            }
+          },
+          {
+            "pid": "REC36648810",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794844500
+            }
+          },
+          {
+            "pid": "REC36645523",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794844800
+            }
+          },
+          {
+            "pid": "REC36642307",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794848100
+            }
+          },
+          {
+            "pid": "REC36645524",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794848400
+            }
+          },
+          {
+            "pid": "REC36622577",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794848400
+            }
+          },
+          {
+            "pid": "REC36644677",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794852000
+            }
+          },
+          {
+            "pid": "REC36641725",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794852480
+            }
+          },
+          {
+            "pid": "REC36645528",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794855600
+            }
+          },
+          {
+            "pid": "REC36645532",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794859200
+            }
+          },
+          {
+            "pid": "REC36644683",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794862800
+            }
+          },
+          {
+            "pid": "REC36641729",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794865500
+            }
+          },
+          {
+            "pid": "REC36644685",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794866400
+            }
+          },
+          {
+            "pid": "REC36737494",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794902400
+            }
+          },
+          {
+            "pid": "REC36740859",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794902400
+            }
+          },
+          {
+            "pid": "REC36740996",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794904200
+            }
+          },
+          {
+            "pid": "REC36744569",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794905400
+            }
+          },
+          {
+            "pid": "REC36740869",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794906000
+            }
+          },
+          {
+            "pid": "REC36759903",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794906000
+            }
+          },
+          {
+            "pid": "REC36740874",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794907800
+            }
+          },
+          {
+            "pid": "REC36744571",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794909000
+            }
+          },
+          {
+            "pid": "REC36740879",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794909600
+            }
+          },
+          {
+            "pid": "REC36760047",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794909600
+            }
+          },
+          {
+            "pid": "REC36720446",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794910500
+            }
+          },
+          {
+            "pid": "REC36741013",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794911400
+            }
+          },
+          {
+            "pid": "REC36744576",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794912600
+            }
+          },
+          {
+            "pid": "REC36740886",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794913200
+            }
+          },
+          {
+            "pid": "REC36740891",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794916800
+            }
+          },
+          {
+            "pid": "REC36737498",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794920400
+            }
+          },
+          {
+            "pid": "REC36741019",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794920400
+            }
+          },
+          {
+            "pid": "REC36759909",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794924000
+            }
+          },
+          {
+            "pid": "REC36740899",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794924000
+            }
+          },
+          {
+            "pid": "REC36760446",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794924000
+            }
+          },
+          {
+            "pid": "REC36760049",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794927300
+            }
+          },
+          {
+            "pid": "REC36744356",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794927300
+            }
+          },
+          {
+            "pid": "REC36760452",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794927600
+            }
+          },
+          {
+            "pid": "REC36740902",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794927600
+            }
+          },
+          {
+            "pid": "REC36740132",
+            "recordingSeriesPid": "RSR94796694_LCH6409",
+            "channelPid": "LCH6409",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794928500
+            }
+          },
+          {
+            "pid": "REC36744362",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794930900
+            }
+          },
+          {
+            "pid": "REC36740908",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794931200
+            }
+          },
+          {
+            "pid": "REC36737610",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794934500
+            }
+          },
+          {
+            "pid": "REC36720451",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794934800
+            }
+          },
+          {
+            "pid": "REC36740914",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794934800
+            }
+          },
+          {
+            "pid": "REC36740918",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794938400
+            }
+          },
+          {
+            "pid": "REC36737679",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794938880
+            }
+          },
+          {
+            "pid": "REC36741038",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794942000
+            }
+          },
+          {
+            "pid": "REC36741042",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794945600
+            }
+          },
+          {
+            "pid": "REC36740927",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794949200
+            }
+          },
+          {
+            "pid": "REC36741734",
+            "recordingSeriesPid": "RSR96288986_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794950100
+            }
+          },
+          {
+            "pid": "REC36737503",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794952200
+            }
+          },
+          {
+            "pid": "REC36740931",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794952800
+            }
+          },
+          {
+            "pid": "REC36841054",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794988800
+            }
+          },
+          {
+            "pid": "REC36844945",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794988800
+            }
+          },
+          {
+            "pid": "REC36844951",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794990600
+            }
+          },
+          {
+            "pid": "REC36847725",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794991800
+            }
+          },
+          {
+            "pid": "REC36844955",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794992400
+            }
+          },
+          {
+            "pid": "REC36866475",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794992400
+            }
+          },
+          {
+            "pid": "REC36844956",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794994200
+            }
+          },
+          {
+            "pid": "REC36847731",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794995400
+            }
+          },
+          {
+            "pid": "REC36866476",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794996000
+            }
+          },
+          {
+            "pid": "REC36844627",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794996000
+            }
+          },
+          {
+            "pid": "REC36823913",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794996900
+            }
+          },
+          {
+            "pid": "REC36844633",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794997800
+            }
+          },
+          {
+            "pid": "REC36848251",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794999000
+            }
+          },
+          {
+            "pid": "REC36844636",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1794999600
+            }
+          },
+          {
+            "pid": "REC36844641",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795003200
+            }
+          },
+          {
+            "pid": "REC36841062",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795006800
+            }
+          },
+          {
+            "pid": "REC36866206",
+            "recordingSeriesPid": "RSR92316267_LCH6556",
+            "channelPid": "LCH6556",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795006800
+            }
+          },
+          {
+            "pid": "REC36844645",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795006800
+            }
+          },
+          {
+            "pid": "REC36844652",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795010400
+            }
+          },
+          {
+            "pid": "REC36866484",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795010400
+            }
+          },
+          {
+            "pid": "REC36866544",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795010400
+            }
+          },
+          {
+            "pid": "REC36866480",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795013700
+            }
+          },
+          {
+            "pid": "REC36848258",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795013700
+            }
+          },
+          {
+            "pid": "REC36866399",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795014000
+            }
+          },
+          {
+            "pid": "REC36844973",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795014000
+            }
+          },
+          {
+            "pid": "REC36848027",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795017300
+            }
+          },
+          {
+            "pid": "REC36844977",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795017600
+            }
+          },
+          {
+            "pid": "REC36841236",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795020900
+            }
+          },
+          {
+            "pid": "REC36824184",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795021200
+            }
+          },
+          {
+            "pid": "REC36845176",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795021200
+            }
+          },
+          {
+            "pid": "REC36845179",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795024800
+            }
+          },
+          {
+            "pid": "REC36840771",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795025280
+            }
+          },
+          {
+            "pid": "REC36845183",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795028400
+            }
+          },
+          {
+            "pid": "REC36845187",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795032000
+            }
+          },
+          {
+            "pid": "REC36845190",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795035600
+            }
+          },
+          {
+            "pid": "REC36845478",
+            "recordingSeriesPid": "RSR96288986_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795036500
+            }
+          },
+          {
+            "pid": "REC36841071",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795038600
+            }
+          },
+          {
+            "pid": "REC36844993",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795039200
+            }
+          },
+          {
+            "pid": "REC36943784",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795075200
+            }
+          },
+          {
+            "pid": "REC36948072",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795075200
+            }
+          },
+          {
+            "pid": "REC36948076",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795077000
+            }
+          },
+          {
+            "pid": "REC36951178",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795078200
+            }
+          },
+          {
+            "pid": "REC36971757",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795078800
+            }
+          },
+          {
+            "pid": "REC36948319",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795078800
+            }
+          },
+          {
+            "pid": "REC36948324",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795080600
+            }
+          },
+          {
+            "pid": "REC36951181",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795081500
+            }
+          },
+          {
+            "pid": "REC36948328",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795082400
+            }
+          },
+          {
+            "pid": "REC36972021",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795082400
+            }
+          },
+          {
+            "pid": "REC36927066",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795083300
+            }
+          },
+          {
+            "pid": "REC36948335",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795084200
+            }
+          },
+          {
+            "pid": "REC36951185",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795085400
+            }
+          },
+          {
+            "pid": "REC36948338",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795086000
+            }
+          },
+          {
+            "pid": "REC36948598",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795089600
+            }
+          },
+          {
+            "pid": "REC36948602",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795093200
+            }
+          },
+          {
+            "pid": "REC36943787",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795093200
+            }
+          },
+          {
+            "pid": "REC36948606",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795096800
+            }
+          },
+          {
+            "pid": "REC36972046",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795096800
+            }
+          },
+          {
+            "pid": "REC36971761",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795096800
+            }
+          },
+          {
+            "pid": "REC36972028",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795100100
+            }
+          },
+          {
+            "pid": "REC36951192",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795100100
+            }
+          },
+          {
+            "pid": "REC36948612",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795100400
+            }
+          },
+          {
+            "pid": "REC36972051",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795100400
+            }
+          },
+          {
+            "pid": "REC36951089",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795103700
+            }
+          },
+          {
+            "pid": "REC36948616",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795104000
+            }
+          },
+          {
+            "pid": "REC36944550",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795107300
+            }
+          },
+          {
+            "pid": "REC36927334",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795107600
+            }
+          },
+          {
+            "pid": "REC36948353",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795108500
+            }
+          },
+          {
+            "pid": "REC36948620",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795111200
+            }
+          },
+          {
+            "pid": "REC36943792",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795111680
+            }
+          },
+          {
+            "pid": "REC36948358",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795114800
+            }
+          },
+          {
+            "pid": "REC36948627",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795118400
+            }
+          },
+          {
+            "pid": "REC36949039",
+            "recordingSeriesPid": "RSR96288986_LCH6423",
+            "channelPid": "LCH6423",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795118400
+            }
+          },
+          {
+            "pid": "REC36948362",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795122000
+            }
+          },
+          {
+            "pid": "REC36943796",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795125000
+            }
+          },
+          {
+            "pid": "REC36948366",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795125600
+            }
+          },
+          {
+            "pid": "REC37053309",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795161600
+            }
+          },
+          {
+            "pid": "REC37056672",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795161600
+            }
+          },
+          {
+            "pid": "REC37056627",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795163400
+            }
+          },
+          {
+            "pid": "REC37060298",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795164600
+            }
+          },
+          {
+            "pid": "REC37056684",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795165200
+            }
+          },
+          {
+            "pid": "REC37073352",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795165500
+            }
+          },
+          {
+            "pid": "REC37056688",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795167000
+            }
+          },
+          {
+            "pid": "REC37060300",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795168200
+            }
+          },
+          {
+            "pid": "REC37056694",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795168800
+            }
+          },
+          {
+            "pid": "REC37073265",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795169100
+            }
+          },
+          {
+            "pid": "REC37034833",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795169700
+            }
+          },
+          {
+            "pid": "REC37056699",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795170600
+            }
+          },
+          {
+            "pid": "REC37060074",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795171800
+            }
+          },
+          {
+            "pid": "REC37056704",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795172400
+            }
+          },
+          {
+            "pid": "REC37056902",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795176000
+            }
+          },
+          {
+            "pid": "REC37056711",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795179600
+            }
+          },
+          {
+            "pid": "REC37053132",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795179600
+            }
+          },
+          {
+            "pid": "REC37073604",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795183200
+            }
+          },
+          {
+            "pid": "REC37056714",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795183200
+            }
+          },
+          {
+            "pid": "REC37073526",
+            "recordingSeriesPid": "RSR286123923_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795183500
+            }
+          },
+          {
+            "pid": "REC37060081",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795186500
+            }
+          },
+          {
+            "pid": "REC37056718",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795186800
+            }
+          },
+          {
+            "pid": "REC37073402",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795186800
+            }
+          },
+          {
+            "pid": "REC37073354",
+            "recordingSeriesPid": "RSR293538825_LCH6435",
+            "channelPid": "LCH6435",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795187100
+            }
+          },
+          {
+            "pid": "REC37060312",
+            "recordingSeriesPid": "RSR104564150_LCH6416",
+            "channelPid": "LCH6416",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795190100
+            }
+          },
+          {
+            "pid": "REC37056919",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795190400
+            }
+          },
+          {
+            "pid": "REC37053590",
+            "recordingSeriesPid": "RSR13868827_LCH6405",
+            "channelPid": "LCH6405",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795193700
+            }
+          },
+          {
+            "pid": "REC37056731",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795194000
+            }
+          },
+          {
+            "pid": "REC37034842",
+            "recordingSeriesPid": "RSR37693769_LCH6359",
+            "channelPid": "LCH6359",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795194000
+            }
+          },
+          {
+            "pid": "REC37056737",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795197600
+            }
+          },
+          {
+            "pid": "REC37053140",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795198080
+            }
+          },
+          {
+            "pid": "REC37056924",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795201200
+            }
+          },
+          {
+            "pid": "REC37056747",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795204800
+            }
+          },
+          {
+            "pid": "REC37056749",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795208400
+            }
+          },
+          {
+            "pid": "REC37056933",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795212000
+            }
+          },
+          {
+            "pid": "REC37147017",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795222800
+            }
+          },
+          {
+            "pid": "REC37162570",
+            "recordingSeriesPid": "RSR10857467_LCH6438",
+            "channelPid": "LCH6438",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795233600
+            }
+          },
+          {
+            "pid": "REC37151119",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795237200
+            }
+          },
+          {
+            "pid": "REC37150722",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795240800
+            }
+          },
+          {
+            "pid": "REC37150727",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795242600
+            }
+          },
+          {
+            "pid": "REC37151129",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795244400
+            }
+          },
+          {
+            "pid": "REC37150731",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795246200
+            }
+          },
+          {
+            "pid": "REC37147021",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795248000
+            }
+          },
+          {
+            "pid": "REC37151140",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795248000
+            }
+          },
+          {
+            "pid": "REC37151144",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795249800
+            }
+          },
+          {
+            "pid": "REC37151151",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795251600
+            }
+          },
+          {
+            "pid": "REC37150742",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795253400
+            }
+          },
+          {
+            "pid": "REC37151156",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795255200
+            }
+          },
+          {
+            "pid": "REC37150748",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795257000
+            }
+          },
+          {
+            "pid": "REC37150752",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795258800
+            }
+          },
+          {
+            "pid": "REC37147025",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795258800
+            }
+          },
+          {
+            "pid": "REC37150755",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795262400
+            }
+          },
+          {
+            "pid": "REC37147256",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795262400
+            }
+          },
+          {
+            "pid": "REC37151174",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795266000
+            }
+          },
+          {
+            "pid": "REC37147259",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795266000
+            }
+          },
+          {
+            "pid": "REC37151179",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795269600
+            }
+          },
+          {
+            "pid": "REC37147263",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795269600
+            }
+          },
+          {
+            "pid": "REC37151184",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795273200
+            }
+          },
+          {
+            "pid": "REC37147040",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795273200
+            }
+          },
+          {
+            "pid": "REC37147268",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795276800
+            }
+          },
+          {
+            "pid": "REC37151186",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795276800
+            }
+          },
+          {
+            "pid": "REC37147049",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795280400
+            }
+          },
+          {
+            "pid": "REC37151189",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795280400
+            }
+          },
+          {
+            "pid": "REC37150771",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795284000
+            }
+          },
+          {
+            "pid": "REC37147053",
+            "recordingSeriesPid": "RSR5143692_LCH6400",
+            "channelPid": "LCH6400",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795284000
+            }
+          },
+          {
+            "pid": "REC37151196",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795287600
+            }
+          },
+          {
+            "pid": "REC37150777",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795291200
+            }
+          },
+          {
+            "pid": "REC37150782",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795294800
+            }
+          },
+          {
+            "pid": "REC37151203",
+            "recordingSeriesPid": "RSR3240304_LCH6420",
+            "channelPid": "LCH6420",
+            "isConflicted": false,
+            "isEntireSeries": true,
+            "emissionDate": {
+              "start": 1795298400
+            }
+          }
+        ],
+        "notified": []
+      },
+      "requestId": "OP-7678716c977adac397357434fb907b8d",
+      "version": "26.06.100-RA"
+    },
+    "isJson": true,
+    "durationMs": 344
+  }
+}

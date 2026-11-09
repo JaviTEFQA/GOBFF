@@ -1,0 +1,171 @@
+{
+  "endpointId": "GET nsh/settings",
+  "samples": 1,
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "pid": {
+        "types": [
+          "string"
+        ]
+      },
+      "contentType": {
+        "types": [
+          "string"
+        ]
+      },
+      "title": {
+        "types": [
+          "string"
+        ]
+      },
+      "type": {
+        "types": [
+          "number"
+        ]
+      },
+      "childSettings": {
+        "types": [
+          "array"
+        ],
+        "items": {
+          "types": [
+            "object"
+          ],
+          "properties": {
+            "childSettings": {
+              "types": [
+                "array"
+              ],
+              "items": {
+                "types": [
+                  "object"
+                ],
+                "properties": {
+                  "contentType": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "pid": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "title": {
+                    "types": [
+                      "string"
+                    ]
+                  },
+                  "type": {
+                    "types": [
+                      "number"
+                    ]
+                  }
+                },
+                "required": [
+                  "contentType",
+                  "pid",
+                  "title",
+                  "type"
+                ]
+              }
+            },
+            "contentType": {
+              "types": [
+                "string"
+              ]
+            },
+            "image": {
+              "types": [
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "types": [
+                    "string"
+                  ]
+                },
+                "url": {
+                  "types": [
+                    "string"
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "url"
+              ]
+            },
+            "pid": {
+              "types": [
+                "string"
+              ]
+            },
+            "title": {
+              "types": [
+                "string"
+              ]
+            },
+            "type": {
+              "types": [
+                "number"
+              ]
+            }
+          },
+          "required": [
+            "childSettings",
+            "contentType",
+            "image",
+            "pid",
+            "title",
+            "type"
+          ]
+        }
+      },
+      "image": {
+        "types": [
+          "object"
+        ],
+        "properties": {
+          "type": {
+            "types": [
+              "string"
+            ]
+          },
+          "url": {
+            "types": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "type",
+          "url"
+        ]
+      },
+      "requestId": {
+        "types": [
+          "string"
+        ]
+      },
+      "version": {
+        "types": [
+          "string"
+        ]
+      }
+    },
+    "required": [
+      "childSettings",
+      "contentType",
+      "image",
+      "pid",
+      "requestId",
+      "title",
+      "type",
+      "version"
+    ]
+  }
+}

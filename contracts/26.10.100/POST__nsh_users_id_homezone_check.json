@@ -1,0 +1,31 @@
+{
+  "endpointId": "POST nsh/users/{id}/homezone/check",
+  "samples": 1,
+  "shape": {
+    "types": [
+      "object"
+    ],
+    "properties": {
+      "canSetHome": {
+        "types": [
+          "boolean"
+        ]
+      },
+      "result": {
+        "types": [
+          "string"
+        ]
+      },
+      "lastUserUpdate": {
+        "types": [
+          "number"
+        ]
+      }
+    },
+    "required": [
+      "canSetHome",
+      "lastUserUpdate",
+      "result"
+    ]
+  }
+}

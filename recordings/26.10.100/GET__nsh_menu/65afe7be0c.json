@@ -1,0 +1,251 @@
+{
+  "endpointId": "GET nsh/menu",
+  "key": "GET nsh/menu?appVersion=26.10.100",
+  "journey": "epg-detail",
+  "recordedAt": "2026-11-08T21:44:32.287Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/menu?appVersion=26.10.100",
+    "servicePath": "nsh/menu",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:44:29 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:44:30 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-0f93337cfc51c3278ef7062dd88fe861",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "menu": {
+        "topMenu": [
+          {
+            "pid": "CHA20270",
+            "titleInMenu": "TV-Programm",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": true,
+            "showAllPid": "CHA20270",
+            "deeplinkType": 2,
+            "toolTip": "OK für Guide drücken"
+          },
+          {
+            "pid": "CHA14798",
+            "titleInMenu": "Mediathek",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": false,
+            "showAllPid": "CHA14798"
+          },
+          {
+            "pid": "CHA15640",
+            "titleInMenu": "Videothek",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": false,
+            "showAllPid": "CHA15640"
+          },
+          {
+            "pid": "CHA19341",
+            "titleInMenu": "Streaming",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": false,
+            "showAllPid": "CHA19341"
+          }
+        ],
+        "profileMenu": [
+          {
+            "pid": "CHA20290",
+            "titleInMenu": "Mein o2 TV",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": false,
+            "showAllPid": "CHA20290"
+          },
+          {
+            "pid": "CHA20291",
+            "titleInMenu": "Einstellungen",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": true,
+            "showAllPid": "CHA20291",
+            "deeplinkType": 3,
+            "deeplinkPid": "SET316"
+          }
+        ],
+        "minimalBottomMenu": [
+          {
+            "pid": "CHA20283",
+            "titleInMenu": "",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": false,
+            "showAllPid": "CHA20283",
+            "isComplexCollection": true,
+            "contents": [
+              {
+                "pid": "CHA20274",
+                "titleInMenu": "X",
+                "opensNewWindow": false,
+                "externalUrl": "https://x.com/o2cando",
+                "showGrid": true,
+                "showAllPid": "CHA20274",
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/09/25096877_4A3C1D393F25B3EC.png"
+                }
+              },
+              {
+                "pid": "CHA20275",
+                "titleInMenu": "Facebook",
+                "opensNewWindow": false,
+                "externalUrl": "https://www.facebook.com/o2",
+                "showGrid": true,
+                "showAllPid": "CHA20275",
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/09/25096878_5289F5FDE0410A4B.png"
+                }
+              },
+              {
+                "pid": "CHA20276",
+                "titleInMenu": "Instagram",
+                "opensNewWindow": false,
+                "externalUrl": "https://www.instagram.com/o2cando/",
+                "showGrid": true,
+                "showAllPid": "CHA20276",
+                "image": {
+                  "type": "Icon",
+                  "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/09/25096879_21ADA5839A90B915.png"
+                }
+              }
+            ]
+          },
+          {
+            "pid": "CHA20284",
+            "titleInMenu": "",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": false,
+            "showAllPid": "CHA20284",
+            "isComplexCollection": true,
+            "contents": [
+              {
+                "pid": "CHA20277",
+                "titleInMenu": "Barrierefreiheit",
+                "opensNewWindow": false,
+                "externalUrl": "https://www.o2online.de/recht/barrierefreiheit/",
+                "showGrid": true,
+                "showAllPid": "CHA20277"
+              },
+              {
+                "pid": "CHA20278",
+                "titleInMenu": "Datenschutz",
+                "opensNewWindow": false,
+                "externalUrl": "https://o2online.de/goto/o2tv-dse",
+                "showGrid": true,
+                "showAllPid": "CHA20278"
+              },
+              {
+                "pid": "CHA20279",
+                "titleInMenu": "Jugendschutz",
+                "opensNewWindow": false,
+                "externalUrl": "https://o2online.de/goto/o2tvjugendschutz",
+                "showGrid": true,
+                "showAllPid": "CHA20279"
+              },
+              {
+                "pid": "CHA20280",
+                "titleInMenu": "Transparenz",
+                "opensNewWindow": false,
+                "externalUrl": "https://o2online.de/goto/o2tvtransparenz",
+                "showGrid": true,
+                "showAllPid": "CHA20280"
+              },
+              {
+                "pid": "CHA20281",
+                "titleInMenu": "Impressum",
+                "opensNewWindow": false,
+                "externalUrl": "https://www.o2online.de/recht/impressum/ ",
+                "showGrid": true,
+                "showAllPid": "CHA20281"
+              },
+              {
+                "pid": "CHA20282",
+                "titleInMenu": "Seitenübersicht",
+                "opensNewWindow": false,
+                "externalUrl": "https://tv.o2online.de/sitemap ",
+                "showGrid": true,
+                "showAllPid": "CHA20282"
+              }
+            ]
+          }
+        ],
+        "supportMenu": [
+          {
+            "pid": "CHA20293",
+            "titleInMenu": "o2 Online",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": true,
+            "showAllPid": "CHA20293",
+            "externalUrl": "https://www.o2online.de"
+          },
+          {
+            "pid": "CHA20294",
+            "titleInMenu": "Mein o2",
+            "opensNewWindow": false,
+            "requiresPin": false,
+            "showGrid": true,
+            "showAllPid": "CHA20294",
+            "externalUrl": "https://www.o2online.de/mein-o2"
+          }
+        ]
+      },
+      "requestId": "OP-0f93337cfc51c3278ef7062dd88fe861",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 196
+  }
+}

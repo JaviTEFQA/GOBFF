@@ -1,0 +1,61 @@
+{
+  "endpointId": "GET directory/getConfig",
+  "key": "GET directory/getConfig?consumerKey=web_de_2610100&deviceType=401&fields=service_urls,device_parameters,extra_config&instanceId=45",
+  "journey": "epg-detail",
+  "recordedAt": "2026-11-08T21:44:30.023Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/directory/getConfig?instanceId=45&deviceType=401&fields=service_urls,device_parameters,extra_config&consumerKey=web_de_2610100",
+    "servicePath": "directory/getConfig",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-length": "159",
+      "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; media-src 'self' blob: data: https://*; img-src 'self' http: https: blob: data: http://* https://*",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:44:27 GMT",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "server": "nginx",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "x-cache-date": "Sun, 08 Nov 2026 21:38:39 GMT",
+      "x-cache-status": "HIT",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "1; mode=block",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "public,max-age=251",
+      "vary": "Origin",
+      "x-request-id": "OP-650905ad62907a3f5cceb7b592c6f981"
+    },
+    "body": {
+      "SERVICE_URLS": {
+        "apiGw": "https://canoway-de.cdn.telefonica.com/instance/45/service/",
+        "apiGwCdn": "https://canoway-de.cdn.telefonica.com/instance/45/service/"
+      }
+    },
+    "isJson": true,
+    "durationMs": 209
+  }
+}

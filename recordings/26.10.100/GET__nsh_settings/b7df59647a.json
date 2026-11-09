@@ -1,0 +1,291 @@
+{
+  "endpointId": "GET nsh/settings",
+  "key": "GET nsh/settings?appVersion=26.10.100",
+  "journey": "settings-section",
+  "recordedAt": "2026-11-08T21:39:35.233Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/settings?appVersion=26.10.100",
+    "servicePath": "nsh/settings",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/settings",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 21:39:32 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 21:39:33 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-31af38d62e3f157b5583756f939372bf",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "pid": "SET316",
+      "contentType": "SET",
+      "title": "Einstellungen",
+      "type": 1,
+      "childSettings": [
+        {
+          "pid": "SET318",
+          "contentType": "SET",
+          "title": "Sender verwalten",
+          "type": 1,
+          "childSettings": [
+            {
+              "pid": "SET362",
+              "contentType": "SET",
+              "title": "Sender verwalten",
+              "type": 4
+            }
+          ],
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/34/23340301_07334EC8944385CE.png"
+          }
+        },
+        {
+          "pid": "SET325",
+          "contentType": "SET",
+          "title": "Geräte verwalten",
+          "type": 1,
+          "childSettings": [
+            {
+              "pid": "SET343",
+              "contentType": "SET",
+              "title": "Gerät hinzufügen",
+              "type": 22
+            },
+            {
+              "pid": "SET344",
+              "contentType": "SET",
+              "title": "Verwendete Geräte",
+              "type": 23
+            }
+          ],
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/28/23289402_C21B0B4A5415F4E3.png"
+          }
+        },
+        {
+          "pid": "SET317",
+          "contentType": "SET",
+          "title": "PINs & Jugendschutz",
+          "type": 1,
+          "childSettings": [
+            {
+              "pid": "SET363",
+              "contentType": "SET",
+              "title": "Jugendschutz",
+              "type": 2
+            },
+            {
+              "pid": "SET364",
+              "contentType": "SET",
+              "title": "Profilsperre",
+              "type": 3
+            },
+            {
+              "pid": "SET365",
+              "contentType": "SET",
+              "title": "Jugendschutz-PIN",
+              "type": 18
+            },
+            {
+              "pid": "SET366",
+              "contentType": "SET",
+              "title": "Kauf-PIN",
+              "type": 19
+            }
+          ],
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/34/23340299_476DE5A20F8656BA.png"
+          }
+        },
+        {
+          "pid": "SET323",
+          "contentType": "SET",
+          "title": "Heim-Netzwerk",
+          "type": 1,
+          "childSettings": [
+            {
+              "pid": "SET346",
+              "contentType": "SET",
+              "title": "Heim-Netzwerk",
+              "type": 28
+            }
+          ],
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/34/23340600_B04E0A4737182B30.png"
+          }
+        },
+        {
+          "pid": "SET320",
+          "contentType": "SET",
+          "title": "Wiedergabe",
+          "type": 1,
+          "childSettings": [
+            {
+              "pid": "SET354",
+              "contentType": "SET",
+              "title": "Audio",
+              "type": 5
+            },
+            {
+              "pid": "SET355",
+              "contentType": "SET",
+              "title": "Untertitel",
+              "type": 6
+            },
+            {
+              "pid": "SET356",
+              "contentType": "SET",
+              "title": "Audiodeskription",
+              "type": 7
+            },
+            {
+              "pid": "SET357",
+              "contentType": "SET",
+              "title": "Klare Sprache",
+              "type": 8
+            },
+            {
+              "pid": "SET359",
+              "contentType": "SET",
+              "title": "Automatische Wiedergabe der nächsten Episode",
+              "type": 9
+            }
+          ],
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/28/23289413_FED7006D57652A35.png"
+          }
+        },
+        {
+          "pid": "SET322",
+          "contentType": "SET",
+          "title": "TV-Pakete",
+          "type": 1,
+          "childSettings": [
+            {
+              "pid": "SET347",
+              "contentType": "SET",
+              "title": "Meine TV-Pakete",
+              "type": 12
+            },
+            {
+              "pid": "SET348",
+              "contentType": "SET",
+              "title": "Verfügbare TV-Pakete",
+              "type": 13
+            },
+            {
+              "pid": "SET349",
+              "contentType": "SET",
+              "title": "Weitere Informationen",
+              "type": 14
+            }
+          ],
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/34/23340601_7B56D0ACE1B0530D.png"
+          }
+        },
+        {
+          "pid": "SET329",
+          "contentType": "SET",
+          "title": "Recht & Datenschutz",
+          "type": 1,
+          "childSettings": [
+            {
+              "pid": "SET332",
+              "contentType": "SET",
+              "title": "Datenschutz",
+              "type": 46
+            },
+            {
+              "pid": "SET333",
+              "contentType": "SET",
+              "title": "Einwilligungen",
+              "type": 47
+            },
+            {
+              "pid": "SET334",
+              "contentType": "SET",
+              "title": "Transparenz",
+              "type": 48
+            },
+            {
+              "pid": "SET335",
+              "contentType": "SET",
+              "title": "Jugendschutz",
+              "type": 49
+            },
+            {
+              "pid": "SET336",
+              "contentType": "SET",
+              "title": "Impressum",
+              "type": 50
+            },
+            {
+              "pid": "SET337",
+              "contentType": "SET",
+              "title": "Cookie-Manager",
+              "type": 51
+            }
+          ],
+          "image": {
+            "type": "Icon",
+            "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/34/23340296_9A2F532955B82A62.png"
+          }
+        }
+      ],
+      "image": {
+        "type": "Icon",
+        "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/28/23289403_F222B5F87297E80F.png"
+      },
+      "requestId": "OP-31af38d62e3f157b5583756f939372bf",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 155
+  }
+}

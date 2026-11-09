@@ -1,0 +1,1921 @@
+{
+  "endpointId": "GET nsh/unified-detailed/{pid}",
+  "key": "GET nsh/unified-detailed/LSC642209194?appVersion=26.10.100",
+  "journey": "player",
+  "recordedAt": "2026-11-08T15:57:22.349Z",
+  "request": {
+    "method": "GET",
+    "url": "https://canoway-de.cdn.telefonica.com/instance/45/service/nsh/unified-detailed/LSC642209194?appVersion=26.10.100",
+    "servicePath": "nsh/unified-detailed/LSC642209194",
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "de-DE",
+      "authorization": "<redacted>",
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "host": "canoway-de.cdn.telefonica.com",
+      "origin": "https://deploy.mca.tid.es",
+      "pragma": "no-cache",
+      "referer": "https://deploy.mca.tid.es/nightly/release/26.10.x-production-de-de/details/live/mission-pinguin-mit-dem-segelboot-in-die-antarktis-642209194?placement=undefined&placementDetail=undefined&distributionPartner=undefined",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36",
+      "x-op-enablers": "3",
+      "x-op-profileid": "30",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "connection": "keep-alive",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sun, 08 Nov 2026 15:57:20 GMT",
+      "server": "nginx",
+      "transfer-encoding": "chunked",
+      "x-cache-date": "Sun, 08 Nov 2026 15:57:20 GMT",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-origin": "https://deploy.mca.tid.es",
+      "access-control-expose-headers": "X-OP-Access-token, X-OP-Refresh-token, X-OP-Auth-status, X-Request-Id, Etag, x-apihub-response, X-Netflix-Det-Token, X-Netflix-Vdid, X-OP-PC, X-OP-ProfileId, X-OP-Enablers, X-OP-IP, X-OP-Force-Register, x-op-athome, x-op-lt, x-context-data, X-CORRELATION-ID, x-op-al",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-security-policy": "default-src 'self' https://*.gvp.telefonica.com https://*.cdn.telefonica.com http://*.gvp.telefonica.com http://*.cdn.telefonica.com; frame-ancestors 'self'",
+      "referrer-policy": "no-referrer-when-downgrade",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "accept-encoding",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-op-access-token": "<redacted>",
+      "x-op-auth-status": "<redacted>",
+      "x-request-id": "OP-084453c38f5dc7d44f240cb37e31aeb3",
+      "x-xss-protection": "1;mode=block"
+    },
+    "body": {
+      "pid": "LSC642209194",
+      "episodeNumber": 0,
+      "liveProgramPid": "LPR288693482",
+      "shortDescription": "Der Journalist Carsten Behrendt segelt zu einer der größten bekannten Kolonien von Adéliepinguinen weltweit.",
+      "seriesId": 0,
+      "seriesPid": "",
+      "seriesName": "Mission Pinguin - Mit dem Segelboot in die Antarktis",
+      "availableFrom": 1762614900,
+      "availableUntil": 1794153600,
+      "availableUntilPolaris": 1794153600,
+      "liveChannel": {
+        "pid": "LCH6378",
+        "title": "ZDF",
+        "callLetter": "ZDF",
+        "distributorId": 0,
+        "providerChannel": "",
+        "channelNumber": 2,
+        "lxdChannel": "",
+        "tags": {
+          "completed": false,
+          "favorite": false,
+          "follow": false,
+          "hidden": false,
+          "watched": true
+        },
+        "image": {
+          "type": "Extra",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+        },
+        "hasPlaylistExperience": false,
+        "isFastChannel": false,
+        "isPreferent": false,
+        "maxLiveNowGap": 120,
+        "isDolby": true,
+        "isDolbyAtmos": false,
+        "isCpvrEnabled": true,
+        "isRpvrEnabled": false,
+        "hasThumbnails": true,
+        "wmk": false,
+        "isKids": false
+      },
+      "deviceTypes": [
+        401
+      ],
+      "emissionDate": {
+        "start": 1794150900,
+        "end": 1794153600
+      },
+      "title": "Mission Pinguin - Mit dem Segelboot in die Antarktis",
+      "episodeTitle": "",
+      "isFutureProgram": false,
+      "isAirProgram": true,
+      "image": {
+        "type": "BobLandscape",
+        "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F56%2F28564928_4a9e7ccb83b804645db9807dd1d649b5.jpg&template=5"
+      },
+      "isOTT": true,
+      "logo": {
+        "image": {
+          "type": "Extra",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26491011_37C7C30496C779B9.png"
+        }
+      },
+      "isDolby": true,
+      "isDolbyAtmos": false,
+      "isAudioDescription": false,
+      "descriptors": [
+        "Keine Altersangabe"
+      ],
+      "countries": [
+        "Deutschland"
+      ],
+      "duration": 2700,
+      "genres": [
+        "Dokumentation",
+        "Soziales"
+      ],
+      "ageRating": {
+        "isHidden": true,
+        "pid": "AGE236",
+        "age": 0,
+        "code": "NoRating",
+        "shortDescription": "Keine Altersangabe",
+        "image": {
+          "type": "Cover",
+          "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+        }
+      },
+      "forbiddenTechnology": 0,
+      "uniqueId": "912159614",
+      "logoutUrl": "",
+      "epgScheduleId": "45_2_5181117_20261108_1",
+      "restartTvUrl": "http://b46184.5.cdn.telefonica.com/46184/_-_psi_-_/live/ZDF/SmoothStreaming-{quality}/ZDF.ism/Manifest?begin={start}&end={end}&gvpPodType=2",
+      "isHomeBlocked": false,
+      "isFFRWBlockedInLive": false,
+      "isHomeBlockedChannel": false,
+      "commercialization": {
+        "isTvod": false,
+        "isSubscribable": false
+      },
+      "description": "Gemeinsam mit sieben Wissenschaftlern, vier Seglern und zwei weiteren Journalisten macht sich Carsten Behrendt vom argentinischen Ushuaia auf Feuerland auf den Weg durch die berüchtigte Drake Passage in die Antarktis. Auf den Danger-Inseln lebt eine der größten bekannten Kolonien von Adéliepinguinen weltweit - in einer Region, die bislang nur wenige Menschen betreten haben. Mit an Bord ist auch Deutschlands bekanntester Hochseesegler Boris Herrmann.",
+      "year": 2026,
+      "seasonNumber": 0,
+      "payment": 3,
+      "bars": {
+        "isNotAvailableInThisDevice": false,
+        "isActivatedPendingVisible": false,
+        "isSubscribeVisible": false,
+        "isRecordingEpisodeVisible": false,
+        "isRecordingSingleVisible": false,
+        "isRecordingSeasonVisible": false,
+        "isRecordingSeriesVisible": false,
+        "isHomeBlockErrorVisible": false
+      },
+      "relatedContents": {
+        "collectionLayoutStyle": "portraitSmall",
+        "type": "category",
+        "contents": [
+          {
+            "pid": "LSC642720327",
+            "episodeNumber": 0,
+            "liveProgramPid": "LPR288750218",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "Königreich Großbritannien",
+            "availableFrom": 1762622173,
+            "availableUntil": 1794161304,
+            "availableUntilPolaris": 1794161304,
+            "liveChannel": {
+              "pid": "LCH7067",
+              "title": "Royalworld",
+              "callLetter": "Royalworld",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 228,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490694_0498E95C9A6038AB.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": true,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794158173,
+              "end": 1794161304
+            },
+            "title": "Königreich Großbritannien",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F59%2F28597349_45d40c4710680c58386f6716b087155e.jpg&template=3&title=K%C3%B6nigreich%20Gro%C3%9Fbritannien"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F59%2F28597349_45d40c4710680c58386f6716b087155e.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490694_0498E95C9A6038AB.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.1",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_5e203eb3-02fb-4b26-9d9f-5b8cae_232778_20261108_1",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 3131,
+            "genres": [
+              "Dokumentation",
+              "Soziales"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://playout.pegasus.funkechannels.de/api/v1/platforms/019fd0fd-9ba8-7695-99d3-922a55b4db4f/platformChannels/01a05e8d-238e-7d5c-9f8a-7c1c9cf73983/master.m3u8?country=de&ads:ifa={{DEVICE_ID}}&ads:did={{DEVICE_ID}}&ads:ifa_type={{IFA_TYPE}}&ads:ua={{USER_AGENT}}&ads:optout={{LMT}}&ads:gdpr={{GDPR}}&ads:consent={{GDPR_CONSENT}}&ads:app_name={{APP_NAME}}&ads:app_bundle={{APP_BUNDLE}}&ads:app_store_url={{APP_STORE_URL}}&ads:domain={{DOMAIN}}&ads:device_make={{DEVICE_MAKE}}&ads:device_model={{DEVICE_MODEL}}&ads:lat={{LAT}}&ads:lon={{LON}}&ads:env={{ENVIRONMENT}}",
+                  "pid": "MED16400_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 0,
+                  "streamingType": 2
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 0,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 0,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Ab 12 Jahren"
+            ]
+          },
+          {
+            "pid": "LSC642715350",
+            "episodeNumber": 0,
+            "liveProgramPid": "LPR288751804",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "Geheimen Auslandskonten auf der Spur: Schwarzgeldjäger im Einsatz",
+            "availableFrom": 1762622587,
+            "availableUntil": 1794159946,
+            "availableUntilPolaris": 1794159946,
+            "liveChannel": {
+              "pid": "LCH7045",
+              "title": "Focus TV Reportage",
+              "callLetter": "Focus TV",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 226,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486370_FA35969D64F7E9DD.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": true,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794158587,
+              "end": 1794159946
+            },
+            "title": "Geheimen Auslandskonten auf der Spur: Schwarzgeldjäger im Einsatz",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28584755_8f32b446cb9b4b26a4cc2cddca675ab0.jpg&template=3&title=Geheimen%20Auslandskonten%20auf%20der%20Spur%3A%20Schwarzgeldj..."
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28584755_8f32b446cb9b4b26a4cc2cddca675ab0.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/48/26486370_FA35969D64F7E9DD.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.2",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_7b5ed353-84fe-49e7-bacf-c33faa_2443517_20261108_1",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 1359,
+            "genres": [
+              "Dokumentation",
+              "Soziales"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://playout.pegasus.funkechannels.de/api/v1/platforms/019fd0fd-9ba8-7695-99d3-922a55b4db4f/platformChannels/01a05e8a-e537-7ec9-a1c5-e9f2d89c7254/master.m3u8?country=de&ads:ifa={{DEVICE_ID}}&ads:did={{DEVICE_ID}}&ads:ifa_type={{IFA_TYPE}}&ads:ua={{USER_AGENT}}&ads:optout={{LMT}}&ads:gdpr={{GDPR}}&ads:consent={{GDPR_CONSENT}}&ads:app_name={{APP_NAME}}&ads:app_bundle={{APP_BUNDLE}}&ads:app_store_url={{APP_STORE_URL}}&ads:domain={{DOMAIN}}&ads:device_make={{DEVICE_MAKE}}&ads:device_model={{DEVICE_MODEL}}&ads:lat={{LAT}}&ads:lon={{LON}}&ads:env={{ENVIRONMENT}}",
+                  "pid": "MED16376_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 0,
+                  "streamingType": 2
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 0,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 0,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Ab 12 Jahren"
+            ]
+          },
+          {
+            "pid": "LSC642717300",
+            "episodeNumber": 0,
+            "liveProgramPid": "LPR288693089",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "Johannesburg - Eine Stadt macht dicht",
+            "availableFrom": 1762623902,
+            "availableUntil": 1794163033,
+            "availableUntilPolaris": 1794163033,
+            "liveChannel": {
+              "pid": "LCH7058",
+              "title": "One Terra",
+              "callLetter": "One Terra",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 257,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490680_1D0DF7D0A0E29061.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": true,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794159902,
+              "end": 1794163033
+            },
+            "title": "Johannesburg - Eine Stadt macht dicht",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28581505_e1edcc1aaf5db5d92c805aa9f0a51bae.jpg&template=3&title=Johannesburg%20-%20Eine%20Stadt%20macht%20dicht"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28581505_e1edcc1aaf5db5d92c805aa9f0a51bae.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490680_1D0DF7D0A0E29061.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.3",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_6d78bc12-9b59-4d0e-9f4f-508096_164243_20261108_1",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 3131,
+            "genres": [
+              "Dokumentation"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE230",
+              "age": 1,
+              "code": "0",
+              "shortDescription": "Ohne Altersbeschränkung",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924766_8DF1AB82DFD43B46.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://playout.pegasus.funkechannels.de/api/v1/platforms/019fd0fd-9ba8-7695-99d3-922a55b4db4f/platformChannels/01a05e8c-d84c-70aa-8b5e-05d7fd9f2eae/master.m3u8?country=de&ads:ifa={{DEVICE_ID}}&ads:did={{DEVICE_ID}}&ads:ifa_type={{IFA_TYPE}}&ads:ua={{USER_AGENT}}&ads:optout={{LMT}}&ads:gdpr={{GDPR}}&ads:consent={{GDPR_CONSENT}}&ads:app_name={{APP_NAME}}&ads:app_bundle={{APP_BUNDLE}}&ads:app_store_url={{APP_STORE_URL}}&ads:domain={{DOMAIN}}&ads:device_make={{DEVICE_MAKE}}&ads:device_model={{DEVICE_MODEL}}&ads:lat={{LAT}}&ads:lon={{LON}}&ads:env={{ENVIRONMENT}}",
+                  "pid": "MED16394_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 0,
+                  "streamingType": 2
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 0,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 0,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Ohne Altersbeschränkung"
+            ]
+          },
+          {
+            "pid": "LSC642720806",
+            "episodeNumber": 2,
+            "liveProgramPid": "LPR288775406",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "Zur Zeit der Tudors",
+            "availableFrom": 1762622926,
+            "availableUntil": 1794161917,
+            "availableUntilPolaris": 1794161917,
+            "liveChannel": {
+              "pid": "LCH7125",
+              "title": "BBC History",
+              "callLetter": "BBC History",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 222,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473016_4609920BDCBECABB.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": true,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794158926,
+              "end": 1794161917
+            },
+            "title": "Zur Zeit der Tudors",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28583947_56d26496ee9adf8c7124ed5ee774858f.jpg&template=3&title=Zur%20Zeit%20der%20Tudors&detail=S1%2FE2"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28583947_56d26496ee9adf8c7124ed5ee774858f.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/47/26473016_4609920BDCBECABB.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.4",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_12f0c679-578a-480b-8f95-ee5bcf_633802910_20261108_1",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 2991,
+            "genres": [
+              "Dokumentation"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE230",
+              "age": 1,
+              "code": "0",
+              "shortDescription": "Ohne Altersbeschränkung",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924766_8DF1AB82DFD43B46.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://b47481.5.cdn.telefonica.com/live/hls/tcs-tef/bbchistory/.m3u8?w={{WIDTH}}&h={{HEIGHT}}&ip={{IP}}&lat={{LAT}}&lon={{LON}}&ua={{USER_AGENT}}&env={{ENVIRONMENT}}&app_bundle={{APP_BUNDLE}}&app_store_url={{APP_STORE_URL}}&app_name={{APP_NAME}}&domain={{DOMAIN}}&ifa={{IFA}}&ifa_type={{IFA_TYPE}}&did={{DEVICE_ID}}&device_make={{DEVICE_MAKE}}&device_model={{DEVICE_MODEL}}&gdpr={{GDPR}}&gdpr_consent={{GDPR_CONSENT}}&lmt={{LMT}}&language={{LANGUAGE}}",
+                  "pid": "MED16580_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 0,
+                  "streamingType": 2
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 0,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 1,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Ohne Altersbeschränkung"
+            ]
+          },
+          {
+            "pid": "LSC642846482",
+            "episodeNumber": 0,
+            "liveProgramPid": "LPR288794667",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "Einsatz an der Front: Ein deutscher Scharfschütze und sein Kampf für die Ukraine",
+            "availableFrom": 1762620103,
+            "availableUntil": 1794157881,
+            "availableUntilPolaris": 1794157881,
+            "liveChannel": {
+              "pid": "LCH7220",
+              "title": "SPIEGEL TV action+crime",
+              "callLetter": "SPIEGEL TV actionplu",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 230,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490933_801C2EDBD3B34F31.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": true,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794156103,
+              "end": 1794157881
+            },
+            "title": "Einsatz an der Front: Ein deutscher Scharfschütze und sein Kampf für die Ukraine",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28583069_63a971ab73ae59ccbd869c3d4d2fc815.jpg&template=3&title=Einsatz%20an%20der%20Front%3A%20Ein%20deutscher%20Scharfsch%C3%BCtze%20..."
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28583069_63a971ab73ae59ccbd869c3d4d2fc815.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490933_801C2EDBD3B34F31.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.5",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_b360e67b-6f6a-4e0c-974e-106673_1826339674_20261108_1",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 1778,
+            "genres": [
+              "Dokumentation"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://playout.pegasus.funkechannels.de/api/v1/platforms/019fd0fd-9ba8-7695-99d3-922a55b4db4f/platformChannels/01a0675b-51a3-761b-bd7c-32cacd66afb0/master.m3u8?country=de&ads:ifa={{DEVICE_ID}}&ads:did={{DEVICE_ID}}&ads:ifa_type={{IFA_TYPE}}&ads:ua={{USER_AGENT}}&ads:optout={{LMT}}&ads:gdpr={{GDPR}}&ads:consent={{GDPR_CONSENT}}&ads:app_name={{APP_NAME}}&ads:app_bundle={{APP_BUNDLE}}&ads:app_store_url={{APP_STORE_URL}}&ads:domain={{DOMAIN}}&ads:device_make={{DEVICE_MAKE}}&ads:device_model={{DEVICE_MODEL}}&ads:lat={{LAT}}&ads:lon={{LON}}&ads:env={{ENVIRONMENT}}",
+                  "pid": "MED18192_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 0,
+                  "streamingType": 2
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 0,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 0,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Ab 12 Jahren"
+            ]
+          },
+          {
+            "pid": "LSC642716261",
+            "episodeNumber": 0,
+            "liveProgramPid": "LPR288775200",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "William - Der Nächste in der Thronfolge",
+            "availableFrom": 1762619871,
+            "availableUntil": 1794158173,
+            "availableUntilPolaris": 1794158173,
+            "liveChannel": {
+              "pid": "LCH7067",
+              "title": "Royalworld",
+              "callLetter": "Royalworld",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 228,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490694_0498E95C9A6038AB.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": true,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794155871,
+              "end": 1794158173
+            },
+            "title": "William - Der Nächste in der Thronfolge",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28580142_6e3d700964678b35e1da74f1be2ce48c.jpg&template=3&title=William%20-%20Der%20N%C3%A4chste%20in%20der%20Thronfolge"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28580142_6e3d700964678b35e1da74f1be2ce48c.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490694_0498E95C9A6038AB.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.6",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_5e203eb3-02fb-4b26-9d9f-5b8cae_317469403_20261108_1",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 2302,
+            "genres": [
+              "Dokumentation"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://playout.pegasus.funkechannels.de/api/v1/platforms/019fd0fd-9ba8-7695-99d3-922a55b4db4f/platformChannels/01a05e8d-238e-7d5c-9f8a-7c1c9cf73983/master.m3u8?country=de&ads:ifa={{DEVICE_ID}}&ads:did={{DEVICE_ID}}&ads:ifa_type={{IFA_TYPE}}&ads:ua={{USER_AGENT}}&ads:optout={{LMT}}&ads:gdpr={{GDPR}}&ads:consent={{GDPR_CONSENT}}&ads:app_name={{APP_NAME}}&ads:app_bundle={{APP_BUNDLE}}&ads:app_store_url={{APP_STORE_URL}}&ads:domain={{DOMAIN}}&ads:device_make={{DEVICE_MAKE}}&ads:device_model={{DEVICE_MODEL}}&ads:lat={{LAT}}&ads:lon={{LON}}&ads:env={{ENVIRONMENT}}",
+                  "pid": "MED16400_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 0,
+                  "streamingType": 2
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 0,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 0,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Ab 12 Jahren"
+            ]
+          },
+          {
+            "pid": "LSC642846305",
+            "episodeNumber": 1,
+            "liveProgramPid": "LPR288794722",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "Trailer: Einsatz in Ostfriesland",
+            "availableFrom": 1762621881,
+            "availableUntil": 1794157927,
+            "availableUntilPolaris": 1794157927,
+            "liveChannel": {
+              "pid": "LCH7220",
+              "title": "SPIEGEL TV action+crime",
+              "callLetter": "SPIEGEL TV actionplu",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 230,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490933_801C2EDBD3B34F31.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": true,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794157881,
+              "end": 1794157927
+            },
+            "title": "Trailer: Einsatz in Ostfriesland",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28580290_d4bd3855dd5687ad78636fb25064b946.jpg&template=3&title=Trailer%3A%20Einsatz%20in%20Ostfriesland"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28580290_d4bd3855dd5687ad78636fb25064b946.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490933_801C2EDBD3B34F31.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.7",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_b360e67b-6f6a-4e0c-974e-106673_813404089_20261108_1",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 46,
+            "genres": [
+              "Dokumentation"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://playout.pegasus.funkechannels.de/api/v1/platforms/019fd0fd-9ba8-7695-99d3-922a55b4db4f/platformChannels/01a0675b-51a3-761b-bd7c-32cacd66afb0/master.m3u8?country=de&ads:ifa={{DEVICE_ID}}&ads:did={{DEVICE_ID}}&ads:ifa_type={{IFA_TYPE}}&ads:ua={{USER_AGENT}}&ads:optout={{LMT}}&ads:gdpr={{GDPR}}&ads:consent={{GDPR_CONSENT}}&ads:app_name={{APP_NAME}}&ads:app_bundle={{APP_BUNDLE}}&ads:app_store_url={{APP_STORE_URL}}&ads:domain={{DOMAIN}}&ads:device_make={{DEVICE_MAKE}}&ads:device_model={{DEVICE_MODEL}}&ads:lat={{LAT}}&ads:lon={{LON}}&ads:env={{ENVIRONMENT}}",
+                  "pid": "MED18192_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 0,
+                  "streamingType": 2
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 0,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 0,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Ab 12 Jahren"
+            ]
+          },
+          {
+            "pid": "LSC642846316",
+            "episodeNumber": 0,
+            "liveProgramPid": "LPR288794900",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "Das tote Baby vom Waller See: Geständnis einer Mutter",
+            "availableFrom": 1762621971,
+            "availableUntil": 1794159354,
+            "availableUntilPolaris": 1794159354,
+            "liveChannel": {
+              "pid": "LCH7220",
+              "title": "SPIEGEL TV action+crime",
+              "callLetter": "SPIEGEL TV actionplu",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 230,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490933_801C2EDBD3B34F31.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": true,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794157971,
+              "end": 1794159354
+            },
+            "title": "Das tote Baby vom Waller See: Geständnis einer Mutter",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F57%2F28579782_8062d461f5ba390f1f14ee46bd0f043b.jpg&template=3&title=Das%20tote%20Baby%20vom%20Waller%20See%3A%20Gest%C3%A4ndnis%20einer%20Mut..."
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F57%2F28579782_8062d461f5ba390f1f14ee46bd0f043b.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490933_801C2EDBD3B34F31.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.8",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_b360e67b-6f6a-4e0c-974e-106673_962005840_20261108_1",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 1383,
+            "genres": [
+              "Dokumentation"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://playout.pegasus.funkechannels.de/api/v1/platforms/019fd0fd-9ba8-7695-99d3-922a55b4db4f/platformChannels/01a0675b-51a3-761b-bd7c-32cacd66afb0/master.m3u8?country=de&ads:ifa={{DEVICE_ID}}&ads:did={{DEVICE_ID}}&ads:ifa_type={{IFA_TYPE}}&ads:ua={{USER_AGENT}}&ads:optout={{LMT}}&ads:gdpr={{GDPR}}&ads:consent={{GDPR_CONSENT}}&ads:app_name={{APP_NAME}}&ads:app_bundle={{APP_BUNDLE}}&ads:app_store_url={{APP_STORE_URL}}&ads:domain={{DOMAIN}}&ads:device_make={{DEVICE_MAKE}}&ads:device_model={{DEVICE_MODEL}}&ads:lat={{LAT}}&ads:lon={{LON}}&ads:env={{ENVIRONMENT}}",
+                  "pid": "MED18192_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 0,
+                  "streamingType": 2
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 0,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 0,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Ab 12 Jahren"
+            ]
+          },
+          {
+            "pid": "LSC642846477",
+            "episodeNumber": 0,
+            "liveProgramPid": "LPR288794975",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "Tödliche Fahrradunfälle: Was tun, um unfallfrei durch den Verkehr zu kommen?",
+            "availableFrom": 1762623354,
+            "availableUntil": 1794161150,
+            "availableUntilPolaris": 1794161150,
+            "liveChannel": {
+              "pid": "LCH7220",
+              "title": "SPIEGEL TV action+crime",
+              "callLetter": "SPIEGEL TV actionplu",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 230,
+              "lxdChannel": "",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490933_801C2EDBD3B34F31.png"
+              },
+              "hasPlaylistExperience": false,
+              "isFastChannel": true,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794159354,
+              "end": 1794161150
+            },
+            "title": "Tödliche Fahrradunfälle: Was tun, um unfallfrei durch den Verkehr zu kommen?",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28581429_d64fa24ce6ec5fa69e2275153d24602e.jpg&template=3&title=T%C3%B6dliche%20Fahrradunf%C3%A4lle%3A%20Was%20tun%2C%20um%20unfallfrei%20du..."
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F58%2F28581429_d64fa24ce6ec5fa69e2275153d24602e.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490933_801C2EDBD3B34F31.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.9",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_b360e67b-6f6a-4e0c-974e-106673_1777870555_20261108_1",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 1796,
+            "genres": [
+              "Dokumentation"
+            ],
+            "ageRating": {
+              "isHidden": false,
+              "pid": "AGE232",
+              "age": 12,
+              "code": "12",
+              "shortDescription": "Ab 12 Jahren",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/16/92/16924770_7E73D1CE38B22DB0.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://playout.pegasus.funkechannels.de/api/v1/platforms/019fd0fd-9ba8-7695-99d3-922a55b4db4f/platformChannels/01a0675b-51a3-761b-bd7c-32cacd66afb0/master.m3u8?country=de&ads:ifa={{DEVICE_ID}}&ads:did={{DEVICE_ID}}&ads:ifa_type={{IFA_TYPE}}&ads:ua={{USER_AGENT}}&ads:optout={{LMT}}&ads:gdpr={{GDPR}}&ads:consent={{GDPR_CONSENT}}&ads:app_name={{APP_NAME}}&ads:app_bundle={{APP_BUNDLE}}&ads:app_store_url={{APP_STORE_URL}}&ads:domain={{DOMAIN}}&ads:device_make={{DEVICE_MAKE}}&ads:device_model={{DEVICE_MODEL}}&ads:lat={{LAT}}&ads:lon={{LON}}&ads:env={{ENVIRONMENT}}",
+                  "pid": "MED18192_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 0,
+                  "streamingType": 2
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 0,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 0,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Ab 12 Jahren"
+            ]
+          },
+          {
+            "pid": "LSC642721919",
+            "episodeNumber": 0,
+            "liveProgramPid": "LPR288692960",
+            "seriesId": 0,
+            "seriesPid": "",
+            "seriesName": "Pferde im Abendlicht",
+            "availableFrom": 1762617831,
+            "availableUntil": 1794154264,
+            "availableUntilPolaris": 1794154264,
+            "liveChannel": {
+              "pid": "LCH7288",
+              "title": "Slow TV",
+              "callLetter": "Slow TV",
+              "distributorId": 0,
+              "providerChannel": "",
+              "channelNumber": 170,
+              "lxdChannel": "CHA19850",
+              "tags": {
+                "completed": false,
+                "favorite": false,
+                "follow": false,
+                "hidden": false,
+                "watched": false
+              },
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490931_2DAC4C6C0784646D.png"
+              },
+              "hasPlaylistExperience": true,
+              "isFastChannel": false,
+              "isPreferent": false,
+              "maxLiveNowGap": 0,
+              "isDolby": false,
+              "isDolbyAtmos": false,
+              "isCpvrEnabled": false,
+              "isRpvrEnabled": false,
+              "hasThumbnails": false,
+              "wmk": false,
+              "isKids": false
+            },
+            "deviceTypes": [
+              401
+            ],
+            "emissionDate": {
+              "start": 1794153831,
+              "end": 1794154264
+            },
+            "title": "Pferde im Abendlicht",
+            "episodeTitle": "",
+            "isFutureProgram": true,
+            "isAirProgram": false,
+            "images": [
+              {
+                "type": "BobPortrait",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F59%2F28590653_c626f3fcb167f9f0eaa407bd4b38209e.jpg&template=3&title=Pferde%20im%20Abendlicht"
+              },
+              {
+                "type": "BobLandscape",
+                "url": "https://spotlight-de.cdn.telefonica.com/customer/v1/source/seo-tag?image=http%3A%2F%2Fmedia.gvp.telefonica.com%2FstorageArea0%2FIMAGES%2F00%2F28%2F59%2F28590653_c626f3fcb167f9f0eaa407bd4b38209e.jpg&template=5"
+              }
+            ],
+            "isOTT": true,
+            "logo": {
+              "image": {
+                "type": "Extra",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/49/26490931_2DAC4C6C0784646D.png"
+              }
+            },
+            "isDolby": false,
+            "isDolbyAtmos": false,
+            "isAudioDescription": false,
+            "forbiddenTechnology": 0,
+            "trackId": "701469323.6208.1794153373895.10",
+            "uxReference": "45.DEFAULT.SIMILAR",
+            "logoutUrl": "",
+            "epgScheduleId": "45_da48e868-1681-43d8-ac2d-a84cf3_1832142401_20261108_6",
+            "restartTvUrl": "",
+            "isHomeBlocked": false,
+            "isFFRWBlockedInLive": false,
+            "isHomeBlockedChannel": false,
+            "commercialization": {
+              "isTvod": false,
+              "isSubscribable": false
+            },
+            "duration": 433,
+            "genres": [
+              "Dokumentation"
+            ],
+            "ageRating": {
+              "isHidden": true,
+              "pid": "AGE236",
+              "age": 0,
+              "code": "NoRating",
+              "shortDescription": "Keine Altersangabe",
+              "image": {
+                "type": "Cover",
+                "url": "http://media.gvp.telefonica.com/storageArea0/IMAGES/00/12/86/12865097_076FC4D61CF90807.png"
+              }
+            },
+            "requiresPin": false,
+            "playback": {
+              "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+              "medias": [
+                {
+                  "url": "https://slowtvaufabruf-tefo2de.fast.tcscdn.net/index.mpd",
+                  "pid": "MED18782_CDNLIVE",
+                  "quality": 2,
+                  "drmType": 4,
+                  "streamingType": 4
+                }
+              ],
+              "maxQualities": {
+                "401": 2
+              },
+              "cdnBuffer": 14400,
+              "isLatencyKey": false,
+              "isStartOverBeforeBufferEnabled": false,
+              "isStartOverEnabled": false
+            },
+            "rights": {
+              "canWatch": true,
+              "isSubscribed": true,
+              "endDate": 2114380800,
+              "subscription": {
+                "catalogItemId": 2471,
+                "catalogItemType": 132
+              }
+            },
+            "buttons": {
+              "isHiddenChannelVisible": false,
+              "isPlayVisible": false,
+              "isPlayLiveChannelVisible": true,
+              "isStopWatchingVisible": false,
+              "isPlayAgainVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isRecordingCancelEpisodeVisible": false,
+              "isRecordingCancelSingleVisible": false,
+              "isRecordingCancelSeasonVisible": false,
+              "isRecordingCancelSeriesVisible": false,
+              "isHomeBlockUnlockVisible": false,
+              "isPlayFromBeginningVisible": false,
+              "isSubscribeVisible": false
+            },
+            "isContentRecordable": {
+              "isCpvrAvailable": false,
+              "isRpvrAvailable": false
+            },
+            "seasonNumber": 0,
+            "payment": 3,
+            "bars": {
+              "isNotAvailableInThisDevice": false,
+              "isActivatedPendingVisible": false,
+              "isSubscribeVisible": false,
+              "isRecordingEpisodeVisible": false,
+              "isRecordingSingleVisible": false,
+              "isRecordingSeasonVisible": false,
+              "isRecordingSeriesVisible": false,
+              "isBlackoutVisible": false,
+              "isHomeBlockErrorVisible": false
+            },
+            "descriptors": [
+              "Keine Altersangabe"
+            ]
+          }
+        ]
+      },
+      "requiresPin": false,
+      "playback": {
+        "defaultLanguageOrders": "ger|zxx,deu|zxx,eng|zxx,eng|ger,eng|deu,org|ger,org|deu,qaa|ger,qaa|deu,ger|eng,deu|eng,eng|eng,ger|ger,deu|ger,deu|deu",
+        "medias": [
+          {
+            "url": "https://b46223.5.cdn.telefonica.com/46223/_-_psi_-_/f2a-Dashavc/ZDF.mpd",
+            "pid": "MED14786_CDNLIVE",
+            "quality": 2,
+            "drmType": 4,
+            "streamingType": 4
+          }
+        ],
+        "maxQualities": {
+          "401": 2
+        },
+        "cdnBuffer": 600,
+        "isLatencyKey": true,
+        "isStartOverBeforeBufferEnabled": true,
+        "isStartOverEnabled": true
+      },
+      "rights": {
+        "canWatch": true,
+        "isSubscribed": true,
+        "endDate": 2114380800,
+        "subscription": {
+          "catalogItemId": 2471,
+          "catalogItemType": 132
+        }
+      },
+      "buttons": {
+        "isHiddenChannelVisible": false,
+        "isPlayVisible": true,
+        "isPlayLiveChannelVisible": false,
+        "isStopWatchingVisible": false,
+        "isPlayAgainVisible": false,
+        "isRecordingEpisodeVisible": true,
+        "isRecordingSingleVisible": true,
+        "isRecordingSeasonVisible": false,
+        "isRecordingSeriesVisible": false,
+        "isRecordingCancelEpisodeVisible": false,
+        "isRecordingCancelSingleVisible": false,
+        "isRecordingCancelSeasonVisible": false,
+        "isRecordingCancelSeriesVisible": false,
+        "isHomeBlockUnlockVisible": false,
+        "isPlayFromBeginningVisible": true,
+        "isSubscribeVisible": false
+      },
+      "isContentRecordable": {
+        "isCpvrAvailable": true,
+        "isRpvrAvailable": false
+      },
+      "hasAds": false,
+      "hasPrerollAds": false,
+      "hasThumbnails": true,
+      "requestId": "OP-084453c38f5dc7d44f240cb37e31aeb3",
+      "version": "26.10.100-CC"
+    },
+    "isJson": true,
+    "durationMs": 178
+  }
+}
