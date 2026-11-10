@@ -118,6 +118,10 @@ Mutaciones (escritura real; apagadas por defecto, deshacen lo que hacen):
 API_ALLOW_MUTATIONS=true npx playwright test --project=mutations
 ```
 
+La de seguir viendo (`reproduccion/seguir-viendo`) reproduce vídeo con DRM real, así que necesita
+**Google Chrome instalado**: `src/testing/widevine.ts` lo abre con un perfil propio y sin
+`--disable-component-update` (el Chromium de Playwright no trae Widevine) e inyecta la sesión de `.auth`.
+
 ## Espejo en Python
 
 `python/` reproduce la validación (contrato, negocio, seguridad) sobre **la misma captura** `.live/<versión>/capture.json`. No abre navegador: lee lo que capturó el framework TS.

@@ -53,7 +53,7 @@ Leyenda: ✅ automatizado · 🟡 automatizado en parte (falta un dato o un caso
 | `favoritos/mi-lista` | MULTISTC-76699 | `PUT` / `DELETE nsh/tags` (TagType 2) | ✅ |
 | `control-parental/cambiar-pin` | MULTISTC-76700 | `UserService.svc/ValidatePin`, `ChangePin`, `CheckPin` | ✅ |
 | `perfiles/crear-borrar` | MULTISTC-76701 | `POST nsh/profiles`, `DELETE nsh/profiles/{id}` | ✅ |
-| "Seguir viendo" (reanudar / "Fertig") | — | — | ⛔ El navegador de Playwright no trae Widevine (DRM): la reproducción falla y no se genera punto de reanudación. Necesita un perfil de Chrome persistente con Widevine. |
+| `reproduccion/seguir-viendo` | MULTISTC-76702 | `GET playback/information` + licencia Widevine, `DELETE nsh/personal-contents` (`actionTypeId:1`) | ✅ Reproduce con DRM real: usa Chrome instalado con perfil propio (`src/testing/widevine.ts`), porque el Chromium de Playwright no trae Widevine. |
 | Dispositivos (renombrar, borrar, cerrar sesión) | — | — | ⛔ Pueden desloguear dispositivos (riesgo de bloqueo SSO). |
 
 ## Datos que la cuenta no tiene: captura sintética
